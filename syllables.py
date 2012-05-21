@@ -1,21 +1,44 @@
 from BeautifulSoup import BeautifulSoup
 
+import urllib 
+
 def makeSyllableFile(fileName):
 	wordFile = open(fileName)
-	newFile = open('syllableDict.txt', 'w')
+	newFile = open('wordDict.txt', 'w')
+
 	for line in wordFile:
 		line = line.strip()
 		line = line.split("\\")
 		pos = line[-1]
 		word = line[:-1]
 		sCount = get_syllables(word)
-		newLine = word + '\t' + pos + '\t' + sCount + '\n'
+		wStr = ''
+		for w in word:
+			wStr += w + " "
+		newLine = str(word[0]) + '\t' + pos + '\t' + str(sCount) + '\n'
 		print >>newFile, newLine
 	wordFile.close()
 	newFile.close()
 
+def make_syllables(fileName):
+	wordFile = open(fileName)
+	newFile = open('verbDict.txt', 'w')
+
+	for line in wordFile:
+		line = line.strip()
+		line = line.split()
+		word = line[0]
+		sCount = get_syllables(word)
+		newLine = str(word) + '\t' + str(sCount) + '\n'
+		print >> newFile, newLine
+
+	wordFile.close()
+	newFile.close()
+
+
 def get_syllables(word):
-	#myW.getPhrases(word)
+	url = 'http://www.wordcalc.com/index.php'
+
 	post_data = urllib.urlencode(
 	   {'text': word})
 	post_data = '%s&optionSyllableCount&optionWordCount' % post_data
@@ -43,6 +66,6 @@ def get_syllables(word):
 	return syllable_count
 
 def main():
-	makeSyllableFile('mobypos.txt')
+	make_syllables('verbs_parsed')
 
 main()
