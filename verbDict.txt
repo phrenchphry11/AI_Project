@@ -1,0 +1,212 @@
+stupefy	2
+
+eschew	2
+
+gurgle	1
+
+affianced	3
+
+imbue	1
+
+disconcerting	4
+
+schlep	1
+
+begrimed	3
+
+wizened	3
+
+woolgathering	4
+
+lounge	1
+
+flank	1
+
+spelunking	3
+
+pummel	2
+
+bitchslap	2
+
+vulcanized	4
+
+absquatulate	4
+
+guffaw	2
+
+plopped	2
+
+crackle	1
+
+elicit	3
+
+spewed	2
+
+flummoxed	3
+
+pickle	1
+
+cuckold	2
+
+menace	2
+
+burgle	1
+
+abhor	2
+
+smite	1
+
+truckle	1
+
+plotz	1
+
+busticate	3
+
+argufy	2
+
+steeplejacking	4
+
+verbing	2
+
+nouning	2
+
+eneagled	3
+
+lamp	1
+
+dork	1
+
+prang	1
+
+swan	1
+
+snarf	1
+
+dwindle	1
+
+spackle	1
+
+squire	1
+
+skirl	1
+
+indiana	2
+
+effloresce	3
+
+eloign	2
+
+forwete	2
+
+plash	1
+
+snuck	1
+
+pooped	2
+
+bemute	2
+
+anneal	2
+
+bogart	2
+
+bork	1
+
+bescumber	3
+
+loaf	1
+
+degust	2
+
+osculate	3
+
+squackett	2
+
+whelve	1
+
+fream	1
+
+brevet	2
+
+pod	1
+
+tetris	2
+
+hork	1
+
+squir	1
+
+bestreak	2
+
+recrudesce	3
+
+snirtle	1
+
+lumber	2
+
+thronging	2
+
+mirtle	1
+
+mump	1
+
+covet	2
+
+becap	2
+
+grandfathered	4
+
+jousting	2
+
+ululate	3
+
+fencing	2
+
+maraud	2
+
+gerbling	2
+
+encowl	2
+
+prorogue	2
+
+batterfang	3
+
+go	0
+
+bide	1
+
+cornobble	2
+
+gotten	2
+
+dorked	2
+
+bamboozle	2
+
+bewigged	3
+
+accoutred	3
+
+breveted	3
+
+haul	1
+
+chivvy	1
+
+boink	1
+
+harrumph	2
+
+decussate	3
+
+locomote	3
+
+estheticize	4
+
+trothplighted	3
+
+gresell	2
+
+pantsed	2
+
