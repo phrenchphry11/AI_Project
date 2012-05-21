@@ -1,0 +1,12 @@
+A	0
+
+The	0
+
+Some	1
+
+This	1
+
+That	1
+
+One	1
+

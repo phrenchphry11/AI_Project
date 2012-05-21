@@ -1,0 +1,13490 @@
+3-D\AN	1
+
+4-F\N	0
+
+4-H'er\N	1
+
+4-H\A	0
+
+A	0
+
+a	0
+
+a	0
+
+a	0
+
+a	0
+
+a	0
+
+a	0
+
+A	0
+
+a	0
+
+a	0
+
+a	0
+
+a	0
+
+A	0
+
+a	0
+
+a	0
+
+a	0
+
+a	0
+
+a	0
+
+A	0
+
+a	0
+
+a	0
+
+a	0
+
+a	0
+
+a'\A	1
+
+A-1\N	1
+
+A-axis\N	3
+
+A-bomb\N	2
+
+A-frame\N	2
+
+A-line\NA	2
+
+A-OK\A	2
+
+A-pole\N	2
+
+A-Z	1
+
+A/C\N	1
+
+A/m\N	1
+
+A/O\N	2
+
+A/P\N	1
+
+A/V\N	1
+
+A1c\N	1
+
+A1\A	1
+
+AAAA\N	1
+
+AAAL\N	1
+
+AAAS\N	1
+
+AAA\N	1
+
+Aaberg\N	2
+
+Aachen\N	2
+
+AAEE\N	1
+
+AAeE\N	0
+
+AAE\N	1
+
+AAF\N	1
+
+AAgr\N	1
+
+AAG\N	1
+
+Aalborg\N	2
+
+Aalesund\N	3
+
+aalii\N	2
+
+Aalst\N	1
+
+Aalto\N	2
+
+AAM\N	1
+
+AAPSS\N	1
+
+AAP\N	1
+
+Aarau\N	2
+
+Aara\N	2
+
+aardvark\N	2
+
+aardwolf\N	2
+
+aardwolves\p	3
+
+Aaren\N	2
+
+Aargau\N	2
+
+Aarhus\N	2
+
+Aarika\N	3
+
+Aaron's	2
+
+Aaron's	2
+
+Aaron's-beard\N	3
+
+Aaronical\A	4
+
+Aaronic\A	3
+
+Aaronite\N	3
+
+Aaronitic\A	4
+
+Aaronson\N	3
+
+Aaron\N	2
+
+Aar\N	1
+
+AAS\N	1
+
+AATech\N	2
+
+AAUP\N	1
+
+AAUW\N	1
+
+AAU\N	1
+
+AAvTech\N	2
+
+AA\N	1
+
+aa\N	1
+
+ab	1
+
+ab	1
+
+ab	1
+
+ab	1
+
+ab	1
+
+ab	1
+
+ab	1
+
+abaca\N	3
+
+abaciscus\N	4
+
+abacist\N	3
+
+aback\v	2
+
+abacli\p	3
+
+Abaco\N	3
+
+abactinal\A	4
+
+abaculus\N	4
+
+abacus\N	3
+
+abac\N	2
+
+Abadan\N	3
+
+Abaddon\N	3
+
+Abad\N	2
+
+abaft\vP	2
+
+Abagael\N	3
+
+Abagail\N	3
+
+Abagtha\N	3
+
+Abailard\N	3
+
+abaised\A	3
+
+Abakan\N	3
+
+abalone\N	3
+
+abampere\N	3
+
+abamp\N	2
+
+Abana\N	3
+
+abandonable\A	4
+
+abandonedly\v	4
+
+abandoned\A	4
+
+abandonee\N	3
+
+abandoner\N	4
+
+abandonment\N	4
+
+abandon\tN	3
+
+Abantes\N	3
+
+abaptiston\N	4
+
+Abarbarea\N	4
+
+Abaris\N	3
+
+abased\At	4
+
+abaser\N	3
+
+abase\t	3
+
+abashedly\v	3
+
+abashedness\N	4
+
+abashment\N	3
+
+abash\t	2
+
+abasia\N	3
+
+abasic\A	3
+
+abasing\t	3
+
+Abas\N	2
+
+abatable\A	3
+
+abatage\N	3
+
+abated\V	3
+
+abatement\N	4
+
+abater\N	3
+
+Abate\N	2
+
+abate\Vti	2
+
+abating\V	3
+
+abatis\N	3
+
+abatjours\p	3
+
+abatjour\N	3
+
+abator\N	3
+
+abattage\N	3
+
+abattoir\N	3
+
+abaxial\A	3
+
+aba\N	2
+
+ABA\N	2
+
+Aba\N	2
+
+abbacies\p	3
+
+abbacy\N	2
+
+Abbai\N	2
+
+Abbasid\N	3
+
+Abbate\N	2
+
+abbatial\A	3
+
+Abba\N	2
+
+abba\N	2
+
+Abbe	1
+
+Abbe	1
+
+Abbe	1
+
+abbess\N	2
+
+Abbeville\N	3
+
+Abbevillian\NA	4
+
+Abbey	2
+
+abbeystead\N	3
+
+abbeys\p	2
+
+Abbey\N	2
+
+abbey\N	2
+
+Abbe\N	1
+
+Abbie\N	1
+
+Abbi\N	2
+
+abbotcy\N	2
+
+Abbotsen\N	3
+
+Abbotsford\N	3
+
+abbotship\N	3
+
+Abbotson\N	3
+
+Abbotsun\N	3
+
+Abbottson\N	3
+
+Abbott\N	2
+
+abbot\N	2
+
+Abbot\N	2
+
+Abboud\N	2
+
+abbreviated\t	4
+
+abbreviate\t	4
+
+abbreviating\t	4
+
+abbreviation\N	4
+
+abbreviator\N	4
+
+abbr\N	1
+
+Abbye\N	1
+
+Abby\N	1
+
+abb\N	1
+
+ABC	1
+
+abcoulomb\N	3
+
+ABC\N	1
+
+Abd-el	2
+
+Abd-el-Kadir\N	4
+
+Abd-er-Rahman	4
+
+abdaria\p	3
+
+Abdella\N	3
+
+Abdel\N	2
+
+Abderhalden\N	4
+
+Abderus\N	3
+
+Abdias\N	2
+
+abdicable\A	3
+
+abdicant\AN	4
+
+abdicated\V	4
+
+abdicate\V	3
+
+abdicating\V	4
+
+abdication\N	4
+
+abdicative\A	3
+
+abdicator\N	4
+
+abdomen\N	3
+
+abdominal\A	4
+
+abdominous\A	4
+
+Abdon\N	2
+
+abduced\t	3
+
+abducens	3
+
+abducens\N	3
+
+abducentes\p	4
+
+abducent\A	3
+
+abduce\t	3
+
+abducing\t	3
+
+abduction\N	3
+
+abductor\N	3
+
+abduct\t	2
+
+Abdul-Aziz\N	4
+
+Abdul-Hamid	4
+
+Abdul-Mejid	4
+
+Abdulla\N	3
+
+Abdul\N	2
+
+Abdurrahman	4
+
+Abdu\N	2
+
+abd\N	1
+
+abeam\v	2
+
+Abebi\N	3
+
+abecedarian\NA	5
+
+abecedaries\p	5
+
+abecedarium\N	5
+
+abecedary\NA	4
+
+Abednego\N	4
+
+ABEd\N	2
+
+abed\v	2
+
+Abel-meholah\N	5
+
+Abelard\N	3
+
+abele\N	2
+
+Abelian	3
+
+Abelian\A	3
+
+Abell\N	2
+
+abelmosk\N	3
+
+Abel\N	2
+
+Abenezra\N	4
+
+Abeokuta\N	4
+
+ABEPP\N	2
+
+Abercrombie\N	3
+
+Abercromby\N	3
+
+Aberdare\N	3
+
+Aberdeen	3
+
+Aberdeen	3
+
+Aberdeenshire\N	4
+
+Aberdeen\NA	3
+
+Aberglaube\N	3
+
+Abernathy\N	3
+
+abernethy\N	3
+
+Abernon\N	3
+
+aberrance\N	3
+
+aberrancy\N	3
+
+aberrant\A	3
+
+aberrational\A	5
+
+aberration\N	4
+
+Abert\N	2
+
+Aberystwyth\N	2
+
+abesse\N	2
+
+abessive\AN	3
+
+abetment\N	3
+
+abettal\N	3
+
+abetted\t	3
+
+abetting\t	3
+
+abettor\N	3
+
+abet\V	2
+
+abeyance\N	3
+
+abeyant\A	3
+
+Abey\N	2
+
+Abe\N	1
+
+abfarad\N	3
+
+ABFM\N	1
+
+Abgatha\N	3
+
+abhenries\p	3
+
+abhenry\N	2
+
+Abhidhamma	3
+
+abhominable\A	4
+
+abhorred\t	3
+
+abhorrence\N	3
+
+abhorrently\v	3
+
+abhorrent\A	3
+
+abhorrer\N	3
+
+abhorring\t	3
+
+abhor\V	2
+
+Abiathar\N	3
+
+Abia\N	2
+
+Abib\N	2
+
+abidance\N	3
+
+abided\V	3
+
+abider\N	3
+
+abide\Vti	2
+
+abidingly\v	3
+
+abidingness\N	4
+
+abiding\A	3
+
+Abidjan\N	3
+
+abient\A	2
+
+abietate\N	3
+
+abietic	3
+
+Abie\N	1
+
+Abigael\N	3
+
+abigail\N	3
+
+Abigail\N	3
+
+Abigale\N	3
+
+Abihu\N	3
+
+Abijah\N	3
+
+Abilene\N	3
+
+abilities\p	4
+
+ability\N	3
+
+Abilyne\N	2
+
+Abimelech\N	4
+
+Abineri\N	4
+
+Abingdon\N	3
+
+Abinger\N	3
+
+Abington\N	3
+
+Abinoam\N	3
+
+abiogenesis\N	5
+
+abiogenetically\v	6
+
+abiogenetic\A	5
+
+abiogenist\N	4
+
+abiosis\N	3
+
+abiotically\v	4
+
+abiotic\A	3
+
+abiotrophic\A	4
+
+abiotrophy\N	3
+
+abirritant\AN	5
+
+abirritated\t	5
+
+abirritate\t	5
+
+abirritating\t	5
+
+abirritation\N	5
+
+abirritative\A	4
+
+Abishag\N	3
+
+Abisha\N	3
+
+Abisia\N	3
+
+Abiu\N	2
+
+Abixah\N	3
+
+abjectedness\N	4
+
+abjection\N	3
+
+abjective\A	2
+
+abjectly\v	2
+
+abjectness\N	3
+
+abject\A	2
+
+abjunction\N	3
+
+abjuration\N	4
+
+abjuratory\A	4
+
+abjured\t	3
+
+abjurer\N	3
+
+abjure\t	3
+
+abjuring\t	3
+
+Abkhazian\N	3
+
+Abkhazia\N	3
+
+Abkhaz\N	2
+
+ablactated\t	4
+
+ablactate\t	4
+
+ablactating\t	4
+
+ablactation\N	4
+
+ablated\V	3
+
+ablate\t	3
+
+ablating\V	3
+
+ablation\N	3
+
+ablatival\A	4
+
+ablative	3
+
+ablative\AN	3
+
+ablator\N	3
+
+ablaut\N	2
+
+ablaze\v	3
+
+able	1
+
+able	1
+
+able-bodied	4
+
+able-bodiedness\N	5
+
+able-bodied\A	4
+
+ablegate\N	3
+
+ablepharous\A	4
+
+ablepsia\N	3
+
+ableptical\A	4
+
+abler\A	2
+
+ablest\A	2
+
+able\AN	2
+
+ablins\v	2
+
+ablock\v	2
+
+abloom\vA	2
+
+ABLS\N	1
+
+abluent\AN	3
+
+ablush\A	2
+
+ablutionary\A	4
+
+ablution\N	3
+
+ably\v	1
+
+abl\N	1
+
+abmhos\p	2
+
+abmho\N	2
+
+abmodalities\p	5
+
+abmodality\N	4
+
+ABM\N	1
+
+Abnakis\p	3
+
+Abnaki\N	3
+
+abnegated\t	4
+
+abnegate\t	4
+
+abnegating\t	4
+
+abnegation\N	4
+
+abnegator\N	4
+
+Abner\N	2
+
+Abney	2
+
+abnormal	3
+
+abnormalcies\p	4
+
+abnormalcy\N	3
+
+abnormalised\t	5
+
+abnormalise\t	5
+
+abnormalising\t	5
+
+abnormalities\p	5
+
+abnormality\N	4
+
+abnormalized\t	5
+
+abnormalize\t	5
+
+abnormalizing\t	5
+
+abnormally\v	3
+
+abnormalness\N	4
+
+abnormal\A	3
+
+abnormities\p	4
+
+abnormity\N	3
+
+ABO	1
+
+aboardage\N	3
+
+aboard\vP	2
+
+abode\NV	2
+
+abohm\N	2
+
+aboideau\N	3
+
+abolishable\A	4
+
+abolisher\N	4
+
+abolishment\N	4
+
+abolish\t	3
+
+abolitionary\A	5
+
+abolitionised\t	6
+
+abolitionise\t	6
+
+abolitionising\t	6
+
+abolitionism\N	5
+
+abolitionist\N	5
+
+abolitionized\t	6
+
+abolitionize\t	6
+
+abolitionizing\t	6
+
+abolition\NA	4
+
+abollae\p	3
+
+abolla\N	3
+
+abomasa\p	4
+
+abomasum\N	4
+
+abomasusi\p	5
+
+abomasus\N	4
+
+abominable	4
+
+Abominable	4
+
+abominableness\N	6
+
+abominable\A	4
+
+abominably\v	4
+
+abominated\t	5
+
+abominate\t	5
+
+abominating\t	5
+
+abomination\N	5
+
+abominator\N	5
+
+abondance\N	3
+
+aboon\vP	2
+
+aborad\v	3
+
+aboral\A	3
+
+aboriginality\N	6
+
+aboriginally\v	5
+
+aboriginal\A	5
+
+Aboriginal\AN	6
+
+aborigine\N	4
+
+Aborigine\N	4
+
+aborning\v	3
+
+Aborn\N	2
+
+aborticide\N	4
+
+abortifacient\AN	6
+
+abortional\A	4
+
+abortionist\N	4
+
+abortion\N	3
+
+abortively\v	4
+
+abortiveness\N	5
+
+abortive\A	2
+
+abortus\N	3
+
+abort\Vit	3
+
+Abott\N	2
+
+aboudikro\N	4
+
+abought\V	2
+
+Aboukir	3
+
+Aboukir\N	3
+
+aboulia\N	3
+
+aboulic\A	3
+
+aboundingly\v	3
+
+abound\i	2
+
+about	2
+
+about	2
+
+about-faced\V	4
+
+about-face\Ni	3
+
+about-facing\V	4
+
+about-shipped\i	4
+
+about-shipping\i	4
+
+about-ship\V	3
+
+about\PvA	2
+
+above	2
+
+above	2
+
+above	2
+
+aboveboard\vA	4
+
+aboveground\A	4
+
+above\PvNA	2
+
+abox\A	2
+
+Abo\N	2
+
+abo\NA	2
+
+ABPC\N	1
+
+abp\N	1
+
+abracadabra\!N	5
+
+abradant\AN	4
+
+abraded\ti	3
+
+abrader\N	3
+
+abrade\t	3
+
+abrading\ti	3
+
+Abraham's	3
+
+Abrahamsen\N	4
+
+Abrahams\N	3
+
+Abraham\N	3
+
+Abrahan\N	3
+
+Abramo\N	3
+
+Abramson\N	3
+
+Abrams\N	2
+
+Abram\N	2
+
+abranchiate\A	2
+
+Abran\N	2
+
+abraser\N	3
+
+abrasion\N	3
+
+abrasive\NA	3
+
+abraxas\N	3
+
+abrazos\p	3
+
+abrazo\N	3
+
+Abra\N	2
+
+abreaction\N	3
+
+abreact\t	2
+
+abreast\vA	2
+
+abridgable\A	3
+
+abridgeable\A	3
+
+abridged\At	4
+
+abridger\N	3
+
+abridge\t	3
+
+abridging\t	3
+
+abridgment\N	3
+
+abris\p	2
+
+abri\N	2
+
+abroach\vA	2
+
+abroad\v	2
+
+abrogable\A	3
+
+abrogated\t	4
+
+abrogate\t	4
+
+abrogating\t	4
+
+abrogation\N	4
+
+abrogative\A	3
+
+abrogator\N	4
+
+Abroms\N	2
+
+abruption\N	3
+
+abruptly	2
+
+abruptly\v	2
+
+abruptness\N	3
+
+abrupt\A	2
+
+Abruzzi\N	3
+
+abr\N	1
+
+abs	1
+
+Absalom	3
+
+Absalom\N	3
+
+Absaroka	3
+
+Absa\N	2
+
+abscessed\A	3
+
+abscess\Ni	2
+
+abscind\t	2
+
+abscised\i	3
+
+abscise\V	2
+
+abscising\i	3
+
+abscissae\p	3
+
+abscissas\p	3
+
+abscissa\N	3
+
+abscission	3
+
+abscission	3
+
+abscission\N	3
+
+absconder\N	3
+
+abscond\i	2
+
+Absecon\N	3
+
+abseil\iN	3
+
+absence	2
+
+absence	2
+
+absence	2
+
+absence\N	2
+
+absent	2
+
+absent-mindedness\N	5
+
+absent-minded\A	4
+
+absentation\N	4
+
+absente	2
+
+absentee	2
+
+absentee	2
+
+absentee	2
+
+absentee	2
+
+absenteeism\N	3
+
+absentee\N	2
+
+absenter\N	3
+
+absentia\N	3
+
+absently\v	2
+
+absentmindedly\v	4
+
+absentness\N	3
+
+absent\AVt	3
+
+Abshier\N	2
+
+absinthe\N	2
+
+absinthial\A	3
+
+absinthian\A	3
+
+absinthism\N	3
+
+absit	2
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolute	3
+
+absolutely\v	4
+
+absoluteness\N	5
+
+absolute\AN	3
+
+Absolute\N	3
+
+absolution\N	4
+
+absolutism\N	4
+
+absolutistically\v	6
+
+absolutistic\A	5
+
+absolutist\N	4
+
+absolutory\A	4
+
+absolvable\A	3
+
+absolved\t	3
+
+absolvent\AN	4
+
+absolver\N	3
+
+absolve\t	3
+
+absolving\t	3
+
+absonant\A	3
+
+absorbability\N	5
+
+absorbable\A	3
+
+absorbance\N	3
+
+absorbedly\v	3
+
+absorbedness\N	4
+
+absorbed\A	3
+
+absorbefacient\NA	5
+
+absorbency\N	3
+
+absorbent	3
+
+absorbent\AN	4
+
+absorber\N	3
+
+absorbing	3
+
+absorbingly\v	3
+
+absorbing\A	3
+
+absorb\t	2
+
+absorptance\N	3
+
+absorptiometer\N	5
+
+absorptiometric\A	5
+
+absorption	3
+
+absorption	3
+
+absorption	3
+
+absorption	3
+
+absorption	3
+
+absorption\N	3
+
+absorptiveness\N	5
+
+absorptive\A	2
+
+absorptivity\N	4
+
+absquatulate\i	4
+
+abstainer\N	3
+
+abstain\i	2
+
+abstemiously\v	3
+
+abstemiousness\N	4
+
+abstemious\A	3
+
+abstention\N	3
+
+abstentious\A	3
+
+absterged\t	3
+
+abstergent\A	3
+
+absterge\t	3
+
+absterging\t	3
+
+abstersion\N	3
+
+abstersiveness\N	5
+
+abstersive\A	2
+
+abstinence	3
+
+abstinence\N	3
+
+abstinently\v	3
+
+abstinent\A	3
+
+abstract	2
+
+Abstract	2
+
+abstract	2
+
+abstract	2
+
+abstract	2
+
+abstract	2
+
+abstractedly\v	3
+
+abstractedness\N	4
+
+abstracted\A	3
+
+abstracter\N	3
+
+abstractional\A	4
+
+abstractionism\N	4
+
+abstractionist\NA	4
+
+abstraction\N	3
+
+abstractively\v	4
+
+abstractiveness\N	5
+
+abstractive\A	2
+
+abstractly\v	2
+
+abstractness\N	3
+
+abstract\ANVt	3
+
+abstriction\N	3
+
+abstrusely\v	3
+
+abstruseness\N	4
+
+abstruse\A	1
+
+abstrusity\N	3
+
+abstr\N	1
+
+absurdities\p	4
+
+absurdity\N	3
+
+absurdly\v	2
+
+absurdness\N	3
+
+absurd\A	2
+
+Absyrtus\N	2
+
+abs\N	1
+
+ABS\N	1
+
+abt\N	1
+
+Abu	1
+
+Abu	1
+
+Abu-Bekr\N	3
+
+Abukir\N	3
+
+Abulfeda\N	4
+
+abulia\N	3
+
+abulic\A	3
+
+Abuna\N	3
+
+abundance\N	3
+
+abundant	3
+
+abundant	3
+
+abundantly\v	3
+
+abundant\A	3
+
+abura\N	3
+
+Abury\N	2
+
+abusable\A	3
+
+abusage\N	3
+
+abused\V	3
+
+abuser\N	3
+
+abuse\VtN	2
+
+abusing\V	3
+
+abusively\v	4
+
+abusiveness\N	5
+
+abusive\A	2
+
+ABus\N	2
+
+abutilon\N	4
+
+abutment\N	3
+
+abuttals\p	3
+
+abuttal\N	3
+
+abutted\V	3
+
+abutter\N	3
+
+abutting\AV	4
+
+abut\V	2
+
+abuzz\A	2
+
+abvolt\N	2
+
+abv\N	1
+
+abwatt\N	2
+
+Abydos\N	2
+
+abye\ti	2
+
+Abyla\N	2
+
+abysmally\v	2
+
+abysmal\A	2
+
+abysm\N	1
+
+abyssal\A	2
+
+Abyssinian	3
+
+Abyssinian	3
+
+Abyssinian	3
+
+Abyssinian	3
+
+Abyssinian\AN	4
+
+Abyssinia\N	3
+
+abyss\N	1
+
+Abyss\N	1
+
+aby\V	1
+
+Abélard\N	2
+
+AB\N	1
+
+Ab\N	1
+
+ab\N	1
+
+ac-globulin\N	4
+
+AC/DC\Ah	2
+
+ACAA\N	2
+
+Acacallis\N	4
+
+Acacia	2
+
+Acacia\N	3
+
+acacia\N	3
+
+academe\N	3
+
+academia\N	4
+
+academic	4
+
+academic	4
+
+academic	4
+
+academic	4
+
+academically\v	5
+
+academicals\p	5
+
+academical\AN	6
+
+academician\N	5
+
+academicism\N	5
+
+academic\AN	5
+
+academies\p	4
+
+academised\t	5
+
+academise\t	5
+
+academising\t	5
+
+academism\N	4
+
+academized\t	5
+
+academize\t	5
+
+academizing\t	5
+
+Academus\N	4
+
+academy	3
+
+Academy\N	3
+
+academy\N	3
+
+Acadia	2
+
+Acadian\AN	4
+
+Acadia\N	3
+
+Académie	2
+
+Académie	2
+
+acad\N	2
+
+acajou\N	3
+
+acalculia\N	4
+
+acaleph\N	3
+
+Acalia\N	3
+
+Acamas\N	3
+
+acanthaceous\A	4
+
+acanthine\A	2
+
+acanthite\N	3
+
+acanthocarpous\A	5
+
+acanthocephalan\NA	6
+
+acanthocladous\A	5
+
+acanthodian\N	4
+
+acanthoid\A	3
+
+acanthopterygian\AN	6
+
+acanthoses\p	4
+
+acanthosis\N	4
+
+acanthotic\A	4
+
+acanthous\A	3
+
+acanthuses\p	4
+
+acanthus\N	3
+
+acanthuthi\p	4
+
+acapnial\A	3
+
+acapnia\N	3
+
+acappella\N	4
+
+Acapulco\N	4
+
+acarari\p	4
+
+acardiac\A	3
+
+acardia\N	3
+
+acariasis\N	4
+
+acaricidal\A	5
+
+acaricide\N	4
+
+acaridan\AN	5
+
+acarid\NA	3
+
+acarine\NA	3
+
+Acarnan\N	3
+
+acaroid	3
+
+acaroid	3
+
+acaroid\A	3
+
+acarologist\N	5
+
+acarology\N	4
+
+acarophobia\N	5
+
+acarpellous\A	4
+
+acarpelous\A	4
+
+acarpous\A	3
+
+acarus\N	3
+
+Acastus\N	3
+
+acatalectic\AN	6
+
+acaudal\A	3
+
+acaulescence\N	4
+
+acaulescent\A	4
+
+Acca	1
+
+Accadian\NA	3
+
+Accad\N	2
+
+Accalia\N	3
+
+acceded\i	3
+
+accedence\N	3
+
+acceder\N	3
+
+accede\i	2
+
+acceding\i	3
+
+accelerable\A	4
+
+accelerando\AvN	5
+
+accelerant\N	4
+
+acceleratedly\v	5
+
+accelerated\V	5
+
+accelerate\Vt	4
+
+accelerating\V	5
+
+acceleration	5
+
+acceleration	5
+
+acceleration	5
+
+acceleration\N	5
+
+accelerative\A	4
+
+accelerator	5
+
+accelerator\N	5
+
+accelerometer\N	6
+
+accel\N	2
+
+accent	2
+
+accentless\A	3
+
+accentor\N	3
+
+accentuable\A	3
+
+accentuality\N	4
+
+accentually\v	3
+
+accentual\A	3
+
+accentuated\t	4
+
+accentuate\t	4
+
+accentuating\t	4
+
+accentuation\N	4
+
+accentuator\N	4
+
+accent\NVt	2
+
+acceptability\N	5
+
+acceptableness\N	5
+
+acceptable\A	3
+
+acceptably\v	3
+
+acceptance	3
+
+acceptance	3
+
+acceptance\N	3
+
+acceptancies\p	4
+
+acceptancy\N	3
+
+acceptant\A	3
+
+acceptation\N	4
+
+accepted	3
+
+acceptedly\v	3
+
+accepted\A	3
+
+acceptee\N	2
+
+accepter\N	3
+
+acceptor\N	3
+
+accept\Vi	2
+
+access	2
+
+access	2
+
+accessaries\p	4
+
+accessarily\v	4
+
+accessariness\N	5
+
+accessary\N	3
+
+accessibility\N	5
+
+accessible\A	3
+
+accessibly\v	3
+
+accession	3
+
+accessional\A	4
+
+accession\Nt	3
+
+accessorial\A	4
+
+accessories\p	4
+
+accessorily\v	4
+
+accessoriness\N	5
+
+accessoriusorii\p	6
+
+accessorius\N	4
+
+accessorized\t	5
+
+accessorize\t	5
+
+accessorizing\t	5
+
+accessory	3
+
+accessory	3
+
+accessory\NA	3
+
+access\Nt	2
+
+acce\N	1
+
+acciaccaturas\p	5
+
+acciaccatura\N	5
+
+acciaccature\p	5
+
+accidence\N	3
+
+accident	3
+
+accident	3
+
+accident	3
+
+accident	3
+
+accident-prone\A	3
+
+accidentalism\N	5
+
+accidentalist\NA	5
+
+accidentality\N	5
+
+accidentally\v	4
+
+accidentalness\N	5
+
+accidental\AN	5
+
+accident\N	3
+
+accidie\N	2
+
+accipiter\N	4
+
+accipitral\A	4
+
+accipitrine\A	3
+
+Accius\N	2
+
+acclaimer\N	3
+
+acclaim\tN	2
+
+acclamation\N	4
+
+acclamatory\A	4
+
+acclimatable\A	4
+
+acclimated\ti	4
+
+acclimate\ti	4
+
+acclimating\ti	4
+
+acclimation\N	4
+
+acclimatisable\A	5
+
+acclimatisation\N	6
+
+acclimatised\ti	5
+
+acclimatiser\N	5
+
+acclimatise\ti	5
+
+acclimatising\ti	5
+
+acclimatizable\A	5
+
+acclimatization\N	6
+
+acclimatized\ti	5
+
+acclimatize\V	4
+
+acclimatizing\ti	5
+
+acclivities\p	4
+
+acclivitous\A	4
+
+acclivity\N	3
+
+acclivous\A	3
+
+accoladed\A	4
+
+accolade\N	3
+
+accolated\A	4
+
+accommodable\A	4
+
+accommodated\V	5
+
+accommodate\t	5
+
+accommodatingly\v	5
+
+accommodating\A	5
+
+accommodation	5
+
+accommodation	5
+
+accommodation	5
+
+accommodation	5
+
+accommodation	5
+
+accommodational\A	6
+
+accommodation\N	5
+
+accommodativeness\N	7
+
+accommodative\A	4
+
+accommodator\N	5
+
+accompanied\t	4
+
+accompanier\N	4
+
+accompaniment\N	5
+
+accompanist\N	4
+
+accompanying\t	4
+
+accompanyist\N	4
+
+accompany\Vt	3
+
+accomplice\N	3
+
+accomplishable\A	4
+
+accomplished\A	4
+
+accomplisher\N	4
+
+accomplishment\N	4
+
+accomplish\t	3
+
+accompt\Nit	3
+
+accordable\A	3
+
+accordance\N	3
+
+accordantly\v	3
+
+accordant\A	3
+
+accordatura\N	5
+
+accordature\p	5
+
+accorder\N	3
+
+according	3
+
+according	3
+
+accordingly\v	3
+
+according\A	3
+
+accordion	3
+
+accordionist\N	4
+
+accordion\N	3
+
+accord\NVt	2
+
+accostable\A	3
+
+accosted\A	3
+
+accost\tN	2
+
+accouchements\p	4
+
+accouchement\N	4
+
+accoucheurs\p	3
+
+accoucheur\N	3
+
+accoucheuses\p	4
+
+accoucheuse\N	3
+
+account	2
+
+account	2
+
+account	2
+
+account	2
+
+account	2
+
+account	2
+
+account	2
+
+accountability\N	5
+
+accountableness\N	5
+
+accountable\A	3
+
+accountably\v	3
+
+accountancy\N	3
+
+accountantship\N	4
+
+accountant\N	3
+
+accounting	3
+
+accounting\N	3
+
+account\Nt	2
+
+accouplement\N	4
+
+accouterment\N	4
+
+accouter\t	3
+
+accoutred\t	3
+
+accoutrement\N	4
+
+accoutre\t	3
+
+accoutring\t	3
+
+accra\N	2
+
+Accra\N	2
+
+accrd	1
+
+accreditation\N	5
+
+accreditment\N	4
+
+accredit\t	3
+
+accrescent\A	3
+
+accreted\V	3
+
+accrete\VtA	2
+
+accreting\V	3
+
+accretionary\A	4
+
+accretion\N	3
+
+accretive\A	2
+
+Accrington\N	3
+
+accroachment\N	3
+
+accroach\t	2
+
+accroides	3
+
+accrual	2
+
+accrual\N	2
+
+accrued	2
+
+accrued	2
+
+accrued	2
+
+accrued\i	2
+
+accruement\N	3
+
+accrue\V	1
+
+accruing\i	2
+
+acct\N	1
+
+acculturated\ti	5
+
+acculturate\t	5
+
+acculturating\ti	5
+
+acculturational\A	6
+
+acculturationist\N	6
+
+acculturation\N	5
+
+acculturative\A	4
+
+acculturized\t	5
+
+acculturize\t	5
+
+acculturizing\t	5
+
+accumbency\N	3
+
+accumbent\A	3
+
+accumulable\A	4
+
+accumulated\V	5
+
+accumulate\V	4
+
+accumulating\V	5
+
+accumulation	5
+
+accumulation\N	5
+
+accumulatively\v	6
+
+accumulativeness\N	7
+
+accumulative\A	4
+
+accumulator\N	5
+
+accum\N	2
+
+accuracies\p	4
+
+accuracy\N	3
+
+accurately\v	4
+
+accurateness\N	5
+
+accurate\A	2
+
+accursedly\v	3
+
+accursedness\N	4
+
+accursed\A	3
+
+accusable\A	3
+
+accusably\v	3
+
+accusal\N	3
+
+accusant\N	3
+
+accusation\N	4
+
+accusatival\A	5
+
+accusatively\v	5
+
+accusative\AN	4
+
+accusatorially\v	5
+
+accusatorial\A	5
+
+accusatory\A	4
+
+accused\N	3
+
+accuser\N	3
+
+accuse\V	2
+
+accusingly\v	3
+
+accusing\V	3
+
+accustomedly\v	4
+
+accustomedness\N	5
+
+accustomed\A	4
+
+accustom\t	3
+
+Accutron\N	3
+
+acc\N	1
+
+ace	1
+
+acedia\N	3
+
+aced\NV	2
+
+Aceldama\N	4
+
+acellular\A	4
+
+acenesthesia\N	5
+
+acentric\A	3
+
+acephalous\A	4
+
+acequias\p	3
+
+acequia\N	3
+
+acerate\A	2
+
+Acerbas\N	3
+
+acerbated\V	4
+
+acerbate\t	4
+
+acerbating\V	4
+
+acerbic\A	3
+
+acerbity\N	3
+
+acerb\A	2
+
+acerdol\N	3
+
+acerli\p	3
+
+acerose\A	2
+
+acerous\A	3
+
+acervately\v	4
+
+acervate\A	2
+
+acervulus\N	4
+
+acescence\N	3
+
+acescency\N	3
+
+acescent\A	3
+
+Acesius\N	3
+
+acesodyne\A	2
+
+acesodynous\A	4
+
+Acessamenus\N	5
+
+acestoma\N	4
+
+acetabular\A	5
+
+acetabuliform\A	6
+
+acetabulum\N	5
+
+acetal	3
+
+acetaldehyde\N	4
+
+acetaldol\N	4
+
+acetal\N	3
+
+acetamide\N	4
+
+acetanilide\N	5
+
+acetanisidine\N	6
+
+acetate	3
+
+acetated\A	4
+
+acetate\N	3
+
+acetation\N	4
+
+acetazolamide\N	6
+
+Acetes\N	3
+
+acetic	3
+
+acetic	3
+
+acetic	3
+
+acetic\A	3
+
+acetification\N	6
+
+acetified\ti	4
+
+acetifier\N	4
+
+acetifying\ti	4
+
+acetify\V	3
+
+acetimeter\N	5
+
+acetimetric\A	5
+
+acetimetry\N	4
+
+acetin\N	3
+
+acetla\p	3
+
+acetobacter\N	5
+
+acetoin\N	3
+
+acetometer\N	5
+
+acetometrically\v	6
+
+acetometrical\A	6
+
+acetometry\N	4
+
+acetone	3
+
+acetone\N	3
+
+acetonic\A	4
+
+acetonitrile\N	5
+
+acetophenetidin\N	7
+
+acetophenone\N	5
+
+acetostearin\N	5
+
+acetous\A	3
+
+acetum\N	3
+
+acetyl	2
+
+acetylaminobenzene\N	7
+
+acetylaniline\N	5
+
+acetylated\V	4
+
+acetylate\ti	4
+
+acetylating\V	4
+
+acetylation\N	4
+
+acetylbenzene\N	4
+
+acetylcholine\N	4
+
+acetylene	3
+
+acetylene\N	3
+
+acetylenic\A	4
+
+acetylenogen\N	5
+
+acetylformic	4
+
+acetylic\A	3
+
+acetylide\N	3
+
+acetylization\N	5
+
+acetylized\ti	4
+
+acetylizer\N	4
+
+acetylize\ti	4
+
+acetylizing\ti	4
+
+acetylmethylcarbinol\N	6
+
+acetylsalicylic	5
+
+acetyl\N	2
+
+acey-deucy\N	3
+
+Acey\N	2
+
+Ace\N	1
+
+ace\NAt	2
+
+ach-y-fi\!	2
+
+Achab\N	2
+
+Achad\N	2
+
+Achaean	2
+
+Achaean\NA	2
+
+Achaea\N	2
+
+Achaemenes\N	4
+
+Achaemenian\A	4
+
+Achaemenid\N	4
+
+Achaeus\N	2
+
+achalasia\N	4
+
+Achan\N	2
+
+Acharnians\N	3
+
+achar\N	2
+
+Achates\N	3
+
+Achaz\N	2
+
+achech\N	2
+
+ached\V	2
+
+acheilary\A	3
+
+Achelous\N	3
+
+achene\N	2
+
+achenial\A	3
+
+Acherman\N	3
+
+Achernar\N	3
+
+Acheron\N	3
+
+Acheson\N	3
+
+Acheulean\A	3
+
+Acheulian\NA	3
+
+ache\iN	2
+
+achievable\A	3
+
+achieved\V	3
+
+achievement	4
+
+achievement	4
+
+achievement	4
+
+achievement\N	4
+
+achiever\N	3
+
+achieve\Vt	2
+
+achieving\V	3
+
+achilary\A	3
+
+Achill	2
+
+Achillean\A	3
+
+Achilles	3
+
+Achilles	3
+
+Achilles	3
+
+Achilles\N	3
+
+Achill\N	2
+
+Achimaas\N	3
+
+Achimelech\N	4
+
+achimenes\p	4
+
+achingly\v	2
+
+aching\V	2
+
+Achish\N	2
+
+Achitophel\N	4
+
+achkan\N	2
+
+achlamydate\A	2
+
+achlamydeous\A	3
+
+achlorhydria\N	3
+
+achlorhydric\A	3
+
+achlorophyllous\A	4
+
+acholia\N	3
+
+acholic\A	3
+
+acholuria\N	4
+
+acholuric\A	4
+
+achondrite\N	3
+
+achondritic\A	4
+
+achondroplasia\N	5
+
+achondroplastic\A	5
+
+Achorn\N	2
+
+achroite\N	2
+
+achromate\N	3
+
+achromatic	4
+
+achromatic	4
+
+achromatic	4
+
+achromatically\v	5
+
+achromaticity\N	5
+
+achromatic\A	4
+
+achromatin\N	4
+
+achromatisation\N	6
+
+achromatised\t	5
+
+achromatise\t	5
+
+achromatising\t	5
+
+achromatism\N	4
+
+achromatization\N	6
+
+achromatized\t	5
+
+achromatize\t	5
+
+achromatizing\t	5
+
+achromatophilia\N	6
+
+achromatophil\AN	6
+
+achromatous\A	4
+
+achromat\N	3
+
+achromic\A	3
+
+achromobacter\N	5
+
+Achromycin\N	3
+
+achronychous\A	3
+
+Achsah\N	2
+
+aciculae\p	4
+
+acicularity\N	5
+
+acicularly\v	4
+
+acicular\A	4
+
+aciculate\A	3
+
+acicula\N	4
+
+aciculums\p	4
+
+aciculum\N	4
+
+acid	2
+
+acid	2
+
+acid	2
+
+acid	2
+
+acid	2
+
+acid	2
+
+acid	2
+
+acid	2
+
+acid	2
+
+acid	2
+
+acid	2
+
+acid	2
+
+acid-fastness\N	4
+
+acid-fast\A	3
+
+acid-forming\A	4
+
+acid-head\N	3
+
+Acidalium\N	4
+
+Acidanthera\N	5
+
+acidemia\N	4
+
+acidic\A	3
+
+acidifiable\A	4
+
+acidification\N	6
+
+acidified\ti	4
+
+acidifier\N	4
+
+acidifying\ti	4
+
+acidify\V	3
+
+acidimeter\N	5
+
+acidimetrically\v	6
+
+acidimetrical\A	6
+
+acidimetric\A	5
+
+acidimetry\N	4
+
+acidity\N	3
+
+acidized\V	4
+
+acidize\ti	4
+
+acidizing\V	4
+
+acidly\v	2
+
+acidness\N	3
+
+acidogenic\A	5
+
+acidolysis\N	4
+
+acidometer\N	5
+
+acidophilic\A	5
+
+acidophilus	5
+
+acidophil\AN	5
+
+acidosis\N	4
+
+acidotic\A	4
+
+acidulant\N	4
+
+acidulated\t	5
+
+acidulate\V	4
+
+acidulating\t	5
+
+acidulation\N	5
+
+acidulent\NA	4
+
+acidulous\A	4
+
+aciduric\A	4
+
+acidy\A	2
+
+acid\NA	2
+
+acierated\t	4
+
+acierate\t	4
+
+acierating\t	4
+
+acieration\N	4
+
+Acie\N	1
+
+aciform\A	3
+
+Acima\N	3
+
+acinaceous\A	4
+
+acinacifolious\A	6
+
+acinaciform\A	5
+
+acinarious\A	4
+
+acing\NV	2
+
+acinic\A	3
+
+aciniform\A	4
+
+acinous\A	3
+
+acinuni\p	4
+
+acinus\N	3
+
+Acis\N	2
+
+ack-ack\N	2
+
+ackee\N	1
+
+Ackerley\N	3
+
+Ackerman\N	3
+
+Acker\N	2
+
+ackeys\p	2
+
+ackey\N	2
+
+Ackler\N	2
+
+Ackley\N	2
+
+acknowledgeable\A	4
+
+acknowledgedly\v	4
+
+acknowledged\t	4
+
+acknowledger\N	4
+
+acknowledge\t	4
+
+acknowledging\t	4
+
+acknowledgment\N	4
+
+ackton\N	2
+
+ack\N	1
+
+acleistocardia\N	5
+
+acle\N	2
+
+aclinic	3
+
+ACLS\N	1
+
+ACLU\N	2
+
+acmesthesia\N	4
+
+acme\N	1
+
+acmic\A	2
+
+acmite\N	2
+
+Acmon\N	2
+
+acnemia\N	3
+
+acne\N	1
+
+acnodal\A	3
+
+acnode\N	2
+
+acoasm\N	2
+
+acockbill\A	3
+
+acock\vA	2
+
+acocotl\N	3
+
+acoelomate\A	3
+
+acoelous\A	3
+
+Acoemeti\p	4
+
+acoenaesthesia\N	5
+
+acold\A	2
+
+acolyte\N	2
+
+Acol\N	2
+
+Aconcagua\N	4
+
+aconite\N	3
+
+aconitic\A	4
+
+acorn	2
+
+acorn	2
+
+acorn	2
+
+acorn	2
+
+acorn	2
+
+acorn	2
+
+acorn	2
+
+acorn	2
+
+acorn	2
+
+acorned\A	3
+
+acorn\N	2
+
+acosmism\N	3
+
+acosmistic\A	4
+
+acosmist\N	3
+
+acotyledonous\A	5
+
+acotyledon\N	4
+
+acouasm\N	2
+
+acouchi\N	3
+
+acousmas\p	3
+
+acousmata\p	4
+
+acousma\N	3
+
+acoustic	3
+
+acoustic	3
+
+acoustic	3
+
+acoustic	3
+
+acoustic	3
+
+acoustic	3
+
+acoustic	3
+
+acoustic	3
+
+acoustic	3
+
+acoustical	4
+
+acoustically\v	4
+
+acoustician\N	4
+
+acoustics\N	3
+
+acoustic\A	3
+
+acpt\N	1
+
+ACP\N	1
+
+Acquah\N	2
+
+acquaintance\N	3
+
+acquaintedness\N	4
+
+acquainted\A	3
+
+acquaint\t	2
+
+acquest\N	2
+
+acquiescence\N	3
+
+acquiescently\v	3
+
+acquiescent\A	3
+
+acquiesce\i	2
+
+acquiescingly\v	3
+
+acquirability\N	5
+
+acquirable\A	3
+
+acquired	3
+
+acquired	3
+
+acquired	3
+
+acquired\t	3
+
+acquirement\N	4
+
+acquirer\N	3
+
+acquire\t	3
+
+acquiring\t	3
+
+acquisition\N	4
+
+acquisitively\v	5
+
+acquisitiveness\N	6
+
+acquisitive\A	3
+
+acquittal\N	3
+
+acquittance\N	3
+
+acquitted\t	3
+
+acquitter\N	3
+
+acquitting\t	3
+
+acquit\V	2
+
+Acraea\N	2
+
+acraldehyde\N	3
+
+acre-foot\N	2
+
+acre-inch\N	2
+
+Acrea	1
+
+acreage\N	2
+
+acred\A	2
+
+Acres\N	2
+
+acre\N	1
+
+Acre\N	1
+
+acridine\N	3
+
+acridity\N	3
+
+acridly\v	2
+
+acridness\N	3
+
+acrid\A	2
+
+acriflavine	4
+
+acriflavine\N	4
+
+Acrilan\N	3
+
+acrimoniously\v	4
+
+acrimoniousness\N	5
+
+acrimonious\A	4
+
+acrimony\N	3
+
+Acrisius\N	3
+
+acritical\A	4
+
+acrobatically\v	5
+
+acrobatics\N	4
+
+acrobatic\A	4
+
+acrobat\N	3
+
+acrocarpous\A	4
+
+acrocephalic\AN	6
+
+acrocephalous\A	5
+
+acrocephaly\N	4
+
+Acrocorinth\N	4
+
+acrocyanosis\N	5
+
+acrodontism\N	4
+
+acrodont\A	3
+
+acrodrome\A	2
+
+acrodynia\N	3
+
+acrogenic\A	4
+
+acrogenously\v	4
+
+acrogen\N	3
+
+acrography\N	3
+
+acrogynous\A	3
+
+acrolein\N	3
+
+acrolithic\A	4
+
+acrolith\N	3
+
+acrologically\v	5
+
+acrologic\A	4
+
+acrologies\p	4
+
+acrology\N	3
+
+acromegalic\AN	6
+
+acromegaly\N	4
+
+acromial\v	3
+
+acromicria\N	4
+
+acromimia\p	4
+
+acromion\N	3
+
+acronal\A	3
+
+acronically\v	4
+
+acronical\A	4
+
+acronycally\v	3
+
+acronychal\A	3
+
+acronychous\A	3
+
+acronymic\A	3
+
+acronymized\it	5
+
+acronymize\it	4
+
+acronymizing\it	5
+
+acronymous\A	3
+
+acronym\N	2
+
+acron\N	2
+
+acropathy\N	3
+
+acropetally\v	4
+
+acropetal\A	4
+
+acrophobia\N	4
+
+acrophonically\v	5
+
+acrophonic\A	4
+
+acrophonies\p	4
+
+acrophony\N	3
+
+Acropolis\N	4
+
+acropolis\N	4
+
+acropolitan\A	5
+
+acrospire\N	3
+
+acrospore\N	3
+
+acrosporous\A	4
+
+across-the-board\A	3
+
+across\Pv	2
+
+acrostically\v	4
+
+acrostic\N	3
+
+acrostolia\p	4
+
+acrostolium\N	4
+
+acroteral\A	4
+
+acroterial\A	4
+
+acroterion\N	4
+
+acroterium\N	4
+
+acroterteria\p	5
+
+acroter\N	3
+
+acrotic\A	3
+
+acrotism\N	3
+
+Acrux\N	2
+
+acrylaldehyde\N	3
+
+acrylate\N	2
+
+acrylic	2
+
+acrylic	2
+
+acrylic	2
+
+acrylic	2
+
+acrylic	2
+
+acrylic\AN	3
+
+acrylonitrile\N	4
+
+acrylyl	1
+
+acrylyl\N	1
+
+ACS\N	1
+
+act	1
+
+act	1
+
+act	1
+
+act	1
+
+act	1
+
+Act	1
+
+Act	1
+
+act	1
+
+act	1
+
+act	1
+
+act	1
+
+act	1
+
+act	1
+
+act-wait\N	2
+
+Acta	1
+
+actability\N	4
+
+actable\A	2
+
+Actaeon\N	2
+
+Acta\p	2
+
+actg\N	1
+
+ACTH\N	1
+
+actinally\v	3
+
+actinal\A	3
+
+acting	2
+
+acting\AN	3
+
+actiniae\p	3
+
+actinian\AN	4
+
+actinia\N	3
+
+actinic	3
+
+actinically\v	4
+
+actinic\A	3
+
+actinide	3
+
+actinide\N	3
+
+actiniform\A	4
+
+actinism\N	3
+
+actinium	3
+
+actinium	3
+
+actinium\N	3
+
+actinobaccilli\p	6
+
+actinobacillosis\N	7
+
+actinobacillotic\A	7
+
+actinobacillus\N	6
+
+actinochemical\A	6
+
+actinochemistry\N	5
+
+actinodermatitis\N	7
+
+actinodrome\A	3
+
+actinogram\N	4
+
+actinographic\A	5
+
+actinography\N	4
+
+actinograph\N	4
+
+actinoid\A	3
+
+actinolite\N	4
+
+actinolitic\A	5
+
+actinology\N	4
+
+actinomere\N	4
+
+actinometer\N	5
+
+actinometrical\A	6
+
+actinometric\A	5
+
+actinometry\N	4
+
+actinomorphic\A	5
+
+actinomorphy\N	4
+
+actinomyces\N	4
+
+actinomycete\N	4
+
+actinomycetous\A	5
+
+actinomycin\N	4
+
+actinomycosis\N	5
+
+actinomycotic\A	5
+
+actinon\N	3
+
+actinopod\N	4
+
+actinopterygian\AN	6
+
+actinotherapy\N	5
+
+actinouranium	5
+
+actinouranium\N	5
+
+actinozoan\NA	4
+
+actin\N	2
+
+Action	2
+
+action	2
+
+action	2
+
+action	2
+
+action	2
+
+action	2
+
+actionable\A	3
+
+actionably\v	3
+
+actionless\A	3
+
+action\N!	2
+
+Actis\N	2
+
+Actium\N	2
+
+activated	4
+
+activated	4
+
+activated	4
+
+activated\t	4
+
+activate\t	4
+
+activating\t	4
+
+activation\N	4
+
+activator\N	4
+
+active	2
+
+active	2
+
+active	2
+
+active	2
+
+active	2
+
+active	2
+
+active	2
+
+actively\v	3
+
+activeness\N	4
+
+active\AN	2
+
+activism\N	3
+
+activist\N	3
+
+activities\p	4
+
+activity\N	3
+
+activized\t	4
+
+activize\t	4
+
+activizing\t	4
+
+actomyosin\N	4
+
+Acton\N	2
+
+acton\N	2
+
+actor-proof\A	3
+
+Actoridae\p	4
+
+Actors'	2
+
+actor\N	2
+
+Actor\N	2
+
+actress\N	2
+
+actual	2
+
+actual	2
+
+actual	2
+
+actualisation\N	5
+
+actualised\t	4
+
+actualise\t	4
+
+actualising\t	4
+
+actualism\N	3
+
+actualistic\A	4
+
+actualist\NA	3
+
+actualities\p	4
+
+actuality\N	3
+
+actualization\N	5
+
+actualized\t	4
+
+actualize\t	4
+
+actualizing\t	4
+
+actually\v	2
+
+actualness\N	3
+
+actual\A	2
+
+actuarially\v	3
+
+actuarial\A	3
+
+actuarian\A	3
+
+actuaries\p	3
+
+actuary\N	2
+
+actuated\t	3
+
+actuate\t	3
+
+actuating\t	3
+
+actuation\N	3
+
+actuator\N	3
+
+act\Nit	2
+
+acuate\A	1
+
+acuity\N	2
+
+aculeate\A	2
+
+aculeus\N	3
+
+acumen\N	3
+
+acuminated\V	5
+
+acuminate\AVt	4
+
+acuminating\V	5
+
+acumination\N	5
+
+acuminous\A	4
+
+acupunctured\V	5
+
+acupuncture\N	4
+
+acupuncturing\V	5
+
+acusection\N	4
+
+acusector\N	4
+
+Acus\N	2
+
+acus\Np	2
+
+acutance\N	3
+
+acute	2
+
+acute	2
+
+acute	2
+
+acute	2
+
+acute	2
+
+acutely\v	3
+
+acuteness\N	4
+
+acute\AN	2
+
+acutilingual\A	5
+
+ACWA\N	2
+
+ACW\N	1
+
+acyclic	2
+
+acyclic\A	2
+
+acyl	1
+
+acylated\t	3
+
+acylate\t	3
+
+acylating\t	3
+
+acylation\N	3
+
+acyloin\N	2
+
+acyl\N	1
+
+Ac\N	1
+
+ac\N	1
+
+AC\N	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad	1
+
+ad-libbed\V	3
+
+ad-libbing\V	3
+
+ad-lib\VAvN	3
+
+Adabelle\N	3
+
+Adabel\N	3
+
+Adachi\N	3
+
+adactylous\A	3
+
+adage\N	2
+
+adagial\A	3
+
+adagietto\AvN	4
+
+adagio\AvN	3
+
+adagissimo\vA	5
+
+Adaha\N	3
+
+Adah\N	2
+
+Adaiha\N	3
+
+Adair\N	2
+
+Adai\N	2
+
+Adalai\N	3
+
+Adalard\N	3
+
+Adala\N	3
+
+Adalbert\N	3
+
+Adalheid\N	3
+
+Adaliah\N	3
+
+Adalia\N	3
+
+Adalie\N	2
+
+Adaline\N	3
+
+Adali\N	3
+
+Adallard\N	3
+
+Adall\N	2
+
+Adal\N	2
+
+Adam	2
+
+Adam's	2
+
+Adam's	2
+
+Adam's-needle\N	4
+
+Adam-and-Eve\N	4
+
+adamantine\A	3
+
+adamant\AN	4
+
+Adamas\N	3
+
+Adamawa\N	4
+
+Adama\N	3
+
+Adamec\N	3
+
+Adamek\N	3
+
+Adamically\v	4
+
+Adamic\AN	4
+
+Adamik\N	3
+
+Adaminah\N	4
+
+Adamina\N	4
+
+Adamis\N	3
+
+Adamite\N	3
+
+Adamitical\A	5
+
+Adamitic\A	4
+
+Adamok\N	3
+
+Adamo\N	3
+
+Adams-Stokes	4
+
+Adamsen\N	3
+
+adamsite\N	3
+
+Adamski\N	3
+
+Adamson\N	3
+
+Adamsun\N	3
+
+Adams\N	2
+
+Adam\NA	2
+
+Adana\N	3
+
+Adan\N	2
+
+Adao\N	2
+
+Adapa\N	3
+
+adaptability\N	5
+
+adaptableness\N	5
+
+adaptable\A	3
+
+adaptationally\v	5
+
+adaptational\A	5
+
+adaptation\N	4
+
+adaptedness\N	4
+
+adapter\N	3
+
+adaptive	3
+
+adaptively\v	4
+
+adaptiveness\N	5
+
+adaptive\A	2
+
+adapt\Vt	2
+
+Adar	2
+
+Adara\N	3
+
+adarbitrium\N	4
+
+Adar\N	2
+
+adat\N	2
+
+Adaurd\N	2
+
+adaxial\A	3
+
+Aday\N	2
+
+ADA\N	2
+
+Ada\N	2
+
+Adcock	2
+
+ADC\N	1
+
+add	1
+
+addable\A	2
+
+Addams\N	2
+
+Addam\N	2
+
+addax\N	2
+
+Adda\N	2
+
+addda\p	2
+
+added	2
+
+addedly\v	2
+
+addendum\N	3
+
+addend\N	2
+
+adder's	2
+
+adder's-meat\N	3
+
+adder's-mouths\p	3
+
+adder's-mouth\N	3
+
+adder's-tongue\N	3
+
+adder\N	2
+
+Addia\N	2
+
+addible\A	2
+
+addictedness\N	4
+
+addicted\A	3
+
+addiction\N	3
+
+addictive\A	2
+
+addict\VtN	2
+
+Addiego\N	3
+
+Addiel\N	2
+
+Addie\N	1
+
+adding	2
+
+Addington\N	3
+
+Addis	2
+
+Addison's	3
+
+Addisonian\AN	5
+
+Addison\N	3
+
+Addis\N	2
+
+additamentary\A	5
+
+additament\N	4
+
+addition	3
+
+addition	3
+
+additionally\v	4
+
+additional\A	4
+
+addition\N	3
+
+additive	3
+
+additive	3
+
+additive	3
+
+additively\v	4
+
+additive\AN	3
+
+additory\A	3
+
+Addi\N	2
+
+addlebrained\A	4
+
+addled\V	2
+
+addlepated\A	4
+
+addle\VA	2
+
+addling\V	2
+
+addorsed\A	3
+
+addressed\V	3
+
+addressee\N	2
+
+addresser\N	3
+
+addressing	3
+
+addressing\V	3
+
+Addressograph\N	4
+
+addressor\N	3
+
+address\NVt	2
+
+addrest\V	2
+
+adduceable\A	3
+
+adduced\t	3
+
+adducent\A	3
+
+adducer\N	3
+
+adduce\t	3
+
+adducible\A	3
+
+adducing\t	3
+
+adduction\N	3
+
+adductive\A	2
+
+adductor\N	3
+
+adduct\t	2
+
+Addy\N	1
+
+add\Vti	1
+
+Adebayo\N	4
+
+Adee\N	1
+
+Adelaida\N	4
+
+Adelaide\N	3
+
+Adelaja\N	4
+
+adelantados\p	5
+
+adelantado\N	5
+
+Adela\N	3
+
+Adelbert\N	3
+
+Adele\N	2
+
+Adelheid\N	3
+
+Adelia\N	3
+
+Adelice\N	3
+
+Adelina\N	4
+
+Adelind\N	3
+
+Adeline\N	3
+
+Adella\N	3
+
+Adelle\N	2
+
+Adelphe\N	2
+
+Adelpho\N	3
+
+Adelric\N	3
+
+Adel\N	2
+
+ademption\N	3
+
+adenalgia\N	4
+
+Adenauer\N	3
+
+Adena\N	3
+
+adenectomies\p	5
+
+adenectomy\N	4
+
+adenine\N	3
+
+adenitis\N	4
+
+adenocarcinomas\p	7
+
+adenocarcinomata\p	8
+
+adenocarcinomatous\A	8
+
+adenocarcinoma\N	7
+
+adenohypophyseal	5
+
+adenohypophysis\N	5
+
+adenoidal\A	4
+
+adenoidectomies\p	6
+
+adenoidectomy\N	5
+
+adenoids\p	3
+
+adenoid\A	3
+
+adenological\A	6
+
+adenology\N	4
+
+adenomas\p	4
+
+adenomata\p	5
+
+adenomatous\A	5
+
+adenoma\N	4
+
+adenophore\N	4
+
+adenophyllous\A	4
+
+adenosarcomas\p	6
+
+adenosarcomata\p	7
+
+adenosarcoma\N	6
+
+adenosine	4
+
+adenosine	4
+
+adenosine	4
+
+adenosine	4
+
+adenosine\N	4
+
+adenoviruses\p	6
+
+adenovirus\N	5
+
+adenylic	3
+
+adenylpyrophosphate\N	5
+
+Aden\N	2
+
+Adeodatus	4
+
+adeptly\v	2
+
+adeptness\N	3
+
+adept\AN	3
+
+adequacy\N	3
+
+adequately\v	4
+
+adequateness\N	5
+
+adequate\A	2
+
+adermin\N	3
+
+Ader\N	2
+
+adessive\AN	3
+
+Adest\N	2
+
+Adey\N	2
+
+Ade\N	1
+
+adffrozen\t	3
+
+adffroze\t	3
+
+adfreeze\t	3
+
+adfreezing\t	3
+
+Adhamh\N	2
+
+Adham\N	2
+
+adhered\i	3
+
+adherence\N	3
+
+adherend\N	3
+
+adherently\v	3
+
+adherent\NA	3
+
+adherer\N	3
+
+adhere\i	2
+
+adhering\i	3
+
+Adhern\N	2
+
+adhesional\A	4
+
+adhesion\N	3
+
+adhesive	3
+
+adhesive	3
+
+adhesive	3
+
+adhesive	3
+
+adhesively\v	4
+
+adhesiveness\N	5
+
+adhesive\AN	3
+
+adhibition\N	4
+
+adhibit\t	3
+
+adiabatic	4
+
+adiabatically\v	5
+
+adiabatic\AN	5
+
+adiabat\N	3
+
+adiactinic\A	4
+
+adiadochokinesia\N	7
+
+adiaphoresis\N	5
+
+adiaphoretic\AN	6
+
+adiaphorism\N	4
+
+adiaphoristic\A	5
+
+adiaphorist\N	4
+
+adiaphorous\A	4
+
+adiathermancy\N	4
+
+Adiell\N	2
+
+Adiel\N	2
+
+adient\A	2
+
+adieu\!N	2
+
+Adie\N	1
+
+Adige\N	2
+
+Adighe\N	2
+
+Adigranth\N	3
+
+Adigun\N	3
+
+Adila\N	3
+
+Adim\N	2
+
+Adina\N	3
+
+Adine\N	2
+
+Adin\N	2
+
+adios\!	2
+
+adipate\N	3
+
+adiphenine\N	4
+
+adipic	3
+
+adipocere\N	4
+
+adipocerite\N	5
+
+adipocerous\A	5
+
+adiponitrile\N	5
+
+adipopectic\A	5
+
+adipopexia\N	5
+
+adipopexic\A	5
+
+adipose	3
+
+adiposeness\N	5
+
+adipose\AN	3
+
+adiposis\N	4
+
+adiposity\N	4
+
+Adirondack	4
+
+Adirondack	4
+
+Adirondack	4
+
+Adirondack\N	4
+
+Adis\N	2
+
+Aditya\N	3
+
+adit\N	2
+
+Adivasi\N	4
+
+ADIZ\N	2
+
+Adi\N	2
+
+adjacence\N	3
+
+adjacencies\p	4
+
+adjacency\N	3
+
+adjacent	3
+
+adjacently\v	3
+
+adjacent\AN	4
+
+adjectival\A	4
+
+adjectively\v	4
+
+adjective\NA	3
+
+adjoining\A	3
+
+adjoint	2
+
+adjoint\N	2
+
+adjoin\Vt	2
+
+adjournment\N	3
+
+adjourn\it	3
+
+adjt\N	1
+
+adjudged\t	3
+
+adjudge\t	3
+
+adjudging\t	3
+
+adjudicated\V	5
+
+adjudicate\Vti	4
+
+adjudicating\V	5
+
+adjudication\N	5
+
+adjudicative\A	4
+
+adjudicator\N	5
+
+adjugate\N	3
+
+adjunction\N	3
+
+adjunctively\v	4
+
+adjunctive\A	2
+
+adjunctly\v	2
+
+adjunct\NA	2
+
+adjuration\N	4
+
+adjuratory\A	4
+
+adjured\t	3
+
+adjurer\N	3
+
+adjure\t	3
+
+adjuring\t	3
+
+adjuror\N	3
+
+adjustable	3
+
+adjustable-pitch\A	5
+
+adjustable\A	3
+
+adjustably\v	3
+
+adjuster\N	3
+
+adjustmental\A	4
+
+adjustment\N	3
+
+adjustor\N	3
+
+adjust\t	2
+
+adjutancy\N	3
+
+adjutant	3
+
+adjutant	3
+
+adjutant	3
+
+adjutant\N	3
+
+adjuvant\AN	4
+
+Adkins\N	2
+
+Adlai\N	2
+
+Adlare\N	2
+
+Adlar\N	2
+
+Adlay\N	2
+
+Adlee\N	1
+
+Adlei\N	2
+
+Adlerian\A	3
+
+Adler\N	2
+
+Adley\N	2
+
+Adlie	1
+
+Admah\N	2
+
+adman\N	2
+
+admass\N	2
+
+admeasured\t	4
+
+admeasurement\N	5
+
+admeasurer\N	4
+
+admeasure\Vt	3
+
+admeasuring\t	4
+
+admen\p	2
+
+Admete\N	2
+
+Admetus\N	3
+
+adminicle\N	4
+
+adminicular\A	5
+
+administer\V	4
+
+administrable\A	4
+
+administrant\A	4
+
+administrated\t	5
+
+administrate\V	4
+
+administrating\t	5
+
+administrational\A	6
+
+administration\N	5
+
+administratively\v	6
+
+administrative\A	4
+
+administratorship\N	6
+
+administrator\N	5
+
+administratrices\p	6
+
+administratrix\N	5
+
+admin\N	2
+
+admirability\N	5
+
+admirableness\N	5
+
+admirable\A	3
+
+admirably\v	3
+
+admiralship\N	4
+
+admiralties\p	4
+
+Admiralty	3
+
+admiralty	3
+
+Admiralty	3
+
+Admiralty	3
+
+admiralty	3
+
+Admiralty	3
+
+Admiralty	3
+
+admiralty\N	3
+
+admiral\N	3
+
+Admiral\N	3
+
+admiration\N	4
+
+admiratively\v	5
+
+admirative\A	3
+
+admired\V	3
+
+admirer\N	3
+
+admire\t	3
+
+admiringly\v	3
+
+admiring\V	3
+
+admissibility\N	5
+
+admissibleness\N	5
+
+admissible\A	3
+
+admissibly\v	3
+
+Admission	3
+
+admission\N	3
+
+admissive\A	2
+
+admittable\A	3
+
+admittance\N	3
+
+admittedly\v	3
+
+admitted\V	3
+
+admitter\N	3
+
+admittible\A	3
+
+admitting\V	3
+
+admit\Vi	2
+
+admixture\N	3
+
+admix\t	2
+
+admonisher\N	4
+
+admonishingly\v	4
+
+admonishment\N	4
+
+admonish\t	3
+
+admonition\N	4
+
+admonitorial\A	5
+
+admonitorily\v	5
+
+admonitory\A	4
+
+admonitor\N	4
+
+admov\N	2
+
+Adm\N	1
+
+adm\N	1
+
+Adnah\N	2
+
+adnate\A	1
+
+adnation\N	3
+
+Adna\N	2
+
+Adne\N	1
+
+adnominal\NA	4
+
+Adnopoz\N	3
+
+adnoun\N	2
+
+adobe	2
+
+adobe\N	2
+
+adolescence\N	4
+
+adolescently\v	4
+
+adolescent\AN	5
+
+Adolfo\N	3
+
+Adolf\N	2
+
+Adolphe\N	2
+
+Adolpho\N	3
+
+Adolphus\N	3
+
+Adolph\N	2
+
+Adon	2
+
+Adonais\N	3
+
+Adonai\N	3
+
+Adonias\N	3
+
+Adonia\N	3
+
+Adonica\N	4
+
+Adonic\AN	4
+
+Adonijah\N	4
+
+Adonis\N	3
+
+Adon\N	2
+
+adoptability\N	5
+
+adoptable\A	3
+
+adopted\A	3
+
+adopter\N	3
+
+adoptional\A	4
+
+adoption\N	3
+
+adoptively\v	4
+
+adoptive\A	2
+
+adopt\t	2
+
+adorability\N	5
+
+adorableness\N	5
+
+adorable\A	3
+
+adorably\v	3
+
+adoration\N	4
+
+Adora\N	3
+
+adored\V	3
+
+Adoree\N	2
+
+adorer\N	3
+
+adore\t	3
+
+adoringly\v	3
+
+adoring\V	3
+
+Adorl\N	2
+
+adorner\N	3
+
+adorningly\v	3
+
+adornment\N	3
+
+adornos\p	3
+
+adorno\N	3
+
+adorn\t	2
+
+adorsed\A	3
+
+Adoula\N	3
+
+Adowa\N	3
+
+adown\vP	2
+
+ado\N	2
+
+ADP\N	1
+
+Adrammelech\N	4
+
+Adrastea\N	3
+
+Adrastus\N	3
+
+Adrea\N	2
+
+Adrell\N	2
+
+adrenal	3
+
+adrenal	3
+
+adrenalectomies\p	6
+
+adrenalectomized\t	7
+
+adrenalectomize\t	7
+
+adrenalectomizing\t	7
+
+adrenalectomy\N	5
+
+adrenaline\N	4
+
+Adrenalin\N	4
+
+adrenal\AN	4
+
+adrenergic\A	4
+
+adrenin\N	3
+
+adrenocorticotropic	8
+
+adrenocorticotropic\A	8
+
+Adrestus\N	3
+
+adret\N	2
+
+Adrial\N	2
+
+Adrian	2
+
+Adrian	2
+
+Adrian	2
+
+Adrian	2
+
+Adrian	2
+
+Adriana\N	3
+
+Adriane\N	2
+
+Adrianna\N	3
+
+Adrianne\N	2
+
+Adrianople	3
+
+Adrianople\N	4
+
+Adrianopolis\N	5
+
+Adriano\N	3
+
+Adrian\N	2
+
+Adriatic	3
+
+Adriatic\AN	4
+
+Adria\N	2
+
+Adriell\N	2
+
+Adriel\N	2
+
+Adriena\N	3
+
+Adriene\N	2
+
+Adrienne\N	2
+
+Adrien\N	2
+
+adrift\v	2
+
+adroitly\v	2
+
+adroitness\N	3
+
+adroit\A	2
+
+Adron\N	2
+
+adscititiously\v	4
+
+adscititious\A	4
+
+adscription\N	3
+
+adscript\AN	3
+
+adsorbability\N	5
+
+adsorbable\A	3
+
+adsorbate\N	3
+
+adsorbent\AN	4
+
+adsorb\V	2
+
+adsorption\N	3
+
+adsorptively\v	4
+
+adsorptive\AN	3
+
+adst	1
+
+adsuki	2
+
+adsum\!	2
+
+ads\N	1
+
+adularescence\N	5
+
+adularescent\A	5
+
+adularia\N	4
+
+adulated\t	4
+
+adulate\t	4
+
+adulating\t	4
+
+adulation\N	4
+
+adulatory\A	4
+
+adulator\N	4
+
+Adullamite\N	4
+
+adult	2
+
+adulterant\NA	4
+
+adulterated\V	5
+
+adulterate\VtA	4
+
+adulterating\V	5
+
+adulteration\N	5
+
+adulterator\N	5
+
+adulterer\N	4
+
+adulteress\N	4
+
+adulteries\p	4
+
+adulterine\A	3
+
+adulterously\v	4
+
+adulterous\A	4
+
+adultery\N	3
+
+adulthood\N	3
+
+adultness\N	3
+
+adult\AN	3
+
+adumbral\A	3
+
+adumbrated\t	4
+
+adumbrate\t	4
+
+adumbrating\t	4
+
+adumbration\N	4
+
+adumbratively\v	5
+
+adumbrative\A	3
+
+aduncity\N	3
+
+adunc\A	2
+
+Adurol\N	3
+
+Adur\N	2
+
+adust\A	2
+
+Aduwa\N	3
+
+Advaita\N	3
+
+advance	2
+
+advance	2
+
+advance	2
+
+advanced	3
+
+advanced	3
+
+advanced\A	3
+
+advancement\N	4
+
+advancer\N	3
+
+advances\p	3
+
+advance\VtiN	3
+
+advancingly\v	3
+
+advancing\V	3
+
+advantaged\V	4
+
+advantageously\v	4
+
+advantageousness\N	5
+
+advantageous\A	4
+
+advantage\Nt	3
+
+advantaging\V	4
+
+advection	3
+
+advection\N	3
+
+advective\A	2
+
+advenae\p	3
+
+advena\N	3
+
+Advent	2
+
+Adventism\N	3
+
+Adventist\N	3
+
+adventitial\A	4
+
+adventitia\N	4
+
+adventitiously\v	4
+
+adventitiousness\N	5
+
+adventitious\A	4
+
+adventively\v	4
+
+adventive\AN	3
+
+adventure	3
+
+adventured\V	4
+
+adventureful\A	5
+
+adventurer\N	4
+
+adventuresomely\v	6
+
+adventuresomeness\N	7
+
+adventuresome\A	4
+
+adventuress\N	4
+
+adventure\NVi	3
+
+adventuring\V	4
+
+adventurism\N	4
+
+adventurously\v	4
+
+adventurousness\N	5
+
+adventurous\A	4
+
+advent\N	2
+
+Advent\N	2
+
+adverbially\v	3
+
+adverbial\NA	3
+
+adverbless\A	3
+
+adverb\N	2
+
+adversaria\p	4
+
+adversaries\p	4
+
+adversary\N	3
+
+adversative	4
+
+adversatively\v	5
+
+adversative\AN	4
+
+adversa\p	3
+
+adverse	2
+
+adversely\v	3
+
+adverseness\N	4
+
+adverse\A	1
+
+adversities\p	4
+
+adversity\N	3
+
+advertence\N	3
+
+advertency\N	3
+
+advertently\v	3
+
+advertent\A	3
+
+advertisable\A	4
+
+advertised\V	4
+
+advertisement\N	5
+
+advertiser\N	4
+
+advertise\Vi	3
+
+advertising	4
+
+advertising	4
+
+advertising	4
+
+advertising\N	4
+
+advertizable\A	4
+
+advertized\ti	4
+
+advertizer\N	4
+
+advertize\ti	4
+
+advertizing\ti	4
+
+advert\iN	3
+
+advice	2
+
+advice\N	2
+
+advisability\N	5
+
+advisableness\N	5
+
+advisable\A	3
+
+advisably\v	3
+
+advisedly\v	3
+
+advisedness\N	4
+
+advised\A	3
+
+advisee\N	2
+
+advisement\N	4
+
+advisership\N	4
+
+adviser\N	3
+
+advise\Vti	2
+
+advising\V	3
+
+advisorily\v	4
+
+advisory	3
+
+advisory\A	3
+
+advocaat\N	3
+
+advocacies\p	4
+
+advocacy\N	3
+
+Advocate	3
+
+advocated\V	4
+
+advocate\VtN	3
+
+advocating\V	4
+
+advocation\N	4
+
+advocatory\A	4
+
+advocatus	4
+
+advowson\N	3
+
+advt\N	1
+
+Adv\N	1
+
+Adygei\h	2
+
+Adygei\N	2
+
+Adyge\N	1
+
+Adyghe\N	1
+
+adynamia\N	3
+
+adynamic\A	3
+
+adytta\p	2
+
+adytum\N	2
+
+adze\N	1
+
+Adzharistan\N	4
+
+adzuki	2
+
+adz\N	1
+
+Adélie	1
+
+Adélie	1
+
+ad\N	1
+
+AD\N	1
+
+Ad\N	1
+
+AE	0
+
+Aeacidae\p	3
+
+Aeacides\N	3
+
+Aeacus\N	2
+
+Aeaea\N	1
+
+AEA\N	1
+
+Aechmagoras\N	4
+
+aecial\A	2
+
+aecia\p	2
+
+aecidia\p	3
+
+aecidium\N	3
+
+aeciospore\N	3
+
+aecium\N	2
+
+AEC\N	1
+
+aedeagal\A	3
+
+aedeagus\N	3
+
+aedegi\p	3
+
+aedes\N	2
+
+aediculae\p	4
+
+aedicula\N	4
+
+aedicule\N	3
+
+Aedilberct\N	3
+
+aedileship\N	4
+
+aedile\N	2
+
+aedilitian\A	4
+
+aedoeagi\p	3
+
+aedoeagus\N	3
+
+AEd\N	1
+
+Aeetes\N	2
+
+AeE\N	0
+
+AEF\N	1
+
+Aegadian	3
+
+Aegaeon\N	2
+
+Aegates\N	3
+
+Aegean	2
+
+Aegean	2
+
+Aegean\A	2
+
+Aegeria\N	3
+
+Aegesta\N	3
+
+Aegeus\N	2
+
+Aegialeus\N	3
+
+Aegialia\N	3
+
+Aegia\N	2
+
+Aegicores\N	4
+
+Aegimius\N	3
+
+Aeginaea\N	3
+
+Aegina\N	3
+
+Aeginetan\A	4
+
+Aegiochus\N	3
+
+Aegipan\N	3
+
+aegirite\N	3
+
+Aegir\N	2
+
+Aegisthus\N	3
+
+aegis\N	2
+
+Aegium\N	2
+
+Aegle\N	2
+
+Aegospotami\N	5
+
+aegrotat\N	3
+
+Aegyptus\N	2
+
+Aekerly\N	2
+
+Aelber\N	2
+
+Aella\N	2
+
+Aello\N	2
+
+Aeneas	2
+
+Aeneas\N	2
+
+Aenea\N	2
+
+Aeneid\N	2
+
+Aeneolithic\A	4
+
+aeneous\A	2
+
+Aeneus\N	2
+
+AEng\N	1
+
+Aeniah\N	2
+
+Aenius\N	2
+
+Aenneea\N	2
+
+aeolian	2
+
+Aeolian	2
+
+Aeolian	2
+
+Aeolian\NA	2
+
+Aeolia\N	2
+
+Aeolic\AN	3
+
+Aeolides\p	3
+
+aeolipile\N	3
+
+Aeolis\N	2
+
+aeolotropic\A	4
+
+aeolotropism\N	4
+
+aeolotropy\N	3
+
+Aeolus\N	2
+
+aeonian\A	2
+
+aeon\N	1
+
+aepyornis\N	3
+
+Aepyornis\N	3
+
+Aepytus\N	2
+
+aequo	1
+
+aerarian\AN	4
+
+aeraria\p	3
+
+aerarium\N	3
+
+aerated\t	3
+
+aerate\t	3
+
+aerating\t	3
+
+aeration\N	3
+
+aerator\N	3
+
+aere	1
+
+aerenchyma\N	3
+
+aerial	2
+
+aerial	2
+
+aerial	2
+
+aerial	2
+
+aerial	2
+
+aerial	2
+
+aerial	2
+
+aerial	2
+
+aerial	2
+
+aerial	2
+
+aerial	2
+
+aerial	2
+
+aerialist\N	3
+
+aeriality\N	3
+
+aerially\v	2
+
+aerialness\N	3
+
+aerial\AN	3
+
+Aeria\N	2
+
+Aeriela\N	3
+
+Aeriell\N	2
+
+Aeriel\N	2
+
+aeries\p	2
+
+aerie\N	1
+
+aeriferous\A	4
+
+aerification\N	5
+
+aerified\t	3
+
+aeriform\A	3
+
+aerifying\t	3
+
+aerify\V	2
+
+aero	1
+
+aero-otitis	5
+
+aerobacteriologically\v	8
+
+aerobacteriological\A	8
+
+aerobacteriologist\N	7
+
+aerobacteriology\N	6
+
+aeroballistics\p	5
+
+aeroballistic\A	5
+
+aerobatics\p	4
+
+aerobatic\A	4
+
+aerobee\N	2
+
+aerobe\N	2
+
+aerobia\p	3
+
+aerobically\v	4
+
+aerobic\A	3
+
+aerobiologically\v	6
+
+aerobiological\A	6
+
+aerobiologic\A	5
+
+aerobiologist\N	5
+
+aerobiology\N	4
+
+aerobiosis\NA	4
+
+aerobiotically\v	5
+
+aerobiotic\A	4
+
+aerobium\N	3
+
+aerocar\N	3
+
+aerodonetics\N	5
+
+aerodonetic\A	5
+
+aerodontalgia\N	5
+
+aerodontia\N	4
+
+aerodrome\N	3
+
+aerodynamic	4
+
+aerodynamic	4
+
+aerodynamically\v	5
+
+aerodynamical\A	5
+
+aerodynamicist\N	5
+
+aerodynamics\N	4
+
+aerodynamic\A	4
+
+aerodyne\N	2
+
+aeroelasticity\N	5
+
+aeroelastics\N	4
+
+aeroelastic\A	4
+
+aeroembolism\N	4
+
+aerofoil\N	3
+
+aerogel\N	3
+
+aerogenically\v	5
+
+aerogenic\A	4
+
+aerogram\N	3
+
+aerographer\N	4
+
+aerographical\A	5
+
+aerographic\A	4
+
+aerography\N	3
+
+aerograph\N	3
+
+aerolite\N	3
+
+aerolitics\N	4
+
+aerolitic\A	4
+
+aerological\A	5
+
+aerologic\A	4
+
+aerologist\N	4
+
+aerology\N	3
+
+Aerol\N	2
+
+aeromancer\N	4
+
+aeromancy\N	3
+
+aeromantic\A	4
+
+aeromarine\A	3
+
+aeromechanical\A	6
+
+aeromechanics\N	5
+
+aeromechanic\NA	5
+
+aeromedical\A	5
+
+aeromedicine\N	5
+
+aerometeorograph\N	6
+
+aerometer\N	4
+
+aerometric\A	4
+
+aerometry\N	3
+
+aeronautical	5
+
+aeronautically\v	5
+
+aeronautical\A	5
+
+aeronautics\N	4
+
+aeronautic\A	4
+
+aeronaut\N	3
+
+aeroneurosis\N	5
+
+aeronomy\N	3
+
+aeron\N	2
+
+aeropause\N	3
+
+aerophagia\N	4
+
+aerophagist\N	4
+
+aerophilatelic\A	6
+
+aerophilatelist\N	6
+
+aerophilately\N	5
+
+aerophobia\N	4
+
+aerophobic\A	4
+
+aerophone\N	3
+
+aerophore\N	3
+
+aerophotography\N	5
+
+aerophotos\p	4
+
+aerophoto\N	4
+
+aerophyte\N	2
+
+aeroplane	3
+
+aeroplane	3
+
+aeroplane\N	3
+
+aeroplankton\N	4
+
+aeropulse\N	3
+
+aeroscepsy\N	3
+
+aeroscope\N	3
+
+aeroscopically\v	5
+
+aeroscopic\A	4
+
+aerosinusitis\N	6
+
+aerosol	3
+
+aerosol\N	3
+
+aerospace\N	3
+
+aerosphere\N	3
+
+aerostatics\N	4
+
+aerostatic\A	4
+
+aerostation\N	4
+
+aerostat\N	3
+
+aerotherapeutics\N	6
+
+aerothermodynamics\N	6
+
+aerothermodynamic\A	6
+
+aerotitis	4
+
+aerotow\tN	3
+
+aerotropic\A	4
+
+aerotropism\N	4
+
+aero\N	2
+
+aeruginous\A	4
+
+aerugo\N	3
+
+aery\AN	2
+
+Aesacus\N	3
+
+Aeschines\N	3
+
+Aeschylean\A	2
+
+Aeschylus\N	2
+
+Aesculapian\A	4
+
+Aesculapius\N	4
+
+aesculin\N	3
+
+aesc\N	1
+
+Aesepus\N	3
+
+Aesir\N	2
+
+Aesopian\A	3
+
+Aesop\N	2
+
+Aestatis\N	3
+
+aesthesia\N	3
+
+aesthete\N	2
+
+aesthetic	3
+
+aesthetically\v	4
+
+aesthetical\A	4
+
+aesthetician\N	4
+
+aestheticism\N	4
+
+aesthetics\N	3
+
+aesthetic\v	3
+
+aestival\A	3
+
+aestivated\i	4
+
+aestivate\i	3
+
+aestivating\i	4
+
+aestivation\N	4
+
+aestivator\N	4
+
+Aesyetes\N	3
+
+aetatis	3
+
+Aeterni	2
+
+Aethalides\N	4
+
+Aethelbert\N	3
+
+aethereal\N	3
+
+Aetheria\N	3
+
+aether\N	2
+
+aethon\N	2
+
+Aethra\N	2
+
+Aethylla\N	2
+
+aetiologically\v	5
+
+aetiological\A	5
+
+aetiologist\N	4
+
+aetiology\N	3
+
+Aetna\N	2
+
+Aetolian\A	3
+
+Aetolia\N	3
+
+Aetolus\N	3
+
+aet\N	1
+
+AET\N	1
+
+Aeëtes\N	1
+
+ae\AN	0
+
+AE\N	1
+
+ae\N	0
+
+AFAM\N	2
+
+Afars	2
+
+afar\vN	2
+
+AFA\N	2
+
+AFB\N	1
+
+AFC\N	1
+
+afeard\A	2
+
+afebrile\A	2
+
+affability\N	4
+
+affableness\N	4
+
+affable\A	2
+
+affably\v	2
+
+affaire	2
+
+affaire	2
+
+affaires\p	3
+
+affaire\N	2
+
+affairs\p	2
+
+affair\N	2
+
+affectation\N	4
+
+affectedly\v	3
+
+affectedness\N	4
+
+affected\A	3
+
+affecter\N	3
+
+affectingly\v	3
+
+affecting\A	3
+
+affectionally\v	4
+
+affectional\A	4
+
+affectionately\v	5
+
+affectionateness\N	6
+
+affectionate\A	3
+
+affection\N	3
+
+affective\NA	3
+
+affectivity\N	4
+
+affect\VtN	2
+
+affenpinscher\N	4
+
+afferent\A	3
+
+Affer\N	2
+
+affettuoso\Av	4
+
+affianced\A	3
+
+affiance\tN	3
+
+affiancing\V	3
+
+affiant\N	2
+
+affiches\p	3
+
+affiche\N	2
+
+affidavit\N	4
+
+affiliable\A	3
+
+affiliated\V	4
+
+affiliate\VtN	3
+
+affiliating\V	4
+
+affiliation	4
+
+affiliation	4
+
+affiliation\N	4
+
+affinal\A	3
+
+affine	2
+
+affine	2
+
+affined\A	3
+
+affinely\v	3
+
+affine\A	1
+
+affinities\p	4
+
+affinitive\A	3
+
+affinity\N	3
+
+affirmable\A	3
+
+affirmably\v	3
+
+affirmant\N	3
+
+affirmation\N	4
+
+affirmative	4
+
+affirmative	4
+
+affirmative-action\A	6
+
+affirmatively\v	5
+
+affirmative\AN	4
+
+affirmatory\A	4
+
+affirmer\N	3
+
+affirming	3
+
+affirmingly\v	3
+
+affirm\Vi	2
+
+affixal\A	3
+
+affixation\N	4
+
+affixer\N	3
+
+affixture\N	3
+
+affix\VtN	2
+
+afflated\A	3
+
+afflatus\N	3
+
+afflictedness\N	4
+
+afflicter\N	3
+
+afflictionless\A	4
+
+affliction\N	3
+
+afflictively\v	4
+
+afflictive\A	2
+
+afflict\t	2
+
+affluence\N	2
+
+affluently\v	2
+
+affluent\AN	3
+
+afflux\N	2
+
+affordable\A	3
+
+afford\V	2
+
+afforestation\N	5
+
+afforestment\N	4
+
+afforest\t	3
+
+affranchised\t	4
+
+affranchisement\N	5
+
+affranchise\t	4
+
+affranchising\t	4
+
+affrayer\N	3
+
+affray\Nt	2
+
+Affra\N	2
+
+affreighter\N	3
+
+affreightment\N	3
+
+affreight\t	2
+
+affricate\N	3
+
+affrication\N	4
+
+affricative\NA	4
+
+Affrica\N	3
+
+affright\tN	2
+
+affrontedly\v	3
+
+affrontedness\N	4
+
+affronter\N	3
+
+affrontingly\v	3
+
+affrontiveness\N	5
+
+affrontive\A	2
+
+affronté\A	2
+
+affront\Nt	2
+
+affusion\N	3
+
+aff\Pv	1
+
+Afghan	2
+
+afghanets\N	3
+
+Afghanistan\N	4
+
+afghani\N	3
+
+afghan\N	2
+
+Afghan\NA	2
+
+Afgh\N	1
+
+aficionadas\p	5
+
+aficionada\N	5
+
+aficionados\p	5
+
+aficionado\N	5
+
+afield\v	2
+
+afikomen\N	4
+
+afire\v	3
+
+AFL-CIO\h	2
+
+aflame\v	3
+
+aflatoxin\N	4
+
+afloat\v	2
+
+aflutter\v	3
+
+AFL\N	1
+
+AFM\N	1
+
+afocal\A	3
+
+afoot\v	2
+
+aforementioned\A	6
+
+aforesaid\A	4
+
+aforethought\A	4
+
+aforetime\v	5
+
+afore\vPC	3
+
+afoul\v	2
+
+afraid\A	2
+
+Aframerican\AN	6
+
+Afrasian\AN	4
+
+Afrasia\N	3
+
+Afra\N	2
+
+afreet\N	2
+
+afresh\v	2
+
+Africah\N	3
+
+African	3
+
+African	3
+
+African	3
+
+African	3
+
+African	3
+
+African	3
+
+African	3
+
+African	3
+
+African	3
+
+African	3
+
+African	3
+
+African	3
+
+African	3
+
+Africanderism\N	5
+
+Africander\N	4
+
+Africanism\N	4
+
+Africanist\N	4
+
+Africanization\N	6
+
+Africanized\t	5
+
+Africanize\t	5
+
+Africanizing\t	5
+
+Africanthropus\N	5
+
+African\AN	4
+
+Africa\N	3
+
+Afric\A	2
+
+Afrikaans\N	3
+
+Afrikah\N	3
+
+Afrikanderism\N	5
+
+Afrikander\N	4
+
+Afrikanerdom\N	5
+
+Afrikanerize\t	6
+
+Afrikaner\N	4
+
+Afrika\N	3
+
+afrit\N	2
+
+Afro-American\NA	6
+
+Afro-Asian\A	4
+
+Afro-Asiatic\NA	5
+
+Afro-chain\N	3
+
+Afro-comb\N	3
+
+Afro-Cuban\A	4
+
+afrormosia\N	4
+
+Afro\N	2
+
+AFS\N	1
+
+after	2
+
+after-dinner\A	4
+
+afterbirth\N	3
+
+afterbodies\p	4
+
+afterbody\N	3
+
+afterbrain\N	3
+
+afterburner\N	4
+
+afterburning\N	4
+
+aftercare\N	3
+
+aftercast\N	3
+
+afterclap\N	3
+
+aftercooler\N	4
+
+afterdamp\N	3
+
+afterdeck\N	3
+
+aftereffect\N	4
+
+afterglow\N	3
+
+aftergrowth\N	3
+
+afterguard\N	3
+
+afterheat\N	3
+
+afterimage\N	4
+
+afterlife\N	3
+
+aftermath\N	3
+
+aftermost\A	3
+
+afternoon	3
+
+afternoon	3
+
+afternoons\v	3
+
+afternoon\N	3
+
+afterpains\p	3
+
+afterpain\N	3
+
+afterpeak\N	3
+
+afterpiece\N	3
+
+aftersensation\N	5
+
+aftershafted\A	4
+
+aftershaft\N	3
+
+aftershave	3
+
+aftershock\N	3
+
+afters\N	2
+
+aftertaste\N	3
+
+afterthought\N	3
+
+aftertime\N	3
+
+aftertreatment\N	4
+
+afterwards\v	3
+
+afterward\v	3
+
+afterword\N	3
+
+afterworld\N	3
+
+afteryears\p	3
+
+after\PvCA	2
+
+aftmost\A	2
+
+Afton\N	2
+
+AFTRA\N	2
+
+AFT\N	1
+
+aft\vA	1
+
+Afyon\N	2
+
+Af\N	1
+
+af\N	1
+
+AF\N	1
+
+Aga	1
+
+Aga	1
+
+Aga	1
+
+Agabus\N	3
+
+Agace\N	2
+
+Agacles\N	3
+
+Agadir\N	3
+
+Agag\N	2
+
+against\P	2
+
+again\v	2
+
+agalite\N	3
+
+agalloch\N	3
+
+agalmatolite\N	5
+
+agalwood\N	3
+
+agal\N	2
+
+agama\N	3
+
+Agama\N	3
+
+Agamedes\N	4
+
+Agamede\N	3
+
+Agamemnon\N	4
+
+agamete\N	3
+
+agamically\v	4
+
+agamic\A	3
+
+agamid\NA	3
+
+agammaglobulinemia\N	8
+
+agamogenesis\N	6
+
+agamogenetically\v	7
+
+agamogenetic\A	6
+
+agamy\N	2
+
+Agana\N	3
+
+Aganippe\N	3
+
+Aganus\N	3
+
+Agan\N	2
+
+agapai\p	3
+
+agapanthuses\p	5
+
+agapanthus\N	4
+
+Agape\N	2
+
+agape\vAN	4
+
+agaric	3
+
+agaric	3
+
+agaricaceous\A	5
+
+agaricin\N	4
+
+agaric\N	3
+
+agarita\N	4
+
+Agartala\N	4
+
+Agar\N	2
+
+agar\N	2
+
+Agassiz\N	3
+
+Agastrophus\N	4
+
+Agastya\N	3
+
+agata\N	3
+
+Agata\N	3
+
+agate	2
+
+agatelike\A	3
+
+agateware\N	4
+
+agate\N	2
+
+Agate\N	2
+
+Agatharchides\N	5
+
+Agatha\N	3
+
+Agathe\N	2
+
+Agathon\N	3
+
+Agatho\N	3
+
+Agathyrsus\N	3
+
+Agathy\N	2
+
+agatized\t	4
+
+agatize\t	4
+
+agatizing\t	4
+
+agatoid\A	3
+
+agave\N	2
+
+Agave\N	2
+
+agaze\A	1
+
+Agaña\N	3
+
+aga\N	2
+
+agba\N	2
+
+Agbogla\N	3
+
+AGCA\N	2
+
+AGCT\N	1
+
+agcy\N	1
+
+AGC\N	1
+
+age	1
+
+age	1
+
+age	1
+
+Age	1
+
+age-old\A	2
+
+agedly\v	2
+
+agedness\N	3
+
+aged\A	2
+
+agee\A	0
+
+Agee\N	1
+
+ageing\V	2
+
+Agelaus\N	3
+
+agelessness\N	4
+
+ageless\A	3
+
+agelong\A	3
+
+Agenais\N	3
+
+Agena\N	3
+
+agencies\p	3
+
+agency	2
+
+agency\N	2
+
+agenda\N	3
+
+agendum\N	3
+
+agenesis\N	4
+
+agenetic\A	4
+
+Agenor\N	3
+
+agent	2
+
+agent-general\N	5
+
+agential\A	3
+
+agentival\A	4
+
+agentive\AN	3
+
+agents	2
+
+agent\N	2
+
+Agen\N	2
+
+ageratum\N	4
+
+Agesilaus	4
+
+ageusia\N	3
+
+ageusic\A	3
+
+AgE\N	2
+
+AGE\N	2
+
+age\NV	1
+
+Aggadah\N	3
+
+Aggada\N	3
+
+aggadic\A	3
+
+Aggadic\A	3
+
+Aggadoth\p	3
+
+Aggappera\N	4
+
+Aggappe\N	2
+
+Aggappora\N	4
+
+Aggarwal\N	3
+
+agger\N	2
+
+Aggeus\N	2
+
+Aggie\N	1
+
+aggie\N	1
+
+aggiornamenti\p	5
+
+aggiornamento\N	5
+
+Aggi\N	2
+
+agglomerated\V	5
+
+agglomerate\VNA	4
+
+agglomerating\V	5
+
+agglomeration\N	5
+
+agglomerative\A	4
+
+agglomerator\N	5
+
+agglutinability\N	6
+
+agglutinable\A	4
+
+agglutinant\AN	5
+
+agglutinated\V	5
+
+agglutinate\VtA	4
+
+agglutinating\V	5
+
+agglutination\N	5
+
+agglutinative\A	4
+
+agglutinin\N	4
+
+agglutinogenic\A	6
+
+agglutinogen\N	5
+
+aggradational\A	5
+
+aggradation\N	4
+
+aggraded\t	3
+
+aggrade\t	3
+
+aggrading\t	3
+
+aggrandised\t	4
+
+aggrandisement\N	5
+
+aggrandiser\N	4
+
+aggrandise\t	4
+
+aggrandising\t	4
+
+aggrandized\t	4
+
+aggrandizement\N	5
+
+aggrandizer\N	4
+
+aggrandize\t	4
+
+aggrandizing\t	4
+
+aggravated\t	4
+
+aggravate\t	4
+
+aggravatingly\v	4
+
+aggravating\t	4
+
+aggravation\N	4
+
+aggravative\A	3
+
+aggravator\N	4
+
+aggregable\A	3
+
+aggregated\V	4
+
+aggregately\A	4
+
+aggregateness\N	5
+
+aggregate\ANVtv	3
+
+aggregating\V	4
+
+aggregation\N	4
+
+aggregative\A	3
+
+aggregatory\A	4
+
+aggression\N	3
+
+aggressively\v	4
+
+aggressive\A	2
+
+aggressor\N	3
+
+aggress\i	2
+
+aggrievedly\v	3
+
+aggrievedness\N	4
+
+aggrieved\t	3
+
+aggrieve\t	3
+
+aggrieving\t	3
+
+Aggri\N	2
+
+aggro\N	2
+
+Aggy\N	1
+
+aghast\A	2
+
+agha\N	2
+
+Agh\N	1
+
+agilawood\N	4
+
+agilely\v	3
+
+agileness\N	4
+
+agile\A	1
+
+agility\N	3
+
+Agincourt\N	3
+
+aging\V	2
+
+agios\p	2
+
+agiotage\N	3
+
+agio\N	2
+
+agister\N	3
+
+agistment\N	3
+
+agist\t	2
+
+agitable\A	3
+
+agitatedly\v	4
+
+agitated\V	4
+
+agitate\ti	4
+
+agitating\V	4
+
+agitational\A	5
+
+agitation\N	4
+
+agitative\A	3
+
+agitatorial\A	5
+
+agitator\N	4
+
+agitato\Av	4
+
+agitpropist\N	4
+
+agitprop\N	3
+
+agit\N	2
+
+Aglaia\N	2
+
+Aglaophon	3
+
+Aglauros\N	3
+
+Aglaus\N	2
+
+agleam\A	2
+
+Agler\N	2
+
+aglet\N	2
+
+agley\A	2
+
+Agle\N	2
+
+aglimmer\A	3
+
+aglint\A	2
+
+aglisten\A	3
+
+aglitter\A	3
+
+aglossia\N	3
+
+aglow\A	2
+
+aglucon\N	3
+
+aglycon\N	2
+
+agly\v	1
+
+agma\N	2
+
+AGMA\N	2
+
+agminate\A	2
+
+AGM\N	1
+
+agnail\N	2
+
+agnate\AN	2
+
+Agnatha\N	3
+
+agnathous\A	3
+
+agnatically\v	4
+
+agnatical\A	4
+
+agnatic\A	3
+
+agnation\N	3
+
+Agna\N	2
+
+agneaux\p	2
+
+Agnella\N	3
+
+agnel\N	2
+
+Agnese\N	2
+
+Agnesse\N	2
+
+Agnes\N	2
+
+Agneta\N	3
+
+Agnew\N	2
+
+agnized\t	3
+
+agnize\t	3
+
+agnizing\t	3
+
+Agni\N	2
+
+agnoiology\N	3
+
+Agnola\N	3
+
+agnomen\N	3
+
+agnominal\A	4
+
+agnomina\p	4
+
+agnosia\N	3
+
+agnostically\v	4
+
+agnosticism\N	4
+
+agnostic\NA	3
+
+Agnus	2
+
+agogic	3
+
+agogics\N	3
+
+agog\Av	3
+
+agonal\A	3
+
+agones\p	3
+
+agone\v	3
+
+agonic	3
+
+agonic\A	3
+
+agonies\p	3
+
+agonised\it	5
+
+agonise\it	4
+
+agonisingly\v	4
+
+agonising\it	5
+
+agonistically\v	5
+
+agonistic\A	4
+
+agonist\N	3
+
+agonizedly\v	4
+
+agonized\V	4
+
+agonize\Vi	3
+
+agonizingly\v	4
+
+agonizing\A	4
+
+agony	2
+
+agony\N	2
+
+agon\N	2
+
+Agon\N	2
+
+Agoraea\N	3
+
+Agoraeus\N	3
+
+agorae\p	3
+
+agoraphobia\N	5
+
+agora\N	3
+
+agoroth\p	3
+
+Agostini\N	4
+
+Agostino\N	4
+
+Agosto\N	3
+
+agouta\N	3
+
+agouties\p	3
+
+agoutis\p	3
+
+agouti\N	3
+
+agouty\N	2
+
+ago\v	2
+
+Agraeus\N	2
+
+agraffe\N	2
+
+agrammatism\N	4
+
+Agram\N	2
+
+agranulocytosis\N	6
+
+agrapha\p	3
+
+agraphia\N	3
+
+agraphic\A	3
+
+agrarianism\N	4
+
+agrarianly\v	3
+
+agrarian\AN	4
+
+Agraulos	3
+
+Agraulos\N	3
+
+agravic\A	3
+
+Agra\N	2
+
+agreeability\N	4
+
+agreeableness\N	4
+
+agreeable\A	2
+
+agreeably\v	2
+
+agreed\A	2
+
+agreeingly\v	2
+
+agreeing\V	2
+
+agreement\N	3
+
+agree\Vt	1
+
+agrestal\A	3
+
+agrestic\A	3
+
+agribusiness\N	5
+
+Agricola\N	4
+
+agricultural	5
+
+agricultural	5
+
+agriculturally\v	5
+
+agricultural\A	5
+
+agriculture\N	4
+
+agriculturist\N	5
+
+agric\N	2
+
+Agrigento\N	4
+
+agrimonies\p	4
+
+agrimony\N	3
+
+Agrinion\N	3
+
+agriological\A	5
+
+agriologist\N	4
+
+agriology\N	3
+
+Agriope\N	2
+
+Agripina\N	4
+
+Agrippa\N	3
+
+Agrippina	3
+
+Agrippina\N	4
+
+Agrius\N	2
+
+agrobiologically\v	6
+
+agrobiological\A	6
+
+agrobiologic\A	5
+
+agrobiologist\N	5
+
+agrobiology\N	4
+
+agrological\A	5
+
+agrologic\A	4
+
+agrology\N	3
+
+agromania\N	4
+
+agronomical\A	5
+
+agronomics\N	4
+
+agronomic\A	4
+
+agronomist\N	4
+
+agronomy\N	3
+
+agron\N	2
+
+agrostographer\N	5
+
+agrostographical\A	6
+
+agrostographic\A	5
+
+agrostographies\p	5
+
+agrostography\N	4
+
+agrostological\A	6
+
+agrostologic\A	5
+
+agrostologist\N	5
+
+agrostology\N	4
+
+Agrotera\N	4
+
+aground\v	2
+
+agrypnotic\AN	4
+
+agréations\p	3
+
+agréation\N	3
+
+agrégés\p	1
+
+agrégé\N	1
+
+agréments\p	2
+
+agrément\N	2
+
+agr\N	1
+
+agst\N	1
+
+AGS\N	1
+
+Agt\N	1
+
+Aguadilla\N	4
+
+aguardiente\N	3
+
+Aguascalientes\N	5
+
+Aguayo\N	3
+
+Agueda\N	3
+
+aguelike\A	2
+
+agueweed\N	3
+
+ague\N	1
+
+Aguinaldo\N	4
+
+aguishly\v	2
+
+aguish\A	2
+
+Aguistin\N	3
+
+agujon\N	3
+
+Agulhas\N	3
+
+Agung\N	2
+
+agura\N	3
+
+aguroth\p	3
+
+Agustin\N	3
+
+Agustín	2
+
+Agyieus\N	2
+
+Ag\N	1
+
+AG\N	1
+
+ag\N	1
+
+Ahab\N	2
+
+Ahad	2
+
+ahankara\N	4
+
+Aharon\N	3
+
+Ahasuerus\N	4
+
+Ahaziah\N	3
+
+Ahaz\N	2
+
+aha\!	2
+
+AHA\N	2
+
+ahchoo\!	2
+
+Ahders\N	2
+
+ahead\v	2
+
+Ahearn\N	2
+
+ahem\!	2
+
+Ahern\N	2
+
+AHE\N	2
+
+Ahhiyawa\N	4
+
+Ahidjo\N	3
+
+Ahiezer\N	3
+
+Ahimaaz\N	3
+
+Ahimelech\N	4
+
+ahimsa\N	3
+
+Ahira\N	3
+
+Ahir\N	2
+
+Ahishar\N	3
+
+ahistorical\A	5
+
+ahistoric\A	4
+
+Ahithophel\N	4
+
+Ahlgren\N	2
+
+Ahl\N	1
+
+Ahmadiya\N	4
+
+Ahmadi\N	3
+
+Ahmad\N	2
+
+Ahmar\N	2
+
+Ahmedabad\N	4
+
+Ahmednagar\N	4
+
+Ahmed\N	2
+
+Ahmose	2
+
+Ahnfelt's	2
+
+Aholah\N	3
+
+Ahola\N	3
+
+ahold\Nv	2
+
+Aholla\N	3
+
+aholt\N	2
+
+Ahom\N	2
+
+ahorse\Av	2
+
+Ahoskie\N	2
+
+Ahoufe\N	2
+
+Ahouh\N	2
+
+ahoy\!	2
+
+AHQ\N	1
+
+Ahrendt\N	2
+
+Ahrens\N	2
+
+Ahriman\N	3
+
+Ahron\N	2
+
+AHSA\N	2
+
+ahuehuete\N	3
+
+ahull\A	2
+
+ahungered\A	4
+
+Ahura	2
+
+Ahuzzath\N	3
+
+ahu\N	2
+
+Ahvenanmaa\N	4
+
+Ahwaz\N	2
+
+ah\!	1
+
+AH\N	1
+
+Ah\N	1
+
+Aias\N	1
+
+Aia\N	1
+
+AIA\N	1
+
+aiblins\v	2
+
+AIC\N	1
+
+aid	1
+
+aid-de-camp\N	2
+
+Aidan\N	2
+
+Aida\N	2
+
+aide-de-camp\N	2
+
+aide-mmoire\N	2
+
+Aiden\N	2
+
+aider\N	2
+
+aides-de-camp\p	3
+
+aide\N	1
+
+aidful\A	2
+
+Aidin\N	2
+
+aidless\A	2
+
+Aidoneus\N	3
+
+Aidos\N	2
+
+aids-de-camp\p	2
+
+AID\N	1
+
+aid\VtN	1
+
+Aiea\N	1
+
+AIEEE\N	1
+
+Aiello\N	2
+
+aiglet\N	2
+
+Aigneis\N	2
+
+aigrette\N	2
+
+aiguilletted\A	4
+
+aiguillette\N	3
+
+aiguille\N	2
+
+Aiken\N	2
+
+aikido\N	3
+
+aikona\!	3
+
+aikuchi\N	3
+
+ailanthic\A	3
+
+ailanthus	3
+
+ailanthuses\p	4
+
+ailanthus\N	3
+
+Aila\N	2
+
+Ailbert\N	2
+
+Aileen\N	2
+
+Ailee\N	1
+
+Ailene\N	2
+
+aileron	3
+
+aileron\N	3
+
+ailette\N	2
+
+Ailey\N	2
+
+ailing\A	2
+
+Ailin\N	2
+
+Ailis\N	2
+
+Aili\N	2
+
+ailment\N	2
+
+Ailsa\N	2
+
+Ailssa\N	2
+
+ailurophile\N	4
+
+ailurophilia\N	5
+
+ailurophilic\A	5
+
+ailurophobe\N	4
+
+ailurophobia\N	5
+
+ailurophobic\A	5
+
+ail\ti	1
+
+aimak\N	2
+
+Aimee\N	1
+
+aimer\N	2
+
+AIME\N	2
+
+aimfully\v	2
+
+aimful\A	2
+
+Aimil\N	2
+
+aiming	2
+
+aimlessly\v	2
+
+aimlessness\N	3
+
+aimless\A	2
+
+Aimo\N	2
+
+aim\VtiN	2
+
+ain't\N	1
+
+Aindrea\N	2
+
+AInd\N	1
+
+Ainslee\N	1
+
+Ainsley\N	2
+
+Ainslie\N	1
+
+Ainsworth\N	2
+
+Aintab\N	2
+
+Ainus\p	2
+
+Ainu\N	2
+
+ain\DN	1
+
+Ain\N	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+Air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+Air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+Air	1
+
+Air	1
+
+air	1
+
+Air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+Air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+Air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air	1
+
+air-bound\A	2
+
+air-breather\N	3
+
+air-breathe\i	2
+
+air-conditioning\A	5
+
+air-condition\t	4
+
+air-cool\t	2
+
+air-core\A	1
+
+air-dried\V	2
+
+air-drying\V	2
+
+air-dry\V	1
+
+air-earth	2
+
+air-hardening\A	4
+
+air-intake\N	3
+
+air-lanced\t	3
+
+air-lance\t	3
+
+air-lancing\t	3
+
+air-line\A	1
+
+air-logged\A	3
+
+air-mail\ANvt	3
+
+air-mass	2
+
+air-mindedness\N	4
+
+air-minded\A	3
+
+air-raid	2
+
+air-raid	2
+
+air-raid\A	2
+
+air-sea	1
+
+air-slaked\t	3
+
+air-slake\t	3
+
+air-slaking\t	3
+
+air-sprayed\A	3
+
+air-spray\A	2
+
+air-to-air\A	3
+
+air-to-surface\Av	4
+
+air-traffic	3
+
+air-twisted\A	3
+
+airbill\N	2
+
+airboat\N	2
+
+airborne\A	1
+
+airbrasive\NA	3
+
+airbrick\N	2
+
+airbrush\N	2
+
+airburst\N	2
+
+airbus\N	2
+
+aircraft	2
+
+aircraft	2
+
+aircraft	2
+
+aircraftman\N	3
+
+aircraftmen\p	3
+
+aircraftsman\N	3
+
+aircraftsmen\p	3
+
+aircraftswoman\N	4
+
+aircraftswomen\p	4
+
+aircraft\N	2
+
+aircrewman\N	3
+
+aircrewmen\p	3
+
+aircrew\N	2
+
+Airdrie\N	1
+
+airdrome\N	2
+
+airdropped\V	3
+
+airdropping\V	3
+
+airdrop\NVA	2
+
+Airedale\N	3
+
+Airel\N	2
+
+Aires\N	2
+
+Aire\N	1
+
+airfield\N	2
+
+airflow\N	2
+
+airfoil\N	2
+
+airframe\N	2
+
+airglow\N	2
+
+airgraph\Nt	2
+
+airhead\N	2
+
+airier\A	2
+
+airiest\A	2
+
+airily\v	2
+
+airiness\N	3
+
+airing\N	2
+
+Airla\N	2
+
+Airlee\N	1
+
+airless\A	2
+
+Airliah\N	2
+
+Airlia\N	2
+
+Airlie\N	1
+
+airlift\Nt	2
+
+airlight\N	2
+
+airlike\A	1
+
+airliner\N	3
+
+airline\N	2
+
+airlock\N	2
+
+airmanship\N	3
+
+airman\N	2
+
+airmen\p	2
+
+airplane	2
+
+airplane	2
+
+airplane	2
+
+airplane\N	2
+
+airport\N	2
+
+airproof\At	3
+
+airscrew\N	2
+
+airship\N	2
+
+airsickness\N	3
+
+airsick\A	2
+
+airspace\N	2
+
+airspeed	2
+
+airspeed\N	2
+
+airstream\N	2
+
+airstrip\N	2
+
+airs\p	1
+
+airtightly\v	2
+
+airtightness\N	3
+
+airtight\A	2
+
+airt\N	1
+
+airwash\tN	2
+
+airwaves\p	3
+
+airway\N	2
+
+airwoman\N	3
+
+airwomen\p	3
+
+airworthiness\N	4
+
+airworthy\A	2
+
+Airy	1
+
+airy-fairy\A	2
+
+airy\A	1
+
+Airy\N	1
+
+Air\N	1
+
+air\NVt	1
+
+Aisha\N	2
+
+AISI	1
+
+AISI\N	2
+
+aisled\A	2
+
+aisle\N	1
+
+Aisne\N	1
+
+ais\p	1
+
+aitchbone\N	2
+
+aitch\N	1
+
+Aitken\N	2
+
+ait\N	1
+
+Aius	1
+
+Aix-en-Provence\N	4
+
+Aix-la-Chapelle\N	4
+
+Aix-les-Bains\N	3
+
+AI\N	1
+
+ai\N	1
+
+Ajaccio\N	3
+
+Ajani\N	3
+
+Ajanta\N	3
+
+ajar\v	2
+
+Ajax\N	2
+
+ajee\v	2
+
+Ajit\N	2
+
+ajiva\N	3
+
+Ajivika\N	4
+
+Ajmer-Merwara\N	5
+
+Ajmer\N	2
+
+Ajodhya\N	3
+
+Ajo\N	2
+
+Ajuga\N	3
+
+Akaba\N	3
+
+Akademi\N	4
+
+akala\N	3
+
+Akanke\N	2
+
+Akan\N	2
+
+akasha\N	3
+
+Akbar\N	2
+
+AKC\N	1
+
+akeake\N	2
+
+akebi\N	3
+
+aked\i	2
+
+akee\N	1
+
+Akela\N	3
+
+akela\N	3
+
+Akeldama\N	4
+
+Akeley\N	3
+
+Akel\N	2
+
+akene\N	2
+
+Akerboom\N	3
+
+Akerley\N	3
+
+Akers\N	2
+
+Aker\N	2
+
+aketon\N	3
+
+Akeylah\N	3
+
+Akeyla\N	3
+
+ake\iN	2
+
+Akhaia\N	2
+
+akhara\N	3
+
+Akhenaten\N	4
+
+Akhetaton\N	4
+
+Akhisar\N	3
+
+Akhmatova\N	4
+
+Akhnaton\N	3
+
+Akh\N	1
+
+Akiba	2
+
+Akihito\N	4
+
+Akili\N	3
+
+akimbo\v	3
+
+Akim\N	2
+
+akinesia\N	4
+
+akinete\N	3
+
+akinetic\A	4
+
+aking\i	2
+
+Akins\N	2
+
+akin\A	2
+
+Akin\N	2
+
+Akira\N	3
+
+Akita\N	3
+
+Akkadian\NA	3
+
+Akkad\N	2
+
+Akkerman\N	3
+
+Akkra\N	2
+
+Aklog\N	2
+
+Akmolinsk\N	3
+
+Akron\N	2
+
+akroterion\N	4
+
+akroter\N	3
+
+akrteria\p	3
+
+Aksel\N	2
+
+Aksoyn\N	2
+
+Aksum\N	2
+
+Aktyubinsk\N	3
+
+Akure\N	2
+
+Akutagawa\N	5
+
+akvavit\N	3
+
+Akyab\N	2
+
+al	1
+
+Al	1
+
+Al	1
+
+al	1
+
+Al	1
+
+Al	1
+
+Al	1
+
+Al	1
+
+Al	1
+
+Al	1
+
+Al	1
+
+Al	1
+
+al-Fustat\N	3
+
+Al-Gazel\N	3
+
+Al-Iskandarîyah\N	5
+
+al-Lat\N	2
+
+al-Sahih\N	3
+
+al-Uzza\N	3
+
+Ala	1
+
+Alabama	3
+
+Alabaman\AN	5
+
+Alabama\N	4
+
+Alabamian\AN	5
+
+alabamine\N	4
+
+alabandite\N	4
+
+Alabaster\N	4
+
+alabaster\NA	4
+
+alabastoi\p	4
+
+alabastos\N	4
+
+alabastra\p	4
+
+alabastron\N	4
+
+alabastrum\N	4
+
+alack\!	2
+
+alacritous\A	4
+
+alacrity\N	3
+
+Aladdin\N	3
+
+alae\Np	1
+
+Alagez\N	3
+
+Alage\N	2
+
+Alagoas\N	3
+
+Alagöz\N	2
+
+Alai	1
+
+Alain-Fournier\N	4
+
+Alaine\N	2
+
+Alain\N	2
+
+Alair\N	2
+
+Alai\N	2
+
+Alake\N	2
+
+Alalcomenean	5
+
+Alalcomeneus\N	5
+
+alalia\N	3
+
+Alamannic\NA	4
+
+Alamanni\p	4
+
+Alameda\N	4
+
+alameda\N	4
+
+Alamein\N	3
+
+alamiqui\N	4
+
+Alamo	2
+
+alamode\N	3
+
+Alamogordo\N	5
+
+Alamosa\N	4
+
+alamos\p	3
+
+Alamo\N	3
+
+alamo\N	3
+
+Alan-a-dale\N	4
+
+Alanah\N	3
+
+Alana\N	3
+
+Alanbrooke\N	3
+
+Aland\N	2
+
+Alane\N	2
+
+alanine\N	3
+
+alannah\!	3
+
+Alanna\N	3
+
+Alano\N	3
+
+Alansen\N	3
+
+Alanson\N	3
+
+alant	2
+
+Alan\N	2
+
+alapa\N	3
+
+alap\N	2
+
+Alarcon\N	3
+
+Alarcón\N	2
+
+Alard\N	2
+
+Alarice\N	3
+
+Alarick\N	3
+
+Alaric\N	3
+
+Alarise\N	3
+
+alarm	2
+
+alarm	2
+
+alarmable\A	3
+
+alarmedly\v	3
+
+alarmingly\v	3
+
+alarmism\N	3
+
+alarmist\NA	3
+
+alarm\tN	2
+
+alarums	3
+
+alarum\N	3
+
+alary\A	2
+
+alar\A	2
+
+Alasdair\N	3
+
+Alaska	2
+
+Alaska	2
+
+Alaska	2
+
+Alaska	2
+
+Alaska	2
+
+Alaska	2
+
+Alaska	2
+
+Alaska	2
+
+Alaska	2
+
+Alaskan	3
+
+Alaskan	3
+
+Alaskan\AN	4
+
+Alaska\N	3
+
+Alastair\N	3
+
+Alasteir\N	3
+
+Alaster\N	3
+
+Alastor\N	3
+
+alastrim\N	3
+
+alas\!	2
+
+Alas\N	2
+
+Alatea\N	3
+
+alate\A	1
+
+Alathia\N	3
+
+Alayne\N	2
+
+ALA\N	2
+
+Ala\N	2
+
+ala\N	2
+
+Alba	1
+
+Albacete\N	3
+
+albacores\p	4
+
+albacore\N	3
+
+Albamycin\N	3
+
+Albanese\N	3
+
+Albanian\NA	3
+
+Albania\N	3
+
+Albany	2
+
+Albany\N	2
+
+Alban\N	2
+
+albarelli\p	4
+
+albarellos\p	4
+
+albarello\N	4
+
+albarium\N	3
+
+Albarran\N	3
+
+albata\N	3
+
+Albategnius\N	4
+
+albatross\N	3
+
+Albay\N	2
+
+alba\N	2
+
+Alba\N	2
+
+albedometer\N	5
+
+albedo\N	3
+
+Albee\N	1
+
+albeit\C	2
+
+Albemarle	3
+
+Albemarle\N	3
+
+Alben\N	2
+
+alberghi\p	3
+
+albergo\N	3
+
+Alberich\N	3
+
+Alberic\N	3
+
+Alberik\N	3
+
+Alberoni\N	4
+
+Albers\N	2
+
+Albert	2
+
+Albert	2
+
+Albert	2
+
+Albert	2
+
+Alberta\N	3
+
+Alberti	2
+
+Albertina\N	4
+
+Albertine\N	3
+
+Albertist\N	3
+
+albertite\N	3
+
+Alberti\N	3
+
+Alberto\N	3
+
+Albertson\N	3
+
+Albertus	3
+
+Albertville\N	3
+
+albertype\N	2
+
+albert\N	2
+
+Albert\N	2
+
+Alber\N	2
+
+albescence\N	3
+
+albescent\A	3
+
+Albia\N	2
+
+Albie\N	1
+
+Albigenses\p	4
+
+Albigensianism\N	5
+
+Albigensian\AN	5
+
+Albina\N	3
+
+albinic\A	3
+
+albinism\N	3
+
+albinistic\A	4
+
+Albinoni\N	4
+
+albinos\p	3
+
+albino\N	3
+
+Albinus\N	3
+
+Albin\N	2
+
+Albion\N	2
+
+albite\N	2
+
+albitic\A	3
+
+Albizu	2
+
+Albi\N	2
+
+ALBM\N	1
+
+Albniz\N	2
+
+Alboin\N	2
+
+Alboran\N	3
+
+Albrecht\N	2
+
+Albric\N	2
+
+Albright\N	2
+
+albronze\N	2
+
+albumen	3
+
+albumeniizer\N	5
+
+albumenisation\N	6
+
+albumenised\t	5
+
+albumeniser\N	5
+
+albumenise\t	5
+
+albumenising\t	5
+
+albumenization\N	6
+
+albumenized\t	5
+
+albumenize\t	5
+
+albumenizing\t	5
+
+albumen\N	3
+
+albumin	3
+
+albuminate\N	4
+
+albuminised\t	5
+
+albuminise\t	5
+
+albuminising\t	5
+
+albuminized\t	5
+
+albuminize\t	5
+
+albuminizing\t	5
+
+albuminoidal\A	5
+
+albuminoid\AN	5
+
+albuminous\A	4
+
+albuminuria\N	5
+
+albuminuric\A	5
+
+albumin\N	3
+
+albumose\N	3
+
+album\N	2
+
+Albunea\N	3
+
+Albuquerque\N	3
+
+Alburga\N	3
+
+Alburg\N	2
+
+alburnous\A	3
+
+alburnum\N	3
+
+Albury\N	2
+
+Albur\N	2
+
+Alby\N	1
+
+Albéniz\N	2
+
+Alb\N	1
+
+alb\N	1
+
+Alcaeus\N	2
+
+alcahest\N	3
+
+Alcaic\AN	3
+
+alcaides\p	3
+
+alcaide\N	2
+
+Alcaids\p	2
+
+alcaldes\p	3
+
+alcalde\N	2
+
+alcaligenes\p	5
+
+Alcan	2
+
+Alcandre\N	2
+
+alcaptonuria\N	5
+
+alcapton\N	3
+
+Alcathous\N	3
+
+Alcatraz\N	3
+
+alcaydes\p	3
+
+alcayde\N	2
+
+Alcazar\N	3
+
+alcazar\N	3
+
+Alceste\N	2
+
+Alcestis\N	3
+
+alchemically\v	4
+
+alchemic\A	3
+
+alchemies\p	3
+
+alchemised\t	4
+
+alchemise\t	4
+
+alchemising\t	4
+
+alchemistical\A	5
+
+alchemist\N	3
+
+alchemized\t	4
+
+alchemize\t	4
+
+alchemizing\t	4
+
+alchemy\N	2
+
+alchem\N	2
+
+alcheringa\N	4
+
+Alchuine\N	2
+
+Alcibiadean\A	4
+
+Alcibiades\N	4
+
+Alcides\N	3
+
+Alcidice\N	3
+
+alcidine\A	2
+
+alcid\AN	3
+
+Alcimedes\N	4
+
+Alcimede\N	3
+
+Alcimedon\N	4
+
+Alcina\N	3
+
+Alcine\N	2
+
+Alcinia\N	3
+
+Alcinous\N	3
+
+Alcinoüs\N	3
+
+Alcis\N	2
+
+Alcithoë\N	3
+
+alclad\A	2
+
+Alcmaeon\N	2
+
+Alcman\N	2
+
+Alcmaon\N	2
+
+Alcmene\N	2
+
+Alcoa\N	2
+
+Alcock\N	2
+
+alcoholate\N	4
+
+alcoholically\v	5
+
+alcoholicity\N	5
+
+Alcoholics	4
+
+alcoholic\NA	4
+
+alcoholisation\N	6
+
+alcoholised\t	5
+
+alcoholise\t	5
+
+alcoholising\t	5
+
+alcoholism\N	4
+
+alcoholization\N	6
+
+alcoholized\t	5
+
+alcoholize\t	5
+
+alcoholizing\t	5
+
+alcoholometer\N	6
+
+alcoholometrical\A	7
+
+alcoholometric\A	6
+
+alcoholometry\N	5
+
+alcoholysis\N	4
+
+alcoholytic\A	4
+
+alcohol\N	3
+
+Alcon\N	2
+
+Alcoranic\A	4
+
+Alcoranist\N	4
+
+Alcoran\N	3
+
+Alcor\N	2
+
+Alcott\N	2
+
+Alcot\N	2
+
+alcove\N	2
+
+Alcuin\N	2
+
+Alcus\N	2
+
+alcyonarian\NA	4
+
+Alcyoneus\N	3
+
+Alcyone\N	2
+
+Aldabra\N	3
+
+Aldan\N	2
+
+Aldarcie\N	2
+
+Aldarcy\N	2
+
+Aldas\N	2
+
+Alda\N	2
+
+Aldebaran\N	4
+
+Alded\N	2
+
+aldehyde\N	2
+
+aldehydic\A	3
+
+Alden\N	2
+
+alder	2
+
+alder	2
+
+alder	2
+
+Aldercy\N	2
+
+alderflies\p	3
+
+alderfly\N	2
+
+aldermancy\N	3
+
+aldermanic\A	4
+
+aldermanries\p	4
+
+aldermanry\N	3
+
+aldermanship\N	4
+
+alderman\N	3
+
+Alderman\N	3
+
+Aldermaston\N	4
+
+aldermen\p	3
+
+Alderney\N	3
+
+Aldershot\N	3
+
+Alderson\N	3
+
+Alder\N	2
+
+alder\N	2
+
+Aldine\AN	2
+
+Aldington\N	3
+
+Aldin\N	2
+
+Aldis	2
+
+Aldis\N	2
+
+Aldm\N	1
+
+aldohexose\N	4
+
+aldol\N	2
+
+Aldon\N	2
+
+Aldora\N	3
+
+aldose\N	2
+
+aldosterone\N	4
+
+Aldos\N	2
+
+Aldous\N	2
+
+aldoxime\N	3
+
+Aldo\N	2
+
+Aldredge\N	2
+
+Aldred\N	2
+
+Aldrich\N	2
+
+Aldric\N	2
+
+Aldridge-Brownhills\N	4
+
+Aldridge\N	2
+
+aldrin\N	2
+
+Alduino\N	3
+
+Aldus	2
+
+Aldus\N	2
+
+Aldwin\N	2
+
+Aldwon\N	2
+
+Ald\N	1
+
+Aleardi\N	3
+
+aleatory\A	3
+
+Alea\N	2
+
+Alebion\N	3
+
+Alecia\N	3
+
+alecithal\A	4
+
+Aleck\N	2
+
+alecost\N	3
+
+Alecto\N	3
+
+alectryomancy\N	4
+
+Alec\N	2
+
+alec\N	2
+
+Aleda\N	3
+
+Aledo\N	3
+
+Aleece\N	2
+
+Aleedis\N	3
+
+Aleen\N	2
+
+Aleetha\N	3
+
+alee\v	2
+
+alegar\N	3
+
+Alegrete\N	3
+
+Alegre\N	2
+
+alehouses\p	4
+
+alehouse\N	3
+
+aleichem	3
+
+Aleichem\N	3
+
+Aleixandre\N	3
+
+Alejandra\N	4
+
+Alejandrina\N	5
+
+Alejandro\N	4
+
+Alejo\N	3
+
+Alekhine\N	3
+
+Aleksandra	3
+
+Aleksandropol\N	5
+
+Aleksandrovsk\N	4
+
+Aleksandr\N	3
+
+Alek\N	2
+
+Alemannic\NA	4
+
+Alemanni\N	4
+
+Alembert\N	3
+
+alembicated\A	5
+
+alembic\N	3
+
+Alemán\N	2
+
+Alem\N	2
+
+Alena\N	3
+
+Alencon	3
+
+Alencon\N	3
+
+Alene\N	2
+
+Alenson\N	3
+
+Alençon	3
+
+Alençon\N	3
+
+aleph-null\N	3
+
+aleph\N	2
+
+Aleppo	2
+
+Aleppo	2
+
+Aleppo\N	3
+
+Aleras\N	3
+
+alerce\N	2
+
+alerion\N	3
+
+Aleris\N	3
+
+Aleron\N	3
+
+alertly\v	2
+
+alertness\N	3
+
+alert\ANt	3
+
+Alesandrini\N	5
+
+Alesia\N	3
+
+Alessandra\N	4
+
+Alessandria\N	4
+
+Alessandri\N	4
+
+Alessandro\N	4
+
+Aleta\N	3
+
+Aletes\N	3
+
+Aletha\N	3
+
+Alethea\N	3
+
+Alethia\N	3
+
+alethic\A	3
+
+alethiological\A	6
+
+alethiologic\A	5
+
+alethiologist\N	5
+
+alethiology\N	4
+
+Aletta\N	3
+
+alette\N	2
+
+aleuromancy\N	4
+
+aleurone\N	3
+
+aleuronic\A	4
+
+Aleus\N	2
+
+Aleutian	3
+
+Aleutian	3
+
+Aleutian	3
+
+Aleutian\AN	4
+
+Aleut\N	2
+
+alevin\N	3
+
+alewife\N	3
+
+alewives\p	4
+
+Alexander	4
+
+Alexander	4
+
+Alexander	4
+
+Alexander	4
+
+Alexander	4
+
+Alexander	4
+
+Alexander	4
+
+Alexander	4
+
+Alexander	4
+
+Alexander	4
+
+Alexander	4
+
+Alexander	4
+
+Alexander	4
+
+Alexander	4
+
+Alexander's	4
+
+Alexanderson\N	5
+
+alexanders\N	4
+
+alexander\N	4
+
+Alexander\N	4
+
+Alexandra	3
+
+Alexandra\N	4
+
+Alexandretta\N	5
+
+Alexandre\N	3
+
+Alexandria	3
+
+Alexandrian\AN	5
+
+Alexandria\N	4
+
+Alexandrina\N	5
+
+Alexandrine	4
+
+Alexandrine\NA	4
+
+Alexandrinus\N	5
+
+alexandrite\N	4
+
+Alexandropolis\N	6
+
+Alexandros\N	4
+
+Alexandroupolis\N	6
+
+Alexandro\N	4
+
+Alexandr\N	3
+
+Alexa\N	3
+
+Alexian\N	3
+
+Alexiares\N	4
+
+alexia\N	3
+
+Alexia\N	3
+
+Alexicacus\N	5
+
+Alexina\N	4
+
+Alexine\N	3
+
+alexinic\A	4
+
+alexin\N	3
+
+Alexio\N	3
+
+alexipharmic\AN	6
+
+Alexis	3
+
+Alexis	3
+
+Alexis\N	3
+
+Alexius	3
+
+Alexius	3
+
+Alexi\N	3
+
+Alex\N	2
+
+aleyard\N	3
+
+Aleydis\N	3
+
+Aley\N	2
+
+ale\N	1
+
+Alfadir\N	3
+
+alfalfa	2
+
+alfalfa	2
+
+alfalfa\N	3
+
+alfa\N	2
+
+Alfeus\N	2
+
+Alfheim\N	2
+
+Alfieri\N	3
+
+Alfie\N	1
+
+alfilaria\N	4
+
+Alfi\N	2
+
+Alfonso	2
+
+Alfonso	2
+
+Alfonso	2
+
+Alfonson\N	3
+
+Alfonso\N	3
+
+Alfons\N	2
+
+Alfonzo\N	3
+
+Alford\N	2
+
+alforjas\p	3
+
+alforja\N	3
+
+Alfraganus\N	4
+
+Alfred	2
+
+Alfreda\N	3
+
+Alfredo\N	3
+
+Alfred\N	2
+
+alfresco\Av	3
+
+Alfric\N	2
+
+Alfur\N	2
+
+Alfy\N	1
+
+Alf\N	1
+
+algae\p	2
+
+Algalene\N	3
+
+algal\A	2
+
+Algaroth	3
+
+algarroba\N	4
+
+Algar\N	2
+
+alga\N	2
+
+algebra	2
+
+algebraic	3
+
+algebraic	3
+
+algebraic	3
+
+algebraic	3
+
+algebraic	3
+
+algebraically	4
+
+algebraically\v	4
+
+algebraic\A	3
+
+algebraist\N	3
+
+algebra\N	3
+
+Algeciras\N	4
+
+Algerian	3
+
+Algerian\AN	4
+
+Algeria\N	3
+
+algerienne\N	3
+
+Algerine\AN	3
+
+algerine\N	3
+
+algerita\N	4
+
+Algernon\N	3
+
+Alger\N	2
+
+algesia\N	3
+
+algesic\A	3
+
+algesimeter\N	5
+
+algesireceptor\N	6
+
+algetic\A	3
+
+Alghero\N	3
+
+algicide\N	3
+
+algidity\N	3
+
+algidness\N	3
+
+algid\A	2
+
+Algiers\N	2
+
+Algie\N	1
+
+algin	2
+
+alginate\N	3
+
+alginic	3
+
+algin\N	2
+
+algoid\A	2
+
+algolagnia\N	4
+
+algolagnic\A	4
+
+algolagnist\N	4
+
+algological\A	5
+
+algologist\N	4
+
+algology\N	3
+
+ALGOL\N	2
+
+Algol\N	2
+
+Algoman\A	3
+
+Algoma\N	3
+
+algometer\N	4
+
+algometrically\v	5
+
+algometrical\A	5
+
+algometric\A	4
+
+algometry\N	3
+
+Algonac\N	3
+
+Algona\N	3
+
+Algonkian\NA	3
+
+Algonkin\NA	3
+
+Algonquian\NA	3
+
+Algonquin	3
+
+Algonquin\NA	3
+
+algophagous\A	4
+
+algophobia\N	4
+
+algorismic\A	4
+
+algorism\N	3
+
+algorithmic	4
+
+algorithmic\A	4
+
+algorithm\N	3
+
+algor\N	2
+
+algraphic\A	3
+
+algraphy\N	2
+
+Algren\N	2
+
+Alguire\N	2
+
+Algy\N	1
+
+alg\N	1
+
+Alg\N	1
+
+Alhambra\N	3
+
+Alhambresque\A	2
+
+Alhazen\N	3
+
+Ali	1
+
+Ali	1
+
+Aliacensis\N	4
+
+alias	2
+
+aliases\p	3
+
+alias\vN	2
+
+Alia\N	2
+
+Aliber\N	3
+
+alibility\N	4
+
+alibis\p	3
+
+alibi\Nt	3
+
+alible\A	2
+
+Alicante\N	3
+
+Alica\N	3
+
+Alice	2
+
+Alice	2
+
+Alice's	2
+
+Alice-in-Wonderland\A	6
+
+Alicea\N	3
+
+Aliceville\N	4
+
+Alice\N	2
+
+Alicia\N	3
+
+Alick\N	2
+
+alicyclic\A	3
+
+Alic\N	2
+
+alidade\N	3
+
+Alida\N	3
+
+Alidia\N	3
+
+Alidis\N	3
+
+Alidus\N	3
+
+alienability\N	5
+
+alienable\A	3
+
+alienage\N	3
+
+alienated\t	4
+
+alienate\t	4
+
+alienating\t	4
+
+alienation	4
+
+alienation\N	4
+
+alienator\N	4
+
+alienee\N	2
+
+alieni	2
+
+alieni	2
+
+alienism\N	3
+
+alienist\N	3
+
+alienor\N	3
+
+alien\NAt	3
+
+Alie\N	1
+
+aliform\A	3
+
+alif\N	2
+
+Aligarh\N	3
+
+alighting	3
+
+alight\iv	3
+
+aligner\N	3
+
+aligning	3
+
+alignment	3
+
+alignment\N	3
+
+align\Vt	2
+
+Alika\N	3
+
+Alikee\N	2
+
+alikeness\N	4
+
+alike\v	3
+
+alimentally\v	4
+
+alimental\A	4
+
+alimentary	4
+
+alimentary\A	4
+
+alimentation\N	5
+
+alimentatively\v	6
+
+alimentativeness\N	7
+
+alimentative\A	4
+
+aliment\NVt	3
+
+alimonied\A	4
+
+alimony\N	3
+
+Alina\N	3
+
+alined\ti	3
+
+alinement\N	4
+
+aliner\N	3
+
+Aline\N	2
+
+aline\V	2
+
+alining\ti	3
+
+Alinna\N	3
+
+alinota\p	4
+
+alinotum\N	4
+
+Alioth\N	2
+
+aliped\AN	4
+
+aliphatic\A	4
+
+alipterion\N	4
+
+aliptteria\p	4
+
+aliquant\A	3
+
+Aliquippa\N	4
+
+aliquot\AN	4
+
+alis	2
+
+Alisander\N	4
+
+Alisan\N	3
+
+Alisa\N	3
+
+Alisen\N	3
+
+Alisha\N	3
+
+Alisia\N	3
+
+Alison\N	3
+
+Alissa\N	3
+
+Alistair\N	3
+
+Alister\N	3
+
+alist\A	2
+
+Alis\N	2
+
+Alita\N	3
+
+Alitha\N	3
+
+Alithea\N	3
+
+Alithia\N	3
+
+Alitta\N	3
+
+aliturgical\A	5
+
+alit\V	2
+
+aliunde\vA	3
+
+Alius\N	2
+
+aliveness\N	4
+
+alive\A	1
+
+Alix\N	2
+
+aliyah\N	3
+
+alizarin	4
+
+alizarin\N	4
+
+Aliza\N	3
+
+Ali\N	2
+
+alkahestical\A	5
+
+alkahestic\A	4
+
+alkahest\N	3
+
+alkalemia\N	4
+
+alkalescence\N	4
+
+alkalescency\N	4
+
+alkalescent\A	4
+
+alkali	2
+
+alkali	2
+
+alkali	2
+
+alkali	2
+
+alkali	2
+
+alkali	2
+
+alkali	2
+
+alkali	2
+
+alkalic\A	3
+
+alkalies\p	3
+
+alkalifiable\A	4
+
+alkalified\V	4
+
+alkalifying\V	4
+
+alkalify\V	3
+
+alkalimeter\N	5
+
+alkalimetrically\v	6
+
+alkalimetrical\A	6
+
+alkalimetric\A	5
+
+alkalimetry\N	4
+
+alkaline	3
+
+alkaline-earth	4
+
+alkaline\A	2
+
+alkalinisation\N	6
+
+alkalinised\t	5
+
+alkalinise\t	5
+
+alkalinising\t	5
+
+alkalinity\N	4
+
+alkalinization\N	6
+
+alkalinized\t	5
+
+alkalinize\t	5
+
+alkalinizing\t	5
+
+alkalisable\A	4
+
+alkalisation\N	5
+
+alkalised\t	4
+
+alkaliser\N	4
+
+alkalise\t	4
+
+alkalising\t	4
+
+alkalis\p	3
+
+alkalizable\A	4
+
+alkalization\N	5
+
+alkalized\t	4
+
+alkalizer\N	4
+
+alkalize\t	4
+
+alkalizing\t	4
+
+alkali\N	3
+
+alkaloidal\A	4
+
+alkaloid\N	3
+
+alkalosis\N	4
+
+alkane	2
+
+alkanethiol\N	4
+
+alkanet\N	3
+
+alkane\N	2
+
+alkannin\N	3
+
+alkaptonuria\N	5
+
+alkapton\N	3
+
+alkargen\N	3
+
+alkekengi\N	4
+
+alkene	2
+
+alkene\N	2
+
+alkermes\N	3
+
+alkine\N	2
+
+Alkmaar\N	2
+
+Alkoran\N	3
+
+alkoxide\N	3
+
+alkyd	1
+
+alkyl	1
+
+alkyl	1
+
+alkylation\N	3
+
+alkylic\A	2
+
+alkyl\N	1
+
+alkyne	1
+
+alkyne\N	1
+
+alky\N	1
+
+alk\N	1
+
+All	1
+
+all	1
+
+All	1
+
+All	1
+
+all	1
+
+all	1
+
+all	1
+
+all	1
+
+all	1
+
+all	1
+
+All	1
+
+All	1
+
+all'	1
+
+all'ottava\Av	4
+
+all-American\A	5
+
+all-around\A	3
+
+all-day\A	2
+
+all-embracing\A	4
+
+all-expense\A	2
+
+all-fired\Av	4
+
+all-flying	2
+
+all-important\A	4
+
+all-inclusive\A	3
+
+all-in\A	2
+
+all-night\A	2
+
+all-or-none	3
+
+all-out\Av	3
+
+all-over\A	3
+
+all-pass\A	2
+
+all-powerful\A	4
+
+all-purpose\A	2
+
+all-rounder\N	3
+
+all-round\A	2
+
+all-sorts\p	2
+
+all-star\A	2
+
+all-time\A	1
+
+all-weather\A	3
+
+all-year\A	2
+
+alla	1
+
+alla	1
+
+alla	1
+
+alla	1
+
+allachesthesia\N	5
+
+Allahabad\N	4
+
+Allah\N	2
+
+Allain\N	2
+
+Allan-a-Dale\N	4
+
+Allana\N	3
+
+allanite\N	3
+
+allanitic\A	4
+
+Allanson\N	3
+
+allantoic\A	3
+
+allantoid\AN	4
+
+allantois\N	3
+
+Allan\N	2
+
+Allard\N	2
+
+Allare\N	2
+
+allargando\Av	4
+
+allative\AN	3
+
+allayed\t	3
+
+allayer\N	3
+
+allaying\t	3
+
+Allayne\N	2
+
+allay\Vt	2
+
+Alla\N	2
+
+Allbee\N	1
+
+Allcot\N	2
+
+allecret\N	3
+
+Alleen\N	2
+
+Allegan\N	3
+
+allegation\N	4
+
+allegeable\A	3
+
+allegedly\v	3
+
+alleged\A	3
+
+alleger\N	3
+
+allege\t	3
+
+Alleghanian\A	4
+
+Alleghenian\A	4
+
+Allegheny	3
+
+Allegheny	3
+
+Allegheny	3
+
+Allegheny	3
+
+Allegheny\N	3
+
+allegiance\N	3
+
+allegiant\A	3
+
+alleging\t	3
+
+allegorically\v	5
+
+allegoricalness\N	6
+
+allegorical\A	5
+
+allegories\p	4
+
+allegorisation\N	6
+
+allegorised\ti	5
+
+allegoriser\N	5
+
+allegorise\ti	5
+
+allegorising\ti	5
+
+allegoristic\A	5
+
+allegorist\N	4
+
+allegorization\N	6
+
+allegorized\V	5
+
+allegorizer\N	5
+
+allegorize\Vt	4
+
+allegorizing\V	5
+
+allegory\N	3
+
+Allegra\N	3
+
+allegrettos\p	4
+
+allegretto\AvN	4
+
+allegros\p	3
+
+allegro\AN	3
+
+allele\N	2
+
+allelic\A	3
+
+allelism\N	3
+
+allelomorphic\A	5
+
+allelomorphism\N	5
+
+allelomorph\N	4
+
+alleluiatic\A	4
+
+alleluia\!N	3
+
+allemande	3
+
+allemandes\p	4
+
+allemande\N	3
+
+allemontite\N	4
+
+Allen	2
+
+Allen	2
+
+Allen	2
+
+Allenby\N	2
+
+Allende\N	2
+
+Allene\N	2
+
+Allentown\N	3
+
+Allen\N	2
+
+Alleppey\N	3
+
+Alleras\N	3
+
+allergenicity\N	5
+
+allergenic\A	4
+
+allergen\N	3
+
+allergic\A	3
+
+allergies\p	3
+
+allergist\N	3
+
+allergy\N	2
+
+Allerie\N	2
+
+Alleris\N	3
+
+Allerus\N	3
+
+allethrin\N	3
+
+alleviant\N	3
+
+alleviated\t	4
+
+alleviate\t	4
+
+alleviating\t	4
+
+alleviation\N	4
+
+alleviative\AN	4
+
+alleviatory\A	4
+
+alleviator\N	4
+
+alley	2
+
+Alleyne\N	2
+
+Alleyn\N	2
+
+alleys\p	2
+
+alleyway\N	3
+
+alley\N	2
+
+Alley\N	2
+
+Allhallowmas\N	4
+
+Allhallows	3
+
+Allhallows\N	3
+
+Allhallowtide\N	4
+
+allheal\N	2
+
+alliable\A	2
+
+alliaceous\A	3
+
+alliance\N	2
+
+Alliance\N	2
+
+Alliber\N	3
+
+Allied\A	2
+
+allied\A	2
+
+Allier\N	2
+
+allies\N	2
+
+Allies\p	2
+
+Allie\N	1
+
+alligated\t	4
+
+alligate\t	4
+
+alligating\t	4
+
+alligator	4
+
+alligator	4
+
+alligator	4
+
+alligator	4
+
+alligator	4
+
+alligator	4
+
+alligator	4
+
+alligator	4
+
+alligatorfish\N	5
+
+alligator\N	4
+
+Allina\N	3
+
+Allisan\N	3
+
+allision\N	3
+
+Allison\N	3
+
+Allissa\N	3
+
+Allista\N	3
+
+Allister\N	3
+
+Allistir\N	3
+
+Allis\N	2
+
+alliterated\V	5
+
+alliterate\Vi	4
+
+alliterating\V	5
+
+alliteration\N	5
+
+alliteratively\v	6
+
+alliterativeness\N	7
+
+alliterative\A	4
+
+alliterator\N	5
+
+allium\N	2
+
+Allix\N	2
+
+Alli\N	2
+
+Allmon\N	2
+
+allmouths\p	2
+
+allmouth\N	2
+
+allness\N	2
+
+Alloa\N	2
+
+allobaric\A	4
+
+allocable\A	3
+
+allocated\t	4
+
+allocate\t	4
+
+allocating\t	4
+
+allocation\N	4
+
+allochromatic\N	5
+
+allochthonous\A	4
+
+allochthon\N	3
+
+allocution\N	4
+
+allodiality\N	4
+
+allodially\v	3
+
+allodial\A	3
+
+allodia\p	3
+
+allodium\N	3
+
+allogamous\A	4
+
+allogamy\N	3
+
+allogenically\v	5
+
+allogenic\A	4
+
+allograph\N	3
+
+allomerism\N	4
+
+allomerization\N	6
+
+allomerized\i	5
+
+allomerize\i	4
+
+allomerizing\i	5
+
+allomerous\A	4
+
+allometric\A	4
+
+allometry\N	3
+
+allomorphic\A	4
+
+allomorphism\N	4
+
+allomorph\N	3
+
+allonges\p	3
+
+allonge\N	2
+
+allongé\A	2
+
+allonymously\v	3
+
+allonymous\A	3
+
+allonym\N	2
+
+allopathically\v	5
+
+allopathic\A	4
+
+allopathy\N	3
+
+allopath\N	3
+
+allopatrically\v	5
+
+allopatric\A	4
+
+allopelagic\A	5
+
+allophane\N	3
+
+allophone\N	3
+
+allophonically\v	5
+
+allophonic\A	4
+
+allophylian\AN	4
+
+alloplasmatic\A	5
+
+alloplasmic\A	4
+
+alloplasm\N	3
+
+allopolyploidy\N	4
+
+allopolyploid\AN	5
+
+allopurinol\N	5
+
+allosaur\N	3
+
+allotment\N	3
+
+allotriomorphic\A	5
+
+allotrope\N	3
+
+allotropically\v	5
+
+allotropicity\N	5
+
+allotropic\A	4
+
+allotropy\N	3
+
+allottable\A	3
+
+allotted\t	3
+
+allottee\N	2
+
+allotter\N	3
+
+allotting\t	3
+
+allotype\N	2
+
+allotypic\A	3
+
+allot\V	2
+
+allover\AN	4
+
+allowableness\N	5
+
+allowable\A	3
+
+allowably\v	3
+
+allowance	3
+
+allowanced\V	4
+
+allowance\Nt	3
+
+allowancing\V	4
+
+Alloway\N	3
+
+allowed	3
+
+allowedly\v	3
+
+allowed\A	3
+
+allow\ti	2
+
+alloy	2
+
+alloyed	3
+
+alloy\NVt	2
+
+Allred\N	2
+
+Allrud\N	2
+
+allseed\N	2
+
+Allsopp\N	2
+
+allspice\N	2
+
+Allston\N	2
+
+Allsun\N	2
+
+alluded\i	3
+
+allude\i	2
+
+alluding\i	3
+
+allured\V	3
+
+allurement\N	4
+
+allurer\N	3
+
+allure\tN	3
+
+alluringly\v	3
+
+alluringness\N	4
+
+alluring\A	3
+
+allusion\N	3
+
+allusively\v	4
+
+allusiveness\N	5
+
+allusive\A	2
+
+alluvial	3
+
+alluvial\AN	4
+
+alluvion\N	3
+
+alluviums\p	3
+
+alluvium\N	3
+
+Allveta\N	3
+
+allways	2
+
+Allwein\N	2
+
+Allyce\N	1
+
+allying\V	2
+
+allyl	1
+
+allyl	1
+
+allyl	1
+
+allyl	1
+
+allyl	1
+
+allyl	1
+
+allyl	1
+
+allyl	1
+
+allylic\A	2
+
+allylthiourea\N	3
+
+allyl\N	1
+
+Allyne\N	1
+
+Allyn\N	1
+
+allyou\r	2
+
+Allyson\N	2
+
+Allys\N	1
+
+Ally\N	1
+
+ally\VtN	1
+
+all\DvN	1
+
+alma	1
+
+Alma-Ata\N	4
+
+Alma-Tadema\N	5
+
+Almada\N	3
+
+Almadén\N	2
+
+Almad\N	2
+
+Almagest\N	3
+
+almah\N	2
+
+Almallah\N	3
+
+Almanach	3
+
+almanac\N	3
+
+almandine\N	3
+
+almandite\N	3
+
+Almanon\N	3
+
+Alma\N	2
+
+Almeda\N	3
+
+Almeeta\N	3
+
+Almeida\N	3
+
+Almelo\N	3
+
+almemar\N	3
+
+Almena\N	3
+
+Almera\N	3
+
+Almerian\AN	4
+
+Almeria\N	3
+
+Almeric\N	3
+
+almeries\p	3
+
+almery\N	2
+
+Almería\N	3
+
+Almeta\N	3
+
+almightily\v	3
+
+almightiness\N	4
+
+almighty	2
+
+almighty\AvN	3
+
+Almighty\N	2
+
+almique\N	2
+
+almirah\N	3
+
+Almira\N	3
+
+Almire\N	2
+
+Almita\N	3
+
+Almohade\N	3
+
+Almohad\N	3
+
+almond	2
+
+almond	2
+
+almond	2
+
+almond	2
+
+almond-eyed\A	4
+
+almond-shaped\A	4
+
+almondlike\A	2
+
+almondy\A	2
+
+Almond\N	2
+
+almond\N	2
+
+almoner's	3
+
+almoner\N	3
+
+almonries\p	3
+
+almonry\N	2
+
+almon\N	2
+
+Almoravide\N	4
+
+Almoravid\N	4
+
+almost	2
+
+almost	2
+
+almost\v	2
+
+almous\N	2
+
+almsgiver\N	3
+
+almsgiving\N	3
+
+almshouses\p	3
+
+almshouse\N	2
+
+almsman\N	2
+
+almsmen\p	2
+
+almswoman\N	3
+
+almswomen\p	3
+
+alms\p	1
+
+almucantar\N	4
+
+almuce\N	2
+
+almug\N	2
+
+Almund\N	2
+
+Alnico\N	3
+
+aloddia\p	3
+
+Alodee\N	2
+
+alodiality\N	4
+
+alodially\v	3
+
+alodial\A	3
+
+Alodie\N	2
+
+alodium\N	3
+
+Alodi\N	3
+
+aloeswood\N	3
+
+aloes\N	2
+
+aloetic\A	3
+
+Aloeus\N	2
+
+aloe\N	1
+
+aloft\v	2
+
+alogia\N	3
+
+Alogi\N	3
+
+Aloha\N	3
+
+aloha\N!	3
+
+Aloidae\p	3
+
+Aloin\N	2
+
+aloin\N	2
+
+Aloise\N	2
+
+Aloisia\N	3
+
+Aloisius\N	3
+
+Aloke\N	2
+
+aloneness\N	4
+
+alone\v	3
+
+along	2
+
+alongships\Av	4
+
+alongshore\v	4
+
+alongside\Pv	3
+
+along\Pv	2
+
+Alonso\N	3
+
+Alonzo\N	3
+
+Alon\N	2
+
+aloofly\v	2
+
+aloofness\N	3
+
+aloof\A	2
+
+alopecia	3
+
+alopecia\N	4
+
+alopecic\A	4
+
+Alopecus\N	4
+
+Alope\N	2
+
+Alorton\N	3
+
+Alost\N	2
+
+aloud\v	2
+
+alouettes\p	3
+
+alouette\N	2
+
+alow\v	2
+
+Aloysia\N	3
+
+Aloysius\N	3
+
+Alo\N	2
+
+alpaca\N	3
+
+Alpena\N	3
+
+alpenglow\N	3
+
+alpenhorn\N	3
+
+alpenstock\N	3
+
+Alpers\N	2
+
+Alpert\N	2
+
+Alper\N	2
+
+Alpes	2
+
+Alpes-Maritimes\N	6
+
+alpestrine\A	2
+
+Alpetragius\N	4
+
+alpha	1
+
+alpha	1
+
+Alpha	1
+
+alpha	1
+
+alpha	1
+
+alpha	1
+
+alpha	1
+
+alpha	1
+
+alpha	1
+
+alpha	1
+
+alpha-beta	3
+
+alpha-hypophamine\N	5
+
+alpha-naphthol\N	4
+
+alpha-naphthyl	3
+
+alpha-naphthylthiourea\N	5
+
+alpha-particle	4
+
+alpha-stannic	4
+
+alphabet	3
+
+alphabet	3
+
+alphabetically\v	5
+
+alphabetical\A	5
+
+alphabetic\A	4
+
+alphabetisation\N	6
+
+alphabetised\t	5
+
+alphabetiser\N	5
+
+alphabetise\t	5
+
+alphabetising\t	5
+
+alphabetization\N	6
+
+alphabetized\t	5
+
+alphabetizer\N	5
+
+alphabetize\t	5
+
+alphabetizing\t	5
+
+alphabet\N	3
+
+Alphaea\N	2
+
+alphamerically\v	5
+
+alphameric\A	4
+
+alphanumerically\v	6
+
+alphanumeric\A	5
+
+alpha\N	2
+
+Alpha\N	2
+
+Alphesiboea\N	4
+
+Alpheus\N	2
+
+alphitomancy\N	4
+
+Alphonsa\N	3
+
+Alphonse\N	2
+
+Alphonsine\N	3
+
+Alphonso\N	3
+
+Alphonsus\N	3
+
+alphorn\N	2
+
+alphosis\N	3
+
+alpine	2
+
+Alpine	2
+
+Alpine	2
+
+alpine	2
+
+alpine	2
+
+Alpine	2
+
+Alpine	2
+
+Alpine	2
+
+alpine	2
+
+Alpine	2
+
+Alpine	2
+
+alpinely\v	3
+
+alpine\A	1
+
+Alpine\A	1
+
+alpinism\N	3
+
+Alpinist\N	3
+
+alpinist\N	3
+
+Alps\p	1
+
+alp\N	1
+
+ALP\N	1
+
+already\v	2
+
+Alrich\N	2
+
+Alrick\N	2
+
+Alric\N	2
+
+alright\v	2
+
+Alroi\N	2
+
+Alroy\N	2
+
+AlrZc\N	1
+
+Alsace-Lorrainer\N	5
+
+Alsace-Lorraine\N	4
+
+Alsace\N	2
+
+Alsatian\NA	3
+
+Alsatia\N	3
+
+alsike	2
+
+alsike\N	2
+
+alsinaceous\A	4
+
+Alsip\N	2
+
+Also	1
+
+also-ran\N	3
+
+Alson\N	2
+
+Also\N	2
+
+also\v	2
+
+Alston\N	2
+
+Alsworth\N	2
+
+als\N	1
+
+Altadena\N	4
+
+Altaf\N	2
+
+Altai	1
+
+Altaic\NA	2
+
+Altair\N	2
+
+Altai\N	2
+
+Altamira\N	4
+
+altar	2
+
+altar	2
+
+altar	2
+
+altar	2
+
+altar	2
+
+altar	2
+
+altar	2
+
+altar	2
+
+altar	2
+
+altarage\N	3
+
+altarpiece\N	3
+
+altar\N	2
+
+Altavista\N	4
+
+Altay	2
+
+Altay\N	2
+
+altazimuth	4
+
+altazimuth\N	4
+
+Alta\N	2
+
+Altdorfer\N	3
+
+Altdorf\N	2
+
+Alten\N	2
+
+alter	2
+
+alter	2
+
+alterability\N	5
+
+alterableness\N	5
+
+alterable\A	3
+
+alterably\v	3
+
+alterant\AN	4
+
+alteration\N	4
+
+alterative\AN	4
+
+altercated\i	4
+
+altercate\i	3
+
+altercating\i	4
+
+altercation\N	4
+
+altered	3
+
+alternant\A	3
+
+alternate	3
+
+alternate	3
+
+alternate	3
+
+alternated\V	4
+
+alternately\v	4
+
+alternateness\N	5
+
+alternate\VitAN	5
+
+alternating	4
+
+alternating	4
+
+alternating	4
+
+alternating	4
+
+alternating	4
+
+alternating	4
+
+alternating-gradient	6
+
+alternatingly\v	4
+
+alternating\V	4
+
+alternation	4
+
+alternation\N	4
+
+alternatively\v	5
+
+alternativeness\N	6
+
+alternative\NA	4
+
+alternativity\N	5
+
+alternator\N	4
+
+altern\A	2
+
+alter\Vt	2
+
+Altes\N	2
+
+Altgeld\N	2
+
+althaea\N	2
+
+Althaemenes\N	4
+
+Althea\N	2
+
+althea\N	2
+
+Althee\N	1
+
+Altheta\N	3
+
+Althing\N	2
+
+althorn\N	2
+
+although\C	2
+
+altigraph\N	3
+
+altimeter\N	4
+
+altimetrical\A	5
+
+altimetry\N	3
+
+altimettrically\v	5
+
+Altiplano\N	4
+
+altissimo\AN	4
+
+Altis\N	2
+
+altitude	3
+
+altitude\N	3
+
+altitudinal\A	5
+
+Altman\N	2
+
+alto	1
+
+alto	1
+
+Alto	1
+
+alto-relievos\p	5
+
+alto-relievo\N	5
+
+alto-rilievo\N	5
+
+altocumulus\N	5
+
+altogether\vN	4
+
+Altona\N	3
+
+Alton\N	2
+
+Altoona\N	3
+
+altostratus\N	4
+
+altos\p	2
+
+alto\NA	2
+
+altricial\AN	4
+
+Altrincham\N	3
+
+altruism\N	2
+
+altruistically\v	4
+
+altruistic\A	3
+
+altruist\N	2
+
+Alturas\N	3
+
+Altus\N	2
+
+alt\AN	2
+
+aludel\N	3
+
+Aluino\N	3
+
+Aluin\N	2
+
+alulae\p	3
+
+alular\A	3
+
+alula\N	3
+
+alumina	3
+
+alumina	3
+
+aluminate\N	4
+
+alumina\N	4
+
+aluminic\A	4
+
+aluminiferous\A	6
+
+aluminised\t	5
+
+aluminise\t	5
+
+aluminising\t	5
+
+aluminite\N	4
+
+aluminium	4
+
+aluminium	4
+
+aluminium	4
+
+aluminium\N	4
+
+aluminized\t	5
+
+aluminize\t	5
+
+aluminizing\t	5
+
+aluminographic\A	6
+
+aluminography\N	5
+
+aluminosilicate\N	7
+
+aluminosity\N	5
+
+aluminothermy\N	5
+
+aluminous\A	4
+
+aluminum	4
+
+aluminum	4
+
+aluminum	4
+
+aluminum	4
+
+aluminum	4
+
+aluminum	4
+
+aluminum	4
+
+aluminum	4
+
+aluminum	4
+
+aluminum	4
+
+aluminum	4
+
+aluminum	4
+
+aluminum	4
+
+aluminum	4
+
+aluminum	4
+
+aluminum	4
+
+aluminum\NA	4
+
+alumnae\p	3
+
+alumna\N	3
+
+alumni\p	3
+
+alumnus\N	3
+
+alumroot\N	3
+
+alum\N	2
+
+Alundum\N	3
+
+alunite\N	3
+
+alunogen\N	4
+
+Alurd\N	2
+
+alure\N	2
+
+Alurta\N	3
+
+alutaceous\A	4
+
+Alvah\N	2
+
+Alvan\N	2
+
+Alvarado\N	4
+
+Alvarez\N	3
+
+Alvaro\N	3
+
+Alvar\N	2
+
+Alva\N	2
+
+alveated\A	3
+
+alveolae\p	3
+
+alveolar	3
+
+alveolar	3
+
+alveolarly\v	3
+
+alveolar\AN	4
+
+alveolate\A	2
+
+alveolation\N	4
+
+alveola\N	3
+
+alveoli\p	3
+
+alveolus\N	3
+
+Alvera\N	3
+
+Alverson\N	3
+
+Alverta\N	3
+
+Alver\N	2
+
+Alves\N	2
+
+Alveta\N	3
+
+Alviani\N	3
+
+alvia\p	2
+
+Alvie\N	1
+
+Alvina\N	3
+
+alvine\A	1
+
+Alvinia\N	3
+
+Alvino\N	3
+
+Alvin\N	2
+
+Alvira\N	3
+
+Alvis\N	2
+
+Alvita\N	3
+
+Alvord\N	2
+
+Alvy\N	1
+
+always\v	2
+
+alway\v	2
+
+Alwin\N	2
+
+alwite\A	1
+
+Alwitt\N	2
+
+Alwyn\N	1
+
+Alyattes\N	3
+
+Alyce\N	1
+
+Alyda\N	2
+
+Alyose\N	2
+
+Alysa\N	2
+
+Alyse\N	1
+
+Alysia\N	2
+
+Alyson\N	2
+
+Alysoun\N	2
+
+Alyssa\N	2
+
+alyssum\N	2
+
+Alyss\N	1
+
+Alys\N	1
+
+Alyworth\N	2
+
+Alzheimer's	3
+
+Al\N	1
+
+AL\N	1
+
+al\N	1
+
+Amabelle\N	3
+
+Amabel\N	3
+
+Amabil\N	3
+
+amadan\N	3
+
+Amadas\N	3
+
+amadavat\N	4
+
+Amadeo\N	3
+
+Amadeus\N	3
+
+Amadis	3
+
+Amadis\N	3
+
+Amador\N	3
+
+amadou\N	3
+
+Amado\N	3
+
+Amadus\N	3
+
+Amagasaki\N	5
+
+amah\N	2
+
+amain\v	2
+
+amalaka\N	4
+
+Amalbena\N	4
+
+Amalbergas\N	4
+
+Amalberga\N	4
+
+Amalburga\N	4
+
+Amalea\N	3
+
+Amalee\N	2
+
+Amalekite\N	4
+
+Amalek\N	3
+
+Amaleta\N	4
+
+amalgam	3
+
+amalgamable\A	4
+
+amalgamated\V	5
+
+amalgamate\V	4
+
+amalgamating\V	5
+
+amalgamation\N	5
+
+amalgamative\A	4
+
+amalgamator\N	5
+
+amalgam\N	3
+
+Amalia\N	3
+
+Amalie\N	2
+
+Amalita\N	4
+
+Amalthaea\N	3
+
+Amalthea\N	3
+
+Amal\N	2
+
+amal\N	2
+
+Amana	2
+
+Amanda\N	3
+
+Amandie\N	2
+
+amandine\A	2
+
+Amandi\N	3
+
+Amando\N	3
+
+Amandy\N	2
+
+Amand\N	2
+
+Amanist\N	3
+
+amanita\N	4
+
+Amann\N	2
+
+amanuenses\p	4
+
+amanuensis\N	4
+
+Aman\N	2
+
+Amapá\N	2
+
+Amap\N	2
+
+Amaral\N	3
+
+amaranthaceous\A	5
+
+amaranthine\A	3
+
+amaranth\N	3
+
+Amaras\N	3
+
+Amara\N	3
+
+amarelle\N	3
+
+Amarette\N	3
+
+Amargo\N	3
+
+Amarillas\N	4
+
+Amarillis\N	4
+
+Amarillo\N	4
+
+Amaris\N	3
+
+Amari\N	3
+
+Amarna\A	2
+
+amaryllidaceous\A	5
+
+Amaryllis\N	3
+
+amaryllis\N	3
+
+Amaryl\N	2
+
+Amarynceus\N	3
+
+Amary\N	2
+
+Amar\N	2
+
+Amasa\N	3
+
+Amasias\N	3
+
+amassable\A	3
+
+amasser\N	3
+
+amassment\N	3
+
+amass\t	2
+
+Amata\N	3
+
+amated\t	3
+
+Amaterasu\N	5
+
+amateurishly\v	4
+
+amateurishness\N	5
+
+amateurish\A	4
+
+amateurism\N	4
+
+amateur\NA	3
+
+amate\t	3
+
+Amathiste\N	3
+
+Amathist\N	3
+
+Amathi\N	3
+
+amating\t	3
+
+amatively\v	4
+
+amativeness\N	5
+
+amative\A	2
+
+Amati\N	3
+
+amatol\N	3
+
+amatorially\v	4
+
+amatory\A	3
+
+Amato\N	3
+
+Amatruda\N	4
+
+amatungula\N	5
+
+Amaty\N	2
+
+amaurosis\N	4
+
+amaurotic\A	4
+
+amaut\N	2
+
+Amaya\N	3
+
+amazedly\v	3
+
+amazedness\N	4
+
+amazed\AV	4
+
+amazement\N	4
+
+amaze\tN	3
+
+Amaziah\N	3
+
+amazingly\v	3
+
+amazing\A	3
+
+Amazon	3
+
+amazon	3
+
+Amazonas\N	4
+
+Amazonian\A	4
+
+Amazonis\N	4
+
+amazonite\N	4
+
+Amazonomachia\N	6
+
+amazon\N	3
+
+Amazon\N	3
+
+Ama\N	2
+
+AMA\N	2
+
+ambages\N	3
+
+ambage\N	2
+
+ambagiously\v	3
+
+ambagiousness\N	4
+
+ambagious\A	3
+
+Ambala\N	3
+
+ambarella\N	4
+
+ambary\N	2
+
+ambassador-at-large\N	6
+
+ambassadorially\v	5
+
+ambassadorial\A	5
+
+ambassadors-at-large\p	7
+
+ambassadorship\N	5
+
+ambassador\N	4
+
+ambassadress\N	4
+
+ambatch\N	2
+
+amba\N	2
+
+Ambedkar\N	3
+
+Amber	2
+
+amberfish\N	3
+
+ambergris\N	3
+
+amberina\N	4
+
+amberjack\N	3
+
+Amberley\N	3
+
+amberlike\A	2
+
+Amberly\N	2
+
+amberoid\N	3
+
+amberous\A	3
+
+Ambert\N	2
+
+ambery\A	2
+
+Amber\N	2
+
+amber\N	2
+
+ambiances\p	3
+
+ambiance\N	2
+
+ambidexterity\N	5
+
+ambidexter\AN	5
+
+ambidextral\A	4
+
+ambidextrously\v	4
+
+ambidextrousness\N	5
+
+ambidextrous\A	4
+
+ambiences\p	3
+
+ambience\N	2
+
+ambient\A	2
+
+Ambie\N	1
+
+ambiguities\p	4
+
+ambiguity\N	3
+
+ambiguously\v	3
+
+ambiguousness\N	4
+
+ambiguous\A	3
+
+ambil-anak\A	4
+
+ambilaterality\N	6
+
+ambilaterally\v	5
+
+ambilateral\A	5
+
+ambisexual\AN	5
+
+ambisinister\A	5
+
+ambisyllabic\A	4
+
+ambitendencies\p	5
+
+ambitendency\N	4
+
+ambitionlessly\v	4
+
+ambitionless\A	4
+
+ambition\N	3
+
+ambitiously\v	3
+
+ambitiousness\N	4
+
+ambitious\A	3
+
+ambit\N	2
+
+ambivalence\N	4
+
+ambivalent\A	4
+
+ambiversion\N	4
+
+ambivert\N	3
+
+ambled\V	2
+
+ambler\N	2
+
+Ambler\N	2
+
+amble\iN	2
+
+amblingly\v	2
+
+ambling\V	2
+
+amblygonite\N	3
+
+amblyopia\N	3
+
+amblyopic\A	3
+
+amblyoscope\N	3
+
+amblypod\N	2
+
+amboceptor\N	4
+
+Amboina	2
+
+Amboina\N	3
+
+Amboinese\AN	3
+
+Amboise\N	2
+
+ambones\p	3
+
+ambon\N	2
+
+ambos\p	2
+
+amboyna\N	3
+
+ambo\N	2
+
+ambrette	2
+
+ambrette-seed	3
+
+ambrettolide\N	4
+
+ambries\p	2
+
+Ambrogino\N	4
+
+Ambrogio\N	3
+
+ambroid\N	2
+
+Ambrosane\N	3
+
+Ambrose	2
+
+Ambrose\N	2
+
+ambrosia	2
+
+ambrosiaceous\A	4
+
+ambrosially\v	3
+
+ambrosial\A	3
+
+Ambrosian	3
+
+Ambrosia\N	3
+
+ambrosia\N	3
+
+Ambrosine\N	3
+
+Ambrosio\N	3
+
+Ambrosius\N	3
+
+Ambrosi\N	3
+
+Ambros\N	2
+
+ambrotype\N	2
+
+ambry\N	1
+
+ambsace\N	2
+
+ambulacral	4
+
+ambulacral\A	4
+
+ambulacrum\N	4
+
+ambulance	3
+
+ambulance	3
+
+ambulance\N	3
+
+ambulantes\p	4
+
+ambulante\N	3
+
+ambulant\A	3
+
+ambulated\i	4
+
+ambulate\i	3
+
+ambulating\i	4
+
+ambulation\N	4
+
+ambulatory\AN	5
+
+ambulator\N	4
+
+Ambur\N	2
+
+ambuscaded\V	4
+
+ambuscader\N	4
+
+ambuscade\NV	3
+
+ambuscading\V	4
+
+ambuscados\p	4
+
+ambuscado\N	4
+
+ambush	2
+
+ambusher\N	3
+
+ambushlike\A	2
+
+ambush\NVt	2
+
+Amby\N	1
+
+Amb\N	1
+
+Amchitka\N	3
+
+AMDG\N	1
+
+amebae\p	3
+
+amebas\p	3
+
+ameba\N	3
+
+amebic\A	3
+
+amebocyte\N	3
+
+ameboidism\N	4
+
+ameboid\A	3
+
+Amedeo\N	3
+
+AMEDS\N	2
+
+ameerate\N	3
+
+ameer\N	2
+
+ameiosis\N	3
+
+ameiotic\A	3
+
+Amelia\N	3
+
+Amelie\N	2
+
+Amelina\N	4
+
+Ameline\N	3
+
+ameliorableness\N	6
+
+ameliorable\A	4
+
+ameliorant\N	4
+
+ameliorated\ti	5
+
+ameliorate\V	4
+
+ameliorating\ti	5
+
+amelioration\N	5
+
+ameliorative\A	4
+
+ameliorator\N	5
+
+Amelita\N	4
+
+ameloblastic\A	5
+
+ameloblast\N	4
+
+amen	2
+
+Amen	2
+
+Amen-Ra\N	3
+
+amenability\N	5
+
+amenableness\N	5
+
+amenable\A	3
+
+amenably\v	3
+
+Amena\N	3
+
+amendable\A	3
+
+amendatory\A	4
+
+amender\N	3
+
+amendes	3
+
+amendment\N	3
+
+amends\N	2
+
+Amend\N	2
+
+amend\t	2
+
+Amenhotep	4
+
+Amenhotep	4
+
+amenities\p	4
+
+amenity\N	3
+
+amenorrheal\A	4
+
+amenorrhea\N	4
+
+amenorrheic\A	4
+
+amenorrhoeal\A	4
+
+amenorrhoea\N	4
+
+amenorrhoeic\A	4
+
+amentaceous\A	4
+
+amental\A	3
+
+amentia\N	3
+
+amentiferous\A	5
+
+amentiform\A	4
+
+ament\N	2
+
+amen\!N	2
+
+Amen\N	2
+
+amerceable\A	3
+
+amerced\t	3
+
+amercement\N	4
+
+amercer\N	3
+
+amerce\t	3
+
+amercing\t	3
+
+America	3
+
+America's	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+American	4
+
+Americana\N	5
+
+Americanisation\N	7
+
+Americanised\ti	6
+
+Americaniser\N	6
+
+Americanise\ti	6
+
+Americanising\ti	6
+
+Americanism\N	5
+
+Americanistic\A	6
+
+Americanist\N	5
+
+Americanization\N	7
+
+Americanized\ti	6
+
+Americanizer\N	6
+
+Americanize\V	5
+
+Americanizing\ti	6
+
+Americanly\v	4
+
+Americanos\p	5
+
+Americano\N	5
+
+American\AN	5
+
+America\N	4
+
+americium\N	4
+
+Amerigo	3
+
+Amerigo\N	4
+
+Amerindian\NA	4
+
+Amerindic\A	4
+
+Amerind\N	3
+
+AmerInd\N	3
+
+amerism\N	3
+
+ameristic\A	4
+
+Amero\N	3
+
+Amersfoort\N	3
+
+Amersham\N	3
+
+AmerSp\N	2
+
+Amery\N	2
+
+Amer\N	2
+
+amesace\N	3
+
+Amesbury\N	3
+
+Amesha	2
+
+Ames\N	2
+
+ametabolic\A	5
+
+Amethist\N	3
+
+amethystine\A	2
+
+amethystlike\A	2
+
+amethyst\N	2
+
+Amethyst\N	2
+
+ametropia\N	4
+
+ametropic\A	4
+
+Ame\N	1
+
+AME\N	2
+
+Amfortas\N	3
+
+Amhara\N	3
+
+Amharic\NA	3
+
+Amherst\N	2
+
+amiability\N	4
+
+amiableness\N	4
+
+amiable\A	2
+
+amiably\v	2
+
+amianthine\A	2
+
+amianthoidal\A	4
+
+amianthoid\A	3
+
+amianthus\N	3
+
+Amias\N	2
+
+amicability\N	5
+
+amicable	3
+
+amicableness\N	5
+
+amicable\A	3
+
+amicably\v	3
+
+Amice\N	2
+
+amice\N	2
+
+amici	2
+
+Amici	2
+
+Amick\N	2
+
+amicus	3
+
+amicus	3
+
+amic\A	2
+
+Amidah\N	3
+
+amidase\N	3
+
+amidated\t	4
+
+amidate\t	4
+
+amidating\t	4
+
+amidation\N	4
+
+Amida\N	3
+
+amide\N	2
+
+amidic\A	3
+
+amidine\N	3
+
+amidin\N	3
+
+amidocyanogen\N	6
+
+amidogen\N	4
+
+amidol\N	3
+
+Amidol\N	3
+
+amidopyrine\N	4
+
+amidships\v	3
+
+amidst\P	2
+
+amid\P	2
+
+Amiel\N	2
+
+Amiens\N	2
+
+amies\p	2
+
+Amieva\N	3
+
+amie\N	1
+
+Amie\N	1
+
+amigas\p	3
+
+amiga\N	3
+
+Amigen\N	3
+
+amigos\p	3
+
+amigo\N	3
+
+Amii\N	2
+
+amimia\N	3
+
+aminase\N	3
+
+aminated\t	4
+
+aminate\t	4
+
+aminating\t	4
+
+amination\N	4
+
+amine\N	2
+
+aminic\A	3
+
+aminity\N	3
+
+amino	2
+
+amino	2
+
+amino	2
+
+aminoacetic	5
+
+aminobenzene\N	5
+
+aminobenzoic	5
+
+aminophenol\N	5
+
+aminopherase\N	5
+
+aminophylline\N	4
+
+aminoplast\N	4
+
+aminopyrine\N	4
+
+aminoquin	4
+
+aminosuccinic	6
+
+amino\N	3
+
+Aminta\N	3
+
+Amin\N	2
+
+amirate\N	3
+
+Amir\N	2
+
+amir\N	2
+
+Amish\AN	3
+
+amiss\v	2
+
+Amis\N	2
+
+amis\p	2
+
+Amitabha\N	4
+
+amitate\N	3
+
+Amite	2
+
+Amitie\N	2
+
+amitosis\N	4
+
+amitotically\v	5
+
+amitotic\A	4
+
+Amittai\N	3
+
+Amityville\N	3
+
+Amity\N	2
+
+amity\N	2
+
+Ami\N	2
+
+ami\N	2
+
+amlacra\p	3
+
+Amling\N	2
+
+AMLS\N	1
+
+Ammadas\N	3
+
+Ammadis\N	3
+
+Ammanati\N	4
+
+Ammann\N	2
+
+Amman\N	2
+
+ammeter\N	3
+
+ammiaceous\A	3
+
+Ammianus\N	3
+
+ammine\N	2
+
+Ammishaddai\N	4
+
+ammocete\N	3
+
+ammocoete\N	3
+
+ammonal\N	3
+
+ammonate\N	3
+
+ammonation\N	4
+
+ammonia	2
+
+ammonia	2
+
+ammonia	2
+
+ammonia	2
+
+ammoniacal\A	4
+
+ammoniac\AN	4
+
+ammoniated\V	4
+
+ammoniate\VN	3
+
+ammoniating\V	4
+
+ammoniation\N	4
+
+ammonia\N	3
+
+ammonic\A	3
+
+ammonification\N	6
+
+ammonified\V	4
+
+ammonifying\V	4
+
+ammonify\V	3
+
+ammonioferric	5
+
+Ammonites\p	4
+
+ammonite\N	3
+
+Ammonite\NA	3
+
+ammonitic\A	4
+
+Ammonitish\A	4
+
+ammonitoid\A	4
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium	3
+
+ammonium\N	3
+
+ammonoid\N	3
+
+ammonolitic\A	5
+
+ammonolyses\p	4
+
+ammonolysis\N	4
+
+ammonolyzed\V	4
+
+ammonolyze\ti	4
+
+ammonolyzing\V	4
+
+ammono\A	2
+
+Ammon\N	2
+
+ammophilous\A	4
+
+ammo\N	2
+
+ammunition\N	4
+
+amn't\N	1
+
+amnesiac\NA	3
+
+amnesia\N	3
+
+amnestic\A	3
+
+amnestied\p	3
+
+amnesties\p	3
+
+amnestying\p	3
+
+amnesty\NV	2
+
+amniocentesis\N	5
+
+amnionia\p	3
+
+amnions\p	2
+
+amnion\N	2
+
+amniote\N	2
+
+amniotic	3
+
+amniotic\A	3
+
+Amoakuh\N	3
+
+amobarbital\N	5
+
+amoebaean\A	3
+
+amoebae\p	3
+
+amoebalike\A	3
+
+amoeba\N	3
+
+amoebiasis\N	4
+
+amoebic	3
+
+amoebic\A	3
+
+amoebocyte\N	3
+
+amoeboidism\N	4
+
+amoeboid\A	3
+
+amok\Nv	2
+
+amoles\p	3
+
+amole\N	2
+
+Amon-Ra\N	3
+
+amongst\P	2
+
+among\P	2
+
+amontillado\N	5
+
+Amon\N	2
+
+Amopaon\N	3
+
+amor	2
+
+amoraim\p	3
+
+amorality\N	4
+
+amorally\v	3
+
+amoral\A	3
+
+amora\N	3
+
+Amora\N	3
+
+AMORC\N	2
+
+Amoreta\N	4
+
+Amorete\N	3
+
+Amorette\N	3
+
+Amoretti\N	4
+
+amoretti\p	4
+
+amoretto\N	4
+
+amorini\p	4
+
+amorino\N	4
+
+amoristic\A	4
+
+amorist\N	3
+
+Amorita\N	4
+
+Amoritta\N	4
+
+amorosity\N	4
+
+amoroso\AvN	4
+
+amorously\v	3
+
+amorousness\N	4
+
+amorous\A	3
+
+amorphism\N	3
+
+amorphously\v	3
+
+amorphousness\N	4
+
+amorphous\A	3
+
+amortisable\A	4
+
+amortised\t	4
+
+amortise\t	4
+
+amortising\t	4
+
+amortizable\A	4
+
+amortization\N	5
+
+amortized\t	4
+
+amortizement\N	5
+
+amortize\t	4
+
+amortizing\t	4
+
+amort\A	2
+
+Amory\N	2
+
+Amor\N	2
+
+amosite\N	3
+
+Amos\N	2
+
+amount	2
+
+amount\Ni	2
+
+amour-propre\N	3
+
+amour\N	2
+
+amowt\N	2
+
+Amoy\N	2
+
+AMPAS\N	2
+
+ampelite\N	3
+
+ampelitic\A	4
+
+ampelopsis\N	4
+
+Ampelos\N	3
+
+amperage\N	3
+
+ampere-hour\N	3
+
+ampere-turn\N	3
+
+ampere\N	2
+
+Amperian\A	3
+
+amperometric	5
+
+amperometric\A	5
+
+ampersand\N	3
+
+ampherotokous\A	5
+
+ampherotoky\N	4
+
+amphetamine\N	4
+
+Amphiaraus\N	3
+
+amphiarthrodial\A	4
+
+amphiarthroses\p	4
+
+amphiarthrosis\N	4
+
+amphiaster\N	3
+
+amphibian\NA	3
+
+Amphibia\N	3
+
+amphibiotic\A	4
+
+amphibiously\v	3
+
+amphibiousness\N	4
+
+amphibious\A	3
+
+amphiblastula\N	5
+
+amphibole\N	3
+
+amphibolic\A	4
+
+amphibolies\p	4
+
+amphibolite\N	4
+
+amphibolitic\A	5
+
+amphibologically\v	6
+
+amphibological\A	6
+
+amphibologies\p	5
+
+amphibology\N	4
+
+amphibolous\A	4
+
+amphiboly\N	3
+
+amphibrachic\A	4
+
+amphibrach\N	3
+
+amphicarpous\A	4
+
+amphichroic\A	3
+
+amphicoelous\A	4
+
+amphicrania\N	4
+
+amphictyonic\A	4
+
+amphictyonies\p	4
+
+amphictyony\N	3
+
+amphictyon\N	3
+
+Amphictyon\N	3
+
+Amphidamas\N	4
+
+amphidiploid\N	4
+
+amphidromia\N	4
+
+amphigenously\v	4
+
+amphigenous\A	4
+
+amphigoric\A	4
+
+amphigories\p	4
+
+amphigory\N	3
+
+amphigouris\p	4
+
+amphigouri\N	4
+
+amphikaryon\N	4
+
+amphikaryotic\A	5
+
+Amphilochus\N	4
+
+amphimacer\N	4
+
+Amphimachus\N	4
+
+Amphimarus\N	4
+
+amphimixes\p	4
+
+amphimixis\N	4
+
+Amphinome\N	3
+
+Amphinomus\N	4
+
+Amphionic\A	3
+
+Amphion\N	2
+
+amphioxi\p	3
+
+amphioxus\N	3
+
+amphiphithyra\p	4
+
+amphipneustic\A	4
+
+amphipod\NA	3
+
+amphiprostylar\A	4
+
+amphiprostyle\A	3
+
+amphiprotic\A	4
+
+amphisarca\N	4
+
+amphisbaenae\p	4
+
+amphisbaena\N	4
+
+amphisbaenian\A	4
+
+amphisbaenic\A	4
+
+amphisbaenid\N	4
+
+amphisbaenoid\A	4
+
+amphisbaenous\A	4
+
+amphiscians\p	3
+
+Amphissa\N	3
+
+Amphissus\N	3
+
+amphistylar\A	3
+
+amphitene\N	3
+
+amphithalamus\N	5
+
+amphithalmi\p	4
+
+amphitheater\N	4
+
+amphitheatre\N	3
+
+amphitheatrically\v	5
+
+amphitheatrical\A	5
+
+amphitheatric\A	4
+
+amphitheccia\p	4
+
+amphithecial\A	4
+
+amphithecium\N	4
+
+Amphithemis\N	4
+
+amphithuron\N	4
+
+amphithurthura\p	5
+
+amphithyra\N	3
+
+amphithyron\N	3
+
+amphitokal\A	4
+
+amphitokous\A	4
+
+amphitoky\N	3
+
+amphitrichate\A	3
+
+amphitricha\N	4
+
+Amphitrite\N	3
+
+amphitropous\A	4
+
+Amphitruo\N	3
+
+Amphitryon\N	3
+
+amphiuma\N	3
+
+Amphius\N	2
+
+amphogenic\A	4
+
+amphogeny\N	3
+
+ampholyte\N	2
+
+ampholytic\A	3
+
+amphorae\p	3
+
+amphoral\A	3
+
+amphora\N	3
+
+amphoricity\N	4
+
+amphoric\A	3
+
+amphoriskoi\p	4
+
+amphoriskos\N	4
+
+amphoteric\A	4
+
+Amphoterus\N	4
+
+amplectant\A	3
+
+ampleness\N	3
+
+ampler\A	2
+
+amplest\A	2
+
+amplexicaul\A	4
+
+amplexifoliate\A	4
+
+ample\A	1
+
+ampliate\A	1
+
+ampliation\N	3
+
+amplidyne\N	2
+
+amplifiable\A	3
+
+amplification\N	5
+
+amplificatory\A	5
+
+amplified\V	3
+
+amplifier\N	3
+
+amplifying\V	3
+
+amplify\Vti	2
+
+amplitude	3
+
+amplitude\N	3
+
+amply\v	1
+
+ampoule\N	2
+

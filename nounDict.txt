@@ -1,0 +1,492 @@
+dog	1
+
+cat	1
+
+bear	1
+
+bee	0
+
+ass	1
+
+ape	1
+
+horse	1
+
+squid	1
+
+bug	1
+
+hare	1
+
+hawk	1
+
+pig	1
+
+owl	1
+
+ram	1
+
+snake	1
+
+snail	1
+
+wolf	1
+
+fish	1
+
+crab	1
+
+squirrel	2
+
+whale	1
+
+ox	1
+
+lark	1
+
+eel	1
+
+dove	1
+
+seal	1
+
+frog	1
+
+fox	1
+
+gull	1
+
+bull	1
+
+bird	1
+
+pup	1
+
+chick	1
+
+cow	1
+
+cock	1
+
+ant	1
+
+crow	1
+
+wasp	1
+
+sheep	1
+
+chub	1
+
+grouse	1
+
+clam	1
+
+elk	1
+
+moose	1
+
+toad	1
+
+newt	1
+
+bat	1
+
+rat	1
+
+moth	1
+
+gnat	1
+
+lynx	0
+
+stoat	1
+
+boar	1
+
+fly	0
+
+asp	1
+
+hog	1
+
+duck	1
+
+mole	1
+
+vole	1
+
+mouse	1
+
+eft	1
+
+wren	1
+
+stag	1
+
+deer	1
+
+shark	1
+
+bass	1
+
+jay	1
+
+carp	1
+
+slug	1
+
+worm	1
+
+tick	1
+
+buck	1
+
+doe	0
+
+calf	1
+
+shrew	1
+
+yak	1
+
+dhole	1
+
+sloth	1
+
+gnu	0
+
+goose	1
+
+crane	1
+
+stork	1
+
+loon	1
+
+rook	1
+
+auk	1
+
+grebe	1
+
+perch	1
+
+grunt	1
+
+shrike	1
+
+finch	1
+
+trout	1
+
+rail	1
+
+guan	1
+
+tit	1
+
+quail	1
+
+coot	1
+
+smelt	1
+
+bream	1
+
+hake	1
+
+gar	1
+
+roach	1
+
+shad	1
+
+sow	1
+
+swine	1
+
+mule	1
+
+flea	0
+
+ray	1
+
+goat	1
+
+fawn	1
+
+skunk	1
+
+shrimp	1
+
+cub	1
+
+hound	1
+
+conch	1
+
+croc	1
+
+squirt	1
+
+olm	1
+
+louse	1
+
+beast	1
+
+colt	1
+
+snipe	1
+
+fowl	1
+
+lamb	1
+
+mite	1
+
+roc	1
+
+midge	1
+
+thrips	1
+
+grub	1
+
+swift	1
+
+leech	1
+
+hen	1
+
+swan	1
+
+roo	0
+
+steed	1
+
+stud	1
+
+shoat	1
+
+kit	1
+
+kite	1
+
+tern	1
+
+pug	1
+
+foal	1
+
+mare	1
+
+nit	1
+
+manx	1
+
+skink	1
+
+grue	0
+
+dace	1
+
+hus	1
+
+minx	1
+
+baboon	2
+
+rabbit	2
+
+raptor	2
+
+dragon	2
+
+camel	2
+
+hornet	2
+
+llama	1
+
+cobra	1
+
+cheetah	2
+
+penguin	2
+
+puppy	1
+
+dolphin	2
+
+rhino	1
+
+falcon	2
+
+zebra	1
+
+chicken	2
+
+eagle	1
+
+monkey	2
+
+donkey	2
+
+gator	2
+
+spider	2
+
+beaver	2
+
+tiger	2
+
+ferret	2
+
+lion	1
+
+guppy	1
+
+osprey	2
+
+squirrel	2
+
+mollusk	2
+
+mantis	2
+
+stingray	2
+
+mustang	2
+
+urchin	2
+
+swordfish	2
+
+walrus	2
+
+hedgehog	3
+
+otter	2
+
+parrot	2
+
+bluejay	2
+
+dino	1
+
+tuna	1
+
+minnow	2
+
+lizard	2
+
+leopard	2
+
+bunny	1
+
+kitten	2
+
+kitty	1
+
+hippo	1
+
+panda	1
+
+chipmunk	2
+
+beetle	1
+
+flytrap	1
+
+viper	2
+
+tapir	2
+
+pigeon	2
+
+scallop	2
+
+chiton	2
+
+oyster	2
+
+mussel	2
+
+jackal	2
+
+wombat	2
+
+bilby	1
+
+groundhog	2
+
+woodchuck	2
+
+marmot	2
+
+takin	2
+
+muskox	2
+
+bullfrog	2
+
+manta	1
+
+sculpin	2
+
+blenny	1
+
+goby	1
+
+paca	1
+
+bongo	1
+
+jaguar	2
+
+toucan	2
+
+skua	0
+
+aphid	2
+
+weta	1
+
+emu	1
+
+kraken	2
+
+serpent	2
+
+centaur	2
+
+hydra	0
+
+pony	1
+
+turtle	1
+
+badger	2
+
+swallow	2
+
+raven	2
+
+turkey	2
+
+puggles	2
+
+raccoon	2
+
+titmouse	2
+
+boa	0
+
+lobster	2
+
+panther	2
+
+Friesian	2
+

@@ -1,0 +1,1163 @@
+3-D	AN	0
+
+4-F	N	0
+
+4-H'er	N	1
+
+4-H	A	0
+
+A battery	h	3
+
+a bon march	v	3
+
+a cappella	Av	4
+
+a capriccio	h	4
+
+a datu	h	3
+
+a fortiori	v	4
+
+a gogo	Av	3
+
+A horizon	h	4
+
+a la carte	Av	3
+
+a la king	A	3
+
+a la mode	A	3
+
+a la	P	2
+
+A level	h	3
+
+a posteriori	A	5
+
+a priori	A	3
+
+a punta d'arco	h	5
+
+a quo	h	2
+
+a rivederci	h	5
+
+A supply	h	2
+
+a tempo	Avh	3
+
+a tergo	h	3
+
+a vinculo matrimonii	h	8
+
+a vol	h	2
+
+a'	A	1
+
+A-1	N	1
+
+A-axis	N	3
+
+A-bomb	N	2
+
+A-frame	N	2
+
+A-line	NA	2
+
+A-OK	A	2
+
+A-pole	N	2
+
+A-Z test	h	2
+
+A/C	N	1
+
+A/m	N	1
+
+A/O	N	2
+
+A/P	N	1
+
+A/V	N	1
+
+A1c	N	1
+
+A1	A	1
+
+AAAA	N	1
+
+AAAL	N	1
+
+AAAS	N	1
+
+AAA	N	1
+
+Aaberg	N	2
+
+Aachen	N	2
+
+AAEE	N	1
+
+AAeE	N	0
+
+AAE	N	1
+
+AAF	N	1
+
+AAgr	N	1
+
+AAG	N	1
+
+Aalborg	N	2
+
+Aalesund	N	3
+
+aalii	N	2
+
+Aalst	N	1
+
+Aalto	N	2
+
+AAM	N	1
+
+AAPSS	N	1
+
+AAP	N	1
+
+Aarau	N	2
+
+Aara	N	2
+
+aardvark	N	2
+
+aardwolf	N	2
+
+aardwolves	p	3
+
+Aaren	N	2
+
+Aargau	N	2
+
+Aarhus	N	2
+
+Aarika	N	3
+
+Aaron's beard	h	3
+
+Aaron's rod	h	3
+
+Aaron's-beard	N	3
+
+Aaronical	A	4
+
+Aaronic	A	3
+
+Aaronite	N	3
+
+Aaronitic	A	4
+
+Aaronson	N	3
+
+Aaron	N	2
+
+Aar	N	1
+
+AAS	N	1
+
+AATech	N	2
+
+AAUP	N	1
+
+AAUW	N	1
+
+AAU	N	1
+
+AAvTech	N	2
+
+AA	N	1
+
+aa	N	1
+
+ab aeterno	h	4
+
+ab extra	h	3
+
+ab initio	h	4
+
+ab intra	h	3
+
+ab origine	h	4
+
+ab ovo	h	3
+
+ab urbe condita	h	5
+
+abaca	N	3
+
+abaciscus	N	4
+
+abacist	N	3
+
+aback	v	2
+
+abacli	p	3
+
+Abaco	N	3
+
+abactinal	A	4
+
+abaculus	N	4
+
+abacus	N	3
+
+abac	N	2
+
+Abadan	N	3
+
+Abaddon	N	3
+
+Abad	N	2
+
+abaft	vP	2
+
+Abagael	N	3
+
+Abagail	N	3
+
+Abagtha	N	3
+
+Abailard	N	3
+
+abaised	A	3
+
+Abakan	N	3
+
+abalone	N	3
+
+abampere	N	3
+
+abamp	N	2
+
+Abana	N	3
+
+abandonable	A	5
+
+abandonedly	v	4
+
+abandoned	A	4
+
+abandonee	N	3
+
+abandoner	N	4
+
+abandonment	N	4
+
+abandon	tN	3
+
+Abantes	N	3
+
+abaptiston	N	4
+
+Abarbarea	N	4
+
+Abaris	N	3
+
+abased	At	3
+
+abaser	N	3
+
+abase	t	2
+
+abashedly	v	3
+
+abashedness	N	4
+
+abashment	N	3
+
+abash	t	2
+
+abasia	N	3
+
+abasic	A	3
+
+abasing	t	3
+
+Abas	N	2
+
+abatable	A	4
+
+abatage	N	3
+
+abated	V	3
+
+abatement	N	4
+
+abater	N	3
+
+Abate	N	2
+
+abate	Vti	2
+
+abating	V	3
+
+abatis	N	3
+
+abatjours	p	3
+
+abatjour	N	3
+
+abator	N	3
+
+abattage	N	3
+
+abattoir	N	3
+
+abaxial	A	3
+
+aba	N	2
+
+ABA	N	2
+
+Aba	N	2
+
+abbacies	p	3
+
+abbacy	N	2
+
+Abbai	N	2
+
+Abbasid	N	3
+
+Abbate	N	2
+
+abbatial	A	3
+
+Abba	N	2
+
+abba	N	2
+
+Abbe condenser	h	4
+
+Abbe number	h	3
+
+Abbe sine condition	h	5
+
+abbess	N	2
+
+Abbeville	N	3
+
+Abbevillian	NA	4
+
+Abbey Theatre	h	3
+
+abbeystead	N	3
+
+abbeys	p	2
+
+Abbey	N	2
+
+abbey	N	2
+
+Abbe	N	1
+
+Abbie	N	1
+
+Abbi	N	2
+
+abbotcy	N	2
+
+Abbotsen	N	3
+
+Abbotsford	N	3
+
+abbotship	N	3
+
+Abbotson	N	3
+
+Abbotsun	N	3
+
+Abbottson	N	3
+
+Abbott	N	2
+
+abbot	N	2
+
+Abbot	N	2
+
+Abboud	N	2
+
+abbreviated	t	4
+
+abbreviate	t	3
+
+abbreviating	t	4
+
+abbreviation	N	4
+
+abbreviator	N	4
+
+abbr	N	1
+
+Abbye	N	1
+
+Abby	N	1
+
+abb	N	1
+
+ABC Powers	h	3
+
+abcoulomb	N	3
+
+ABC	N	1
+
+Abd-el Krim	h	3
+
+Abd-el-Kadir	N	4
+
+Abd-er-Rahman Khan	h	5
+
+abdaria	p	3
+
+Abdella	N	3
+
+Abdel	N	2
+
+Abderhalden	N	4
+
+Abderus	N	3
+
+Abdias	N	2
+
+abdicable	A	4
+
+abdicant	AN	3
+
+abdicated	V	4
+
+abdicate	V	3
+
+abdicating	V	4
+
+abdication	N	4
+
+abdicative	A	4
+
+abdicator	N	4
+
+abdomen	N	3
+
+abdominal	A	4
+
+abdominous	A	4
+
+Abdon	N	2
+
+abduced	t	3
+
+abducens nerve	h	4
+
+abducens	N	3
+
+abducentes	p	4
+
+abducent	A	3
+
+abduce	t	2
+
+abducing	t	3
+
+abduction	N	3
+
+abductor	N	3
+
+abduct	t	2
+
+Abdul-Aziz	N	4
+
+Abdul-Hamid II	h	5
+
+Abdul-Mejid I	h	5
+
+Abdulla	N	3
+
+Abdul	N	2
+
+Abdurrahman Khan	h	5
+
+Abdu	N	2
+
+abd	N	1
+
+abeam	v	2
+
+Abebi	N	3
+
+abecedarian	NA	5
+
+abecedaries	p	5
+
+abecedarium	N	5
+
+abecedary	NA	4
+
+Abednego	N	4
+
+ABEd	N	2
+
+abed	v	2
+
+Abel-meholah	N	5
+
+Abelard	N	3
+
+abele	N	2
+
+Abelian group	h	4
+
+Abelian	A	3
+
+Abell	N	2
+
+abelmosk	N	3
+
+Abel	N	2
+
+Abenezra	N	4
+
+Abeokuta	N	4
+
+ABEPP	N	2
+
+Abercrombie	N	3
+
+Abercromby	N	3
+
+Aberdare	N	3
+
+Aberdeen Angus	h	5
+
+Aberdeen terrier	h	5
+
+Aberdeenshire	N	4
+
+Aberdeen	NA	3
+
+Aberglaube	N	3
+
+Abernathy	N	3
+
+abernethy	N	3
+
+Abernon	N	3
+
+aberrance	N	3
+
+aberrancy	N	3
+
+aberrant	A	3
+
+aberrational	A	5
+
+aberration	N	4
+
+Abert	N	2
+
+Aberystwyth	N	2
+
+abesse	N	2
+
+abessive	AN	3
+
+abetment	N	3
+
+abettal	N	3
+
+abetted	t	3
+
+abetting	t	3
+
+abettor	N	3
+
+abet	V	2
+
+abeyance	N	3
+
+abeyant	A	3
+
+Abey	N	2
+
+Abe	N	1
+
+abfarad	N	3
+
+ABFM	N	1
+
+Abgatha	N	3
+
+abhenries	p	3
+
+abhenry	N	2
+
+Abhidhamma Pitaka	h	7
+
+abhominable	A	5
+
+abhorred	t	3
+
+abhorrence	N	3
+
+abhorrently	v	3
+
+abhorrent	A	3
+
+abhorrer	N	3
+
+abhorring	t	3
+
+abhor	V	2
+
+Abiathar	N	3
+
+Abia	N	2
+
+Abib	N	2
+
+abidance	N	3
+
+abided	V	3
+
+abider	N	3
+
+abide	Vti	2
+
+abidingly	v	3
+
+abidingness	N	4
+
+abiding	A	3
+
+Abidjan	N	3
+
+abient	A	2
+
+abietate	N	3
+
+abietic acid	h	5
+
+Abie	N	1
+
+Abigael	N	3
+
+abigail	N	3
+
+Abigail	N	3
+
+Abigale	N	3
+
+Abihu	N	3
+
+Abijah	N	3
+
+Abilene	N	3
+
+abilities	p	4
+
+ability	N	3
+
+Abilyne	N	2
+
+Abimelech	N	4
+
+Abineri	N	4
+
+Abingdon	N	3
+
+Abinger	N	3
+
+Abington	N	3
+
+Abinoam	N	3
+
+abiogenesis	N	5
+
+abiogenetically	v	6
+
+abiogenetic	A	5
+
+abiogenist	N	4
+
+abiosis	N	3
+
+abiotically	v	4
+
+abiotic	A	3
+
+abiotrophic	A	4
+
+abiotrophy	N	3
+
+abirritant	AN	4
+
+abirritated	t	5
+
+abirritate	t	4
+
+abirritating	t	5
+
+abirritation	N	5
+
+abirritative	A	5
+
+Abishag	N	3
+
+Abisha	N	3
+
+Abisia	N	3
+
+Abiu	N	2
+
+Abixah	N	3
+
+abjectedness	N	4
+
+abjection	N	3
+
+abjective	A	3
+
+abjectly	v	2
+
+abjectness	N	3
+
+abject	A	2
+
+abjunction	N	3
+
+abjuration	N	4
+
+abjuratory	A	4
+
+abjured	t	3
+
+abjurer	N	3
+
+abjure	t	2
+
+abjuring	t	3
+
+Abkhazian	N	3
+
+Abkhazia	N	3
+
+Abkhaz	N	2
+
+ablactated	t	4
+
+ablactate	t	3
+
+ablactating	t	4
+
+ablactation	N	4
+
+ablated	V	3
+
+ablate	t	2
+
+ablating	V	3
+
+ablation	N	3
+
+ablatival	A	4
+
+ablative absolute	h	6
+
+ablative	AN	3
+
+ablator	N	3
+
+ablaut	N	2
+
+ablaze	v	2
+
+able rating	h	4
+
+able seaman	h	4
+
+able-bodied seaman	h	6
+
+able-bodiedness	N	5
+
+able-bodied	A	4
+
+ablegate	N	3
+
+ablepharous	A	4
+
+ablepsia	N	3
+
+ableptical	A	4
+
+abler	A	2
+
+ablest	A	2
+
+able	AN	2
+
+ablins	v	2
+
+ablock	v	2
+
+abloom	vA	2
+
+ABLS	N	1
+
+abluent	AN	2
+
+ablush	A	2
+
+ablutionary	A	4
+
+ablution	N	3
+
+ably	v	1
+
+abl	N	1
+
+abmhos	p	2
+
+abmho	N	2
+
+abmodalities	p	5
+
+abmodality	N	4
+
+ABM	N	1
+
+Abnakis	p	3
+
+Abnaki	N	3
+
+abnegated	t	4
+
+abnegate	t	3
+
+abnegating	t	4
+
+abnegation	N	4
+
+abnegator	N	4
+
+Abner	N	2
+
+Abney level	h	4
+
+abnormal psychology	h	5
+
+abnormalcies	p	4
+
+abnormalcy	N	3
+
+abnormalised	t	5
+
+abnormalise	t	4
+
+abnormalising	t	5
+
+abnormalities	p	5
+
+abnormality	N	4
+
+abnormalized	t	5
+
+abnormalize	t	4
+
+abnormalizing	t	5
+
+abnormally	v	3
+
+abnormalness	N	4
+
+abnormal	A	3
+
+abnormities	p	4
+
+abnormity	N	3
+
+ABO system	h	3
+
+aboardage	N	3
+
+aboard	vP	2
+
+abode	NV	2
+
+abohm	N	2
+
+aboideau	N	3
+
+abolishable	A	5
+
+abolisher	N	4
+
+abolishment	N	4
+
+abolish	t	3
+
+abolitionary	A	5
+
+abolitionised	t	6
+
+abolitionise	t	5
+
+abolitionising	t	6
+
+abolitionism	N	5
+
+abolitionist	N	5
+
+abolitionized	t	6
+
+abolitionize	t	5
+
+abolitionizing	t	6
+
+abolition	NA	4
+
+abollae	p	2
+
+abolla	N	3
+
+abomasa	p	4
+
+abomasum	N	4
+
+abomasusi	p	5
+
+abomasus	N	4
+
+abominable snowman	h	7
+
+Abominable Snowman	h	7
+
+abominableness	N	6
+
+abominable	A	5
+
+abominably	v	4
+
+abominated	t	5
+
+abominate	t	4
+
+abominating	t	5
+
+abomination	N	5
+
+abominator	N	5
+
+abondance	N	3
+
+aboon	vP	2
+
+aborad	v	3
+
+aboral	A	3
+
+aboriginality	N	6
+
+aboriginally	v	5
+
+aboriginal	A	5
+
+Aboriginal	AN	5
+
+aborigine	N	4
+
+Aborigine	N	4
+
+aborning	v	3
+
+Aborn	N	2
+
+aborticide	N	4
+
+abortifacient	AN	5
+
+abortional	A	4
+
+abortionist	N	4
+
+abortion	N	3
+
+abortively	v	4
+
+abortiveness	N	5
+
+abortive	A	3
+
+abortus	N	3
+
+abort	Vit	2
+
+Abott	N	2
+
+aboudikro	N	4
+
+abought	V	2
+
+Aboukir Bay	h	4
+
+Aboukir	N	3
+
+aboulia	N	3
+
+aboulic	A	3
+
+aboundingly	v	3
+
+abound	i	2
+
+about face	h	3
+
+about ship	h	3
+
+about-faced	V	4
+
+about-face	Ni	3
+
+about-facing	V	4
+
+about-shipped	i	4
+
+about-shipping	i	4
+
+about-ship	V	3
+
+about	PvA	2
+
+above board	Av	3
+
+above stairs	h	3
+
+above the line	h	3
+
+aboveboard	vA	4
+
+aboveground	A	4
+
+above	PvNA	2
+
+abox	A	2
+
+Abo	N	2
+
+abo	NA	2
+
+ABPC	N	1
+
+abp	N	1
+
+abracadabra	!N	5
+
+abradant	AN	3
+
+abraded	ti	3
+
+abrader	N	3
+
+abrade	t	2
+
+abrading	ti	3
+
+Abraham's bosom	h	5
+
+Abrahamsen	N	4
+
+Abrahams	N	3
+
+Abraham	N	3
+
+Abrahan	N	3
+
+Abramo	N	3
+
+Abramson	N	3
+
+Abrams	N	2
+
+Abram	N	2
+
+abranchiate	A	3
+
+Abran	N	2
+
+abraser	N	3
+
+abrasion	N	3
+
+abrasive	NA	3
+
+abraxas	N	3
+
+abrazos	p	3
+
+abrazo	N	3
+
+Abra	N	2
+
+abreaction	N	3
+
+abreact	t	2
+
+abreast	vA	2
+
+abridgable	A	4
+
+abridgeable	A	4
+
+abridged	At	3
+
+abridger	N	3
+
+abridge	t	2
+
+abridging	t	3
+
+abridgment	N	3
+
+abris	p	2
+
+abri	N	2
+
+abroach	vA	2
+
+abroad	v	2
+
+abrogable	A	4
+
+abrogated	t	4
+
+abrogate	t	3
+
+abrogating	t	4
+
+abrogation	N	4
+
+abrogative	A	4
+
+abrogator	N	4
+
+Abroms	N	2
+
+abruption	N	3
+
+abruptly pinnate	h	4
+
+abruptly	v	2
+
+abruptness	N	3
+
+abrupt	A	2
+
+Abruzzi	N	3
+
+abr	N
