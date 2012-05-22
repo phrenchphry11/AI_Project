@@ -1,22 +1,32 @@
 from BeautifulSoup import BeautifulSoup
 
-import urllib 
+import urllib
 
-def makeSyllableFile(fileName):
+def makePoetrySet(fileName):
+	wordFile = open(filename)
+	poetrySet = []
+	for line in wordFile:
+		line = line.strip()
+		poetrySet.append(line)
+	poetrySet = set([])
+	return poetrySet
+
+
+def makeSyllableFile(fileName, poetrySet):
 	wordFile = open(fileName)
 	newFile = open('wordDict.txt', 'w')
-
 	for line in wordFile:
 		line = line.strip()
 		line = line.split("\\")
 		pos = line[-1]
 		word = line[:-1]
-		sCount = get_syllables(word)
-		wStr = ''
-		for w in word:
-			wStr += w + " "
-		newLine = str(word[0]) + '\t' + pos + '\t' + str(sCount) + '\n'
-		print >>newFile, newLine
+		if word in poetrySet:
+			sCount = get_syllables(word)
+			wStr = ''
+			for w in word:
+				wStr += w + " "
+			newLine = str(word[0]) + '\t' + pos + '\t' + str(sCount) + '\n'
+			print >>newFile, newLine
 	wordFile.close()
 	newFile.close()
 
@@ -66,6 +76,7 @@ def get_syllables(word):
 	return syllable_count
 
 def main():
-	make_syllables('verbs_parsed')
+	poetrySet = makePoetrySet('poeticWords.txt')
+	make_syllables('verbs_parsed', poetrySet)
 
 main()
