@@ -3,7 +3,7 @@ from BeautifulSoup import BeautifulSoup
 import urllib
 
 def makePoetrySet(fileName):
-	wordFile = open(filename)
+	wordFile = open(fileName)
 	poetrySet = []
 	for line in wordFile:
 		line = line.strip()
@@ -20,12 +20,13 @@ def makeSyllableFile(fileName, poetrySet):
 		line = line.split("\\")
 		pos = line[-1]
 		word = line[:-1]
+		word = ''.join(word)
 		if word in poetrySet:
 			sCount = get_syllables(word)
 			wStr = ''
 			for w in word:
 				wStr += w + " "
-			newLine = str(word[0]) + '\t' + pos + '\t' + str(sCount) + '\n'
+			newLine = str(word) + '\t' + pos + '\t' + str(sCount) + '\n'
 			print >>newFile, newLine
 	wordFile.close()
 	newFile.close()
@@ -77,6 +78,6 @@ def get_syllables(word):
 
 def main():
 	poetrySet = makePoetrySet('poeticWords.txt')
-	make_syllables('verbs_parsed', poetrySet)
+	makeSyllableFile('verbs_parsed', poetrySet)
 
 main()
