@@ -8,7 +8,7 @@ def makePoetrySet(fileName):
 	for line in wordFile:
 		line = line.strip()
 		poetrySet.append(line)
-	poetrySet = set([])
+	poetrySet = set(poetrySet)
 	return poetrySet
 
 
@@ -26,12 +26,12 @@ def makeSyllableFile(fileName, poetrySet):
 			wStr = ''
 			for w in word:
 				wStr += w + " "
-			newLine = str(word) + '\t' + pos + '\t' + str(sCount) + '\n'
+			newLine = str(word) + '\t' + pos + '\t' + str(sCount)
 			print >>newFile, newLine
 	wordFile.close()
 	newFile.close()
 
-def make_syllables(fileName):
+def make_syllables(fileName, poetrySet):
 	wordFile = open(fileName)
 	newFile = open('verbDict.txt', 'w')
 
@@ -77,7 +77,7 @@ def get_syllables(word):
 	return syllable_count
 
 def main():
-	poetrySet = makePoetrySet('poeticWords.txt')
-	makeSyllableFile('verbs_parsed', poetrySet)
+	poetry = makePoetrySet('poeticWords.txt')
+	makeSyllableFile('mobypos.txt', poetry)
 
 main()
