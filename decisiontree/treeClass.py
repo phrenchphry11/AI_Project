@@ -4,7 +4,7 @@ Holly French and Alexandra Price
 This file contains the class for the decisionTree, 
 as well as a class for the nodes that comprise it.
 '''
-
+from scipy import stats
 
 class DecisionTree:
     '''
@@ -131,6 +131,39 @@ class Node:
         self.value = None #this is the value of the parent attribute this node represents
         self.parent = None
         self.children = []
+        #this represents the mean value of an attribute that appears in a given category
+        #ie: if this is an adjective node, then meanFrequencies is valued at the average
+        #number of adjectives a haiku contains that is in this node
+        self.meanFrequencies = None 
+        #95% confidence interval that meanFrequencies is the true mean.  
+        #it is a tuple of (upperBound, lowerBound)
+        self.confidence_interval = None
+        #just keeps track of the total number of occurrences of an attr -> easier to calculate confidence with
+        self.totalOverallAttr = 0
+
+    def setEmpiricalFrequencies(self, haikuDict):
+        #this requires our dictionary of whatever values we have for our haikus
+        #I'm not sure exactly how this is going to turn out, but I'm guessing this will be a table
+        # containing the number of each attribute for each poem, and haikuDict will be the param for this
+
+        #here I'm tracking the number of "yes" instances
+        totalPosRating = 0
+        totalOverallAttr = 0
+        totalHaiku = 0
+        for entry in haikuDict:
+            totalHaiku += 1
+            #again, i'm not sure if this is going to be a dictionary of dictionaries
+            #though for now it is :p we're just checking if a given haiku has a positive rating
+            numAttribute = entry[self.value]
+            #then we get the value of the attribute (like there are 5 adjectives!)
+            totalOverallAttr += numAttribute
+            if entry["rating"] == "YES":
+                totalPosRating += numAttribute
+        self.meanFrequencies = totalPosRating / totalOverallAttr
+        self.totalOverallAttr = totalOverallAttr
+
+    def getEmpiricalFrequencies(self):
+        return self.empirical_frequencies
 
     def getOutcome(self):
         return self.outcome
@@ -161,3 +194,30 @@ class Node:
 
     def setValue(self, value):
         self.value = value
+
+    def setConfidence(self):
+        #very similar to the mean stuff.  maybe I could consolidate this into one function
+        #but for the time being i'll keep it separate just for debugging
+        totalPosRating = 0
+        totalPosRatingSquared = 0
+        for entry in haikuDict:
+            if entry["rating"] == "YES":
+                numAttribute = entry[self.value]
+                totalPosRating += numAttribute
+                totalPosRatingSquared += numAttribute**2
+        meanFrequencies = totalPosRatingSquared / self.totalOverallAttr
+        meanFrequenciesSquared = (totalPosRating / self.totalOverallAttr)**2
+
+        sigma = math.sqrt(meanFrequencies - meanFrequenciesSquared)
+
+        #this is just a formula for 95% confidence interval.  1.96 was taking from a random
+        #stats table in my stats book :p
+        lowerBound = self.meanFrequencies - 1.96*sigma
+        upperBound = self.meanFrequencies + 1.96*sigma
+
+        #confidence interval is a tuple of upper and lower bound
+        self.confidence_interval = (lowerBound, upperBound)
+
+    def getConfidence(self):
+        return self.confidence_interval
+
