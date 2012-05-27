@@ -141,7 +141,7 @@ class Node:
         #just keeps track of the total number of occurrences of an attr -> easier to calculate confidence with
         self.totalOverallAttr = 0
 
-    def setEmpiricalFrequencies(self, haikuDict):
+    def setMeanFrequencies(self, haikuDict):
         #this requires our dictionary of whatever values we have for our haikus
         #I'm not sure exactly how this is going to turn out, but I'm guessing this will be a table
         # containing the number of each attribute for each poem, and haikuDict will be the param for this
@@ -162,7 +162,7 @@ class Node:
         self.meanFrequencies = totalPosRating / totalOverallAttr
         self.totalOverallAttr = totalOverallAttr
 
-    def getEmpiricalFrequencies(self):
+    def getMeanFrequencies(self):
         return self.empirical_frequencies
 
     def getOutcome(self):
