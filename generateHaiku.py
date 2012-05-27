@@ -86,9 +86,17 @@ def makeRandomHaiku(POSDict):
 	haiku = line1 + '\n' + line2 + '\n' + line3
 	return haiku
 
+def makeRandomHaikus(POSDict, numHaikus, fileName):
+	haikuDB = open(fileName, "w")
+	for i in range(numHaikus):
+		haiku = makeRandomHaiku(POSDict)
+		haikuDB.write(str(i) + "\t" + haiku + "\n")
+	haikuDB.close()
+			
+
 def main():
 	POS = makePOSDict('wordDict.txt')
-	print makeRandomHaiku(POS)
+	makeRandomHaikus(POS, 100, "haikuDB")
 
 main()
 
