@@ -56,7 +56,7 @@ def splitData(data):
                 if row[-1] == 'no':
                     categoryDict[category].append([row[i], 0, 1])
     return categoryDict
-
+'''
 def chiSquare(categoryDict):
     entropyHeap = []
     totalYes = 0
@@ -87,6 +87,54 @@ def chiSquare(categoryDict):
         pval = 1 - chi2.cdf(delta, df)
         heapq.heappush(entropyHeap, [pval, category]) #we do 1-gain because heapq makes a min heap
     return entropyHeap
+'''
+
+def chiSquarePruning(tree):
+    #from bottom up
+    #check if split statistically significant
+    #get rid of if not
+
+    #I use the same notation as the book (pg. 706)
+    leaves = tree.getLeafNodes()
+    leavesPruned = True
+    while leavesPruned:
+        leafParents = []
+        for leaf in leaves:
+            parent = leaf.getParent()
+            if parent not in leafParents:
+                leafParents.append(parent)
+        leavesPruned = False
+        for node in leafParents:
+            numItems = node.getNumItems()
+            df = numItems - 1
+            p = node.getNumYes()
+            n = node.getNumNo()
+            delta = 0
+            for leaf in node.getChildren():
+                pk = leaf.getNumYes()
+                nk = leaf.getNumNo()
+                pHat = getPHat(p, n, pk, nk)
+                nHat = getNHat(p, n, pk, nk)
+                dev = (((pk - pHat)**2)/float(pHat))+(((nk - nHat)**2)/float(nHat))
+                delta += dev
+            prob = chi2.cdf(delta, df)
+            if prob > .05:
+                #we want to prune
+                leavesPruned = True
+                if p > n:
+                    node.setOutcome("YES")
+                else:
+                    node.setOutcome("NO")
+                node.pruneChildren()
+        leaves = tree.getLeafNodes()
+
+def getPHat(p, n, pk, nk):
+    pHat = p * ((pk+nk)/float(p+n))
+    return pHat
+
+def getNHat(p, n, pk, nk):
+    nHat = n * ((pk+nk)/float(p+n))
+    return nHat
 
 def entropy(q):
     '''
@@ -157,7 +205,9 @@ def makeTree(fullData):
     if numNo == 0:
         rootNode.setOutcome("YES")
         return tree
-
+    rootNode.setNumItems(numNo+numYes)
+    rootNode.setNumYes(numYes)
+    rootNode.setNumNo(numNo)
     makeTreeHelper(tree.getRoot(), fullData, dataDict[rootNode.getName()])
     return tree
 
@@ -196,6 +246,9 @@ def makeTreeHelper(rootNode, examples, parentExamples):
 
             numYes = value[1]
             numNo = value[2]
+            childNode.setNumItems(numYes+numNo)
+            childNode.setNumYes(numYes)
+            childNode.setNumNo(numNo)
             if numYes == 0:
                 childNode.setOutcome("NO")
             elif numNo == 0:
@@ -252,6 +305,7 @@ def main():
     fileName = sys.argv[1]
     parsedFile = parseFile(fileName)
     treeTimes = makeTree(parsedFile)
+    chiSquarePruning(treeTimes)
     treeTimes.makeGraphViz(looCV(parsedFile))
     os.system("dot -Tpdf tree.dot -o tree.pdf")
     os.system("open tree.pdf")

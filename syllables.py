@@ -23,6 +23,8 @@ def makeSyllableFile(fileName, poetrySet):
 		word = ''.join(word)
 		if word in poetrySet:
 			sCount = get_syllables(word)
+			if sCount == 0:
+				sCount = 1
 			wStr = ''
 			for w in word:
 				wStr += w + " "

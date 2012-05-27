@@ -20,6 +20,28 @@ class DecisionTree:
     def setRoot(self, root):
         self.root = root
 
+    def getLeafNodes(self):
+        nodeQueue = []
+        nodeQueue.append(self.root)
+        numCurLevel = 1
+        numNextLevel = 0
+        leaves = []
+        while nodeQueue != []:
+            tempNode = nodeQueue[0]
+            numCurLevel -=1
+            nodeQueue = nodeQueue[1:]
+            leaves.append(tempNode)
+            tempNodeChildren = tempNode.getChildren()
+            nodeQueue.extend(tempNodeChildren)
+            numNextLevel +=len(tempNodeChildren)
+            if nodeQueue == []:
+                return leaves
+            if numCurLevel == 0:
+                leaves = []
+                numCurLevel = numNextLevel
+                numNextLevel = 0
+
+
     def printTree(self):
         '''
         Prints the the tree out layer by layer, using BFS.
@@ -131,6 +153,9 @@ class Node:
         self.value = None #this is the value of the parent attribute this node represents
         self.parent = None
         self.children = []
+        self.numItems = 0
+        self.numYes = 0
+        self.numNo = 0
         #this represents the mean value of an attribute that appears in a given category
         #ie: if this is an adjective node, then meanFrequencies is valued at the average
         #number of adjectives a haiku contains that is in this node
@@ -162,6 +187,24 @@ class Node:
         self.meanFrequencies = totalPosRating / totalOverallAttr
         self.totalOverallAttr = totalOverallAttr
 
+    def setNumItems(self, items):
+        self.numItems = items
+
+    def setNumYes(self, yess):
+        self.numYes = yess
+
+    def setNumNo(self, nos):
+        self.numNo = nos
+
+    def getNumItems(self):
+        return self.numItems
+
+    def getNumYes(self):
+        return self.numYes
+
+    def getNumNo(self):
+        return self.numNo
+    
     def getMeanFrequencies(self):
         return self.empirical_frequencies
 
@@ -188,6 +231,9 @@ class Node:
 
     def getChildren(self):
         return self.children
+
+    def pruneChildren(self):
+        self.children = []
 
     def getValue(self):
         return self.value

@@ -33,22 +33,23 @@ def makePOSDict(fileName):
 
 
 def getNextWord(POS, POSDict, remainingSyll):
-	if POS == "N" or POS == "p" or POS == "r":
+	if POS == "N" or POS == "r":
 		legalPOS = ["V", "t", "i", "v", "C", "!"]
 	elif POS == "V" or POS == "t" or POS == "i":
-		legalPOS = ["v", "N", "p", "A", "C", "P", "!", "P", "r"]
+		legalPOS = ["v", "N", "A", "C", "P", "!", "P", "r"]
 	elif POS == "A":
 		legalPOS = ["N", "r", "!", "C"]
 	elif POS == "v":
 		legalPOS = ["r", "V", "t", "i", "!"]
 	elif POS == "C":
-		legalPOS = ["N", "p", "r", "A", "v", "V", "t", "i", "!"]
+		legalPOS = ["N", "r", "A", "v", "V", "t", "i", "!"]
 	elif POS == "o":
 		legalPOS = ["V"]
 	elif POS == "P":
-		legalPOS = ["N", "p", "r","A", "!"]
+		legalPOS = ["N", "r","A", "!"]
 	else:
-		legalPOS = ["N", "p", "V", "t", "i", "A", "v", "C", "P", "!", "r"]
+		legalPOS = ["N", "V", "t", "i", "A", "v", "C", "P", "!", "r"]
+	random.shuffle(legalPOS)
 	newPOS = random.choice(legalPOS)
 	numSyll = random.randint(1, remainingSyll)
 	try:
@@ -58,17 +59,20 @@ def getNextWord(POS, POSDict, remainingSyll):
 		while numSyll not in POSDict[newPOS]:
 			numSyll = random.randint(1, remainingSyll)
 		next = random.choice(POSDict[newPOS][numSyll])
-
 	return next, numSyll, newPOS
 
 
 def makeRandomLine(numberSyllables, POSDict):
 	line = ""
-	randKey = random.choice(POSDict.keys())
+	keys = POSDict.keys()
+	random.shuffle(keys)
+	randKey = random.choice(keys)
 	randNumSyll = random.choice(POSDict[randKey].keys())
 	while randNumSyll > numberSyllables:
 		randNumSyll = random.choice(POSDict[randKey].keys())
-	startWord = random.choice(POSDict[randKey][randNumSyll])
+	words = POSDict[randKey][randNumSyll]
+	random.shuffle(words)
+	startWord = random.choice(words)
 	line += startWord + " "
 	syllablesRemaining = numberSyllables - randNumSyll
 	POS = randKey
