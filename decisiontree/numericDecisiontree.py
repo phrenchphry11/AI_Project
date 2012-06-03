@@ -5,7 +5,7 @@ Functions to make and display decision trees, and compute accuracy.
 The titanic dataset takes a long time due to calculating accuracy with loocv.
 Also this requires having Graphviz installed. Also, not sure this works on Windows.
 '''
-import sys, math, heapq, os
+import sys, math, heapq, os, math
 from scipy.stats import chi2
 from treeClass import *
 
@@ -175,10 +175,63 @@ def calculateEntropy(categoryDict):
             e = entropy(probYes)
             remainder += e * (numYes + numNo)/float(totalYes + totalNo)
 
-        print totalYes, totalNo, 'total yes, no'
         gain = entropy(totalYes/float(totalYes+totalNo)) - remainder
         heapq.heappush(entropyHeap, [1 - gain, category]) #we do 1-gain because heapq makes a min heap
     return entropyHeap
+
+
+
+
+def calculateConfidence(categoryDict):
+    '''
+    Takes a dictionary of the form produced by splitData.
+    Creates a heap orderded by information gain 
+    (popping gives you the item with highest gain).
+    Calls the entropy(q) function.
+    '''
+    confidenceHeap = []
+    print categoryDict
+    totalYes = 0
+    totalNo = 0
+    totalNumYesSquared = 0
+    totalOverallAttr = 0
+    someCategory = categoryDict.keys()[0]
+    for attribute in categoryDict[someCategory]:
+        totalOverallAttr += 1
+        totalYes += attribute[1]
+        totalNo += attribute[2] 
+
+    for category in categoryDict:
+        remainder = 0
+        curCategory = categoryDict[category]
+        for attribute in curCategory:
+            numYes = attribute[1]
+            numNo = attribute[2]
+            probYes = numYes/float(numYes + numNo)
+            probNo = numNo/float(numYes + numNo)
+            e = entropy(probYes)
+            numYesSquared = numYes**2
+
+            totalYes += numYes
+            totalNumYesSquared += numYesSquared
+
+        meanFrequencies = totalNumYesSquared / totalOverallAttr
+        meanFrequenciesSquared = (totalYes / totalOverallAttr)**2
+
+        sigma = math.sqrt(meanFrequencies - meanFrequenciesSquared)
+
+        #this is just a formula for 95% confidence interval.  1.96 was taking from a random
+        #stats table in my stats book :p
+        lowerBound = self.meanFrequencies - 1.96*sigma
+        upperBound = self.meanFrequencies + 1.96*sigma
+
+        #confidence interval is a tuple of upper and lower bound
+        confidence_interval = (lowerBound, upperBound)
+
+        conf_ave = (lowerBound + upperBound) / 2
+        heapq.heappush(confidenceHeap, [conf_ave, category]) #we do 1-gain because heapq makes a min heap
+    return confidenceHeap
+
 
 
 def makeTree(fullData):
