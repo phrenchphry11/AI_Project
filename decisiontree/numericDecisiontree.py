@@ -156,7 +156,7 @@ def calculateEntropy(categoryDict):
     Calls the entropy(q) function.
     '''
     entropyHeap = []
-
+    print categoryDict
     totalYes = 0
     totalNo = 0
     someCategory = categoryDict.keys()[0]
@@ -175,6 +175,7 @@ def calculateEntropy(categoryDict):
             e = entropy(probYes)
             remainder += e * (numYes + numNo)/float(totalYes + totalNo)
 
+        print totalYes, totalNo, 'total yes, no'
         gain = entropy(totalYes/float(totalYes+totalNo)) - remainder
         heapq.heappush(entropyHeap, [1 - gain, category]) #we do 1-gain because heapq makes a min heap
     return entropyHeap
@@ -187,6 +188,7 @@ def makeTree(fullData):
     Calls the recursive makeTreeHelper.
     '''
     dataDict = splitData(fullData)
+    print dataDict
     entropyHeap = calculateEntropy(dataDict)
     tree = DecisionTree()
     splitVal = heapq.heappop(entropyHeap) #contains the attribute to split on

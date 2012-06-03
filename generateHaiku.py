@@ -1,5 +1,5 @@
 import random
-
+import re
 from syllableCount import *
 
 def makeSyllableDict(wordList):
@@ -97,10 +97,10 @@ def makeRandomHaikuFromCorpus(corpus):
 	words = []
 	for line in corpus:
 		line = line.strip()
-		line = line.split()
+		line = re.split("\W", line)
 		for word in line:
-			word = word.strip("\".,!?;:&*'=-></#@)(")
-			words.append(word)
+			if word != "":
+				words.append(word)
 	line1 = ""
 	remainingSyllables = 5
 	while remainingSyllables > 0:

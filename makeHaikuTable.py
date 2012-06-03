@@ -70,7 +70,6 @@ def getNumRepeatedWords(haiku):
 	wordDict = {}
 	for word in haiku:
 		if word not in wordDict:
-			wordDict.add(word)
 			wordDict[word] = 1
 		else:
 			wordDict[word] += 1
@@ -94,7 +93,7 @@ def makeTableFile(haikuDict, dictionaryDict):
 	tableFile.close()
 
 def main():
-	haikuDict = parseHaiku("funny_haikus")
+	haikuDict = parseHaiku("haikuDB")
 	wordDict = makeDictionary("wordDict.txt")
 	makeTableFile(haikuDict, wordDict)
 
