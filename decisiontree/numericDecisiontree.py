@@ -89,6 +89,11 @@ def chiSquarePruning(tree):
                 print "nk", nk
                 pHat = getPHat(p, n, pk, nk)
                 nHat = getNHat(p, n, pk, nk)
+                print nHat, 'nhat'
+                if nHat == 0.0:
+                    nHat = 0.0000000000001
+                if pHat == 0.0:
+                    pHat = 0.0000000000001
                 dev = (((pk - pHat)**2)/float(pHat))+(((nk - nHat)**2)/float(nHat))
                 delta += dev
             prob = chi2.cdf(delta, df)
@@ -307,6 +312,7 @@ def makeTreeHelper(rootNode, examples, parentExamples):
 
     changed for numeric data. UNTESTED.
     '''
+    
     if len(examples) == 1: #we are out of examples
         parentNumYes = 0
         parentNumNo = 0
@@ -378,11 +384,23 @@ def makeTreeHelper(rootNode, examples, parentExamples):
                 #now we remove the attribute we split on from the data
                 categoryIndex = examples[0].index(splitVal[1])
                 newExamples = [examples[0][:categoryIndex]+examples[0][(categoryIndex+1)%len(examples[0]):]]
+                
                 for e in examples:
                     newE = e[:categoryIndex]+e[categoryIndex+1 % len(e):]
                     newExamples.append(newE)
                 parentExamples = dataDict[splitVal[1]]
-                makeTreeHelper(childNode, newExamples, parentExamples)
+
+                updatedParentExamples = []
+                if low:
+                    for example in parentExamples:
+                        print example[0], splitNum, 'compare'
+                        if int(example[0]) < int(splitNum):
+                            updatedParentExamples.append(example)
+                else:
+                    for example in parentExamples:
+                        if int(example[0]) >= int(splitNum):
+                            updatedParentExamples.append(example)
+                makeTreeHelper(childNode, newExamples, updatedParentExamples)
     return
                 
 def looCV(dataSet):
