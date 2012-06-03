@@ -64,9 +64,21 @@ def getAvgWordLength(haiku):
 	avg = int(round(float(wordLengths/len(haiku))))
 	return avg
 
+def getNumRepeatedWords(haiku):
+	haiku = haiku.split()
+	repeats = 0
+	wordDict = {}
+	for word in haiku:
+		if word not in wordDict:
+			wordDict[word] = 1
+		else:
+			wordDict[word] += 1
+			repeats += 1
+	return repeats
+
 def makeTableFile(haikuDict, dictionaryDict):
 	tableFile = open("haikuTable.txt", "w")
-	line1 = "nouns \t verbs \t adjectives \t av. syllables \t av. word length"
+	line1 = "nouns \t verbs \t adjectives \t av. syllables \t av. word length \t repeated words"
 	print >>tableFile, line1
 	for ID in haikuDict:
 		haiku = haikuDict[ID]
@@ -75,7 +87,8 @@ def makeTableFile(haikuDict, dictionaryDict):
 		numAdj = str(getNumPOS(haiku, "A", dictionaryDict))
 		numSyll = str(getAvgSyll(haiku, dictionaryDict))
 		wordLen = str(getAvgWordLength(haiku))
-		newLine = numNouns + "\t" + numVerbs + "\t" + numAdj + "\t" + numSyll + "\t" + wordLen
+		repeatedWords = str(getNumRepeatedWords(haiku))
+		newLine = numNouns + "\t" + numVerbs + "\t" + numAdj + "\t" + numSyll + "\t" + wordLen + "\t" + repeatedWords
 		print >>tableFile, newLine
 	tableFile.close()
 

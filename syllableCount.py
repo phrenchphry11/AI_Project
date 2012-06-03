@@ -1,29 +1,29 @@
 
 from BeautifulSoup import BeautifulSoup
 
-from wordnik.api.APIClient import APIClient
-import wordnik.model
+#from wordnik.api.APIClient import APIClient
+#import wordnik.model
 import urllib
 
-from wordnik.api.WordAPI import WordAPI
-from wordnik.api.WordsAPI import WordsAPI
+#from wordnik.api.WordAPI import WordAPI
+#from wordnik.api.WordsAPI import WordsAPI
 
 
 import random
 
-api_key = 'a4175a965b1146ebd100109d2e106a9ed0ddcc28dd82a6b84'
+#api_key = 'a4175a965b1146ebd100109d2e106a9ed0ddcc28dd82a6b84'
 url = 'http://www.wordcalc.com/index.php'
 
-my_client = APIClient(api_key, 'http://api.wordnik.com/v4')
+#my_client = APIClient(api_key, 'http://api.wordnik.com/v4')
 
-myW = WordAPI(my_client)
-w = WordsAPI(my_client)
+#myW = WordAPI(my_client)
+#w = WordsAPI(my_client)
 
 #i = wordnik.model.WordsRandomWordInput()
 #i.includePartOfSpeech = 'noun'
 
-example = w.getRandomWords()
-example.extend(w.getRandomWords())
+#example = w.getRandomWords()
+#example.extend(w.getRandomWords())
 """
 word_selection = []
 for e in example:
@@ -103,7 +103,7 @@ def add_syllables(file):
 	fname1.close()
 
 
-add_syllables('articles')
+#add_syllables('articles')
 
 
 def generate_poem(word_selection):

@@ -1,4 +1,6 @@
 import random
+import re
+from syllableCount import *
 
 def makeSyllableDict(wordList):
 	syllDict = {}
@@ -90,6 +92,57 @@ def makeRandomHaiku(POSDict):
 	haiku = line1 + '\n' + line2 + '\n' + line3
 	return haiku
 
+def makeRandomHaikuFromCorpus(corpus):
+	corpus = open(corpus)
+	words = []
+	for line in corpus:
+		line = line.strip()
+		line = re.split("\W", line)
+		for word in line:
+			if word != "":
+				words.append(word)
+	line1 = ""
+	remainingSyllables = 5
+	while remainingSyllables > 0:
+		randWord = random.choice(words)
+		numSyllables = get_syllables(randWord) 
+		line1 += randWord + " "
+		remainingSyllables -= numSyllables
+		if remainingSyllables > 0:
+			nextWordIndex = words.index(randWord) + 1
+			line1 += words[nextWordIndex] + " "
+			remainingSyllables -= get_syllables(words[nextWordIndex])
+
+	line2 = ""
+	remainingSyllables = 7
+	while remainingSyllables > 0:
+		randWord = random.choice(words)
+		numSyllables = get_syllables(randWord) 
+		line2 += randWord + " "
+		remainingSyllables -= numSyllables
+		if remainingSyllables > 0:
+			nextWordIndex = words.index(randWord) + 1
+			line2 += words[nextWordIndex] + " "
+			remainingSyllables -= get_syllables(words[nextWordIndex])
+
+	line3 = ""
+	remainingSyllables = 5
+	while remainingSyllables > 0:
+		randWord = random.choice(words)
+		numSyllables = get_syllables(randWord) 
+		line3 += randWord + " "
+		remainingSyllables -= numSyllables
+		if remainingSyllables > 0:
+			nextWordIndex = words.index(randWord) + 1
+			line3 += words[nextWordIndex] + " "
+			remainingSyllables -= get_syllables(words[nextWordIndex])
+
+	haiku = line1 + "\n" + line2 + "\n" + line3
+	print haiku
+
+
+
+
 def makeRandomHaikus(POSDict, numHaikus, fileName):
 	haikuDB = open(fileName, "w")
 	for i in range(numHaikus):
@@ -101,6 +154,7 @@ def makeRandomHaikus(POSDict, numHaikus, fileName):
 def main():
 	POS = makePOSDict('wordDict.txt')
 	makeRandomHaikus(POS, 100, "haikuDB")
+	makeRandomHaikuFromCorpus("prideprejudice.txt")
 
 main()
 
