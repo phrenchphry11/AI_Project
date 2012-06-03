@@ -78,7 +78,7 @@ def getNumRepeatedWords(haiku):
 
 def makeTableFile(haikuDict, dictionaryDict):
 	tableFile = open("haikuTable.txt", "w")
-	line1 = "nouns \t verbs \t adjectives \t av. syllables \t av. word length"
+	line1 = "nouns \t verbs \t adjectives \t av. syllables \t av. word length \t repeated words"
 	print >>tableFile, line1
 	for ID in haikuDict:
 		haiku = haikuDict[ID]
