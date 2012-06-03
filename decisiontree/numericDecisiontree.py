@@ -7,7 +7,7 @@ Also this requires having Graphviz installed. Also, not sure this works on Windo
 '''
 import sys, math, heapq, os
 from scipy.stats import chi2
-from treeClass import *
+from numericTreeClass import *
 
 
 def parseFile(fileName):
@@ -58,39 +58,6 @@ def splitData(data):
                     categoryDict[category].append([row[i], 0, 1])
     return categoryDict
 
-'''
-def chiSquare(categoryDict):
-    entropyHeap = []
-    totalYes = 0
-    totalNo = 0
-    delta = 0
-    someCategory = categoryDict.keys()[0]
-    for attribute in categoryDict[someCategory]:
-        totalYes += attribute[1]
-        totalNo += attribute[2] 
-
-    for category in categoryDict:
-        remainder = 0
-        curCategory = categoryDict[category]
-        for attribute in curCategory:
-            numYes = attribute[1]
-            numNo = attribute[2]
-            probYes = numYes/float(numYes + numNo)
-            probNo = numNo/float(numYes + numNo)
-            numYes_hat = totalYes*(numYes + numNo)/(totalYes + totalNo)
-            numNo_hat = totalNo*(numYes + numNo)/(totalYes + totalNo)
-            if numNo_hat == 0:
-                numNo_hat = 0.00000000000000001
-            if numYes_hat == 0:
-                numYes_hat = 0.0000000000000001
-            delta += ((numNo - numNo_hat)**2/numNo_hat) + ((numYes-numYes_hat)**2/numYes_hat)
-
-        df = totalYes + totalNo - 1
-        pval = 1 - chi2.cdf(delta, df)
-        heapq.heappush(entropyHeap, [pval, category]) #we do 1-gain because heapq makes a min heap
-    return entropyHeap
-'''
-
 def chiSquarePruning(tree):
     #from bottom up
     #check if split statistically significant
@@ -111,10 +78,15 @@ def chiSquarePruning(tree):
             df = numItems - 1
             p = node.getNumYes()
             n = node.getNumNo()
+            print "p", p
+            print "n", n
             delta = 0
             for leaf in node.getChildren():
+                print "name and val  ", leaf.getName(), leaf.getValue()
                 pk = leaf.getNumYes()
                 nk = leaf.getNumNo()
+                print "pk", pk
+                print "nk", nk
                 pHat = getPHat(p, n, pk, nk)
                 nHat = getNHat(p, n, pk, nk)
                 dev = (((pk - pHat)**2)/float(pHat))+(((nk - nHat)**2)/float(nHat))
@@ -187,6 +159,8 @@ def makeTree(fullData):
     Calls the recursive makeTreeHelper.
     '''
     dataDict = splitData(fullData)
+    print "dataDict:   "
+    print dataDict
     entropyHeap = calculateEntropy(dataDict)
     tree = DecisionTree()
     splitVal = heapq.heappop(entropyHeap) #contains the attribute to split on
@@ -221,8 +195,9 @@ def findBestSplitNum(numericData):
     possibleSplits = []
     for i in numericData:
         num = int(i[0])
-        possibleSplits.append(num)
-    possibleSplits = set(possibleSplits)
+        if num not in possibleSplits:
+            possibleSplits.append(num)
+    possibleSplits = possibleSplits[:-1]
     bestSplit = 0
     maxInfoGain = 0
     for num in possibleSplits:
@@ -230,7 +205,7 @@ def findBestSplitNum(numericData):
         highData = []
         for i in range(len(numericData)):
             if int(numericData[i][0]) <= num:
-                lowData.append(i)
+                lowData.append(numericData[i])
             else:
                 highData = numericData[i:]
                 break
@@ -303,16 +278,28 @@ def makeTreeHelper(rootNode, examples, parentExamples):
         numericData = dataDict[splitVal[1]]
         #value[0] is the number
         splitNum = findBestSplitNum(numericData)
-        lowData = numericData[:splitNum]
-        highData = numericData[splitNum:]
+        print "splitNum  :", splitNum
+        print "splitCategory   :", splitVal[1]
+        lowData = numericData[:splitNum + 1]
+        highData = numericData[splitNum + 1:]
         numericData = [lowData, highData]
         #ok, here we need to take data in splitVal category and split into two groups to maximize info gain
 
         for value in numericData: #This just look through both splits and makes then child nodes.
+            print "low or high data:  ", value
+            low = False
+            high = False
+            if value == lowData:
+                low = True
+            else:
+                high = True 
             childNode = Node()
             childNode.setParent(rootNode)
             rootNode.addChild(childNode)
-            childNode.setValue(value[0])
+            if low:
+                childNode.setValue("<= " + str(splitNum))
+            else:
+                childNode.setValue("> " + str(splitNum))
             childNode.setName("Outcome") #will be reset by children if not a leaf node
 
             numYes = 0
@@ -340,9 +327,8 @@ def makeTreeHelper(rootNode, examples, parentExamples):
                 categoryIndex = examples[0].index(splitVal[1])
                 newExamples = [examples[0][:categoryIndex]+examples[0][(categoryIndex+1)%len(examples[0]):]]
                 for e in examples:
-                    if e[categoryIndex] == childNode.getValue():
-                        newE = e[:categoryIndex]+e[categoryIndex+1 % len(e):]
-                        newExamples.append(newE)
+                    newE = e[:categoryIndex]+e[categoryIndex+1 % len(e):]
+                    newExamples.append(newE)
                 parentExamples = dataDict[splitVal[1]]
                 makeTreeHelper(childNode, newExamples, parentExamples)
     return
@@ -380,8 +366,11 @@ def main():
     fileName = sys.argv[1]
     parsedFile = parseFile(fileName)
     treeTimes = makeTree(parsedFile)
+    print "TREE:  "
+    treeTimes.printTree()
     chiSquarePruning(treeTimes)
-    treeTimes.makeGraphViz(looCV(parsedFile))
+    #treeTimes.makeGraphViz(looCV(parsedFile))
+    treeTimes.makeGraphViz(.5)
     os.system("dot -Tpdf tree.dot -o tree.pdf")
     os.system("open tree.pdf")
     
