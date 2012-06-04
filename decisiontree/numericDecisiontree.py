@@ -128,7 +128,7 @@ def calculateEntropy(categoryDict):
     Calls the entropy(q) function.
     '''
     entropyHeap = []
-    print categoryDict
+    #print categoryDict
     totalYes = 0
     totalNo = 0
     someCategory = categoryDict.keys()[0]
@@ -162,7 +162,7 @@ def calculateConfidence(categoryDict):
     Calls the entropy(q) function.
     '''
     confidenceHeap = []
-    print categoryDict
+    #print categoryDict
     totalYes = 0
     totalNo = 0
     totalNumYesSquared = 0
@@ -213,6 +213,7 @@ def makeTree(fullData):
     Calls the recursive makeTreeHelper.
     '''
     dataDict = splitData(fullData)
+    #print "DATA:  ", dataDict
     entropyHeap = calculateEntropy(dataDict)
     tree = DecisionTree()
     splitVal = heapq.heappop(entropyHeap) #contains the attribute to split on
@@ -250,7 +251,7 @@ def findBestSplitNum(numericData):
         if num not in possibleSplits:
             possibleSplits.append(num)
     possibleSplits = possibleSplits[:-1]
-    bestSplit = 0
+    bestSplit = None
     maxInfoGain = 0
     for num in possibleSplits:
         lowData = []
@@ -308,6 +309,7 @@ def makeTreeHelper(rootNode, examples, parentExamples):
     changed for numeric data. UNTESTED.
     '''
     if len(examples) == 1: #we are out of examples
+        #right now this doesn't happen
         parentNumYes = 0
         parentNumNo = 0
         childNode = Node()
@@ -321,68 +323,108 @@ def makeTreeHelper(rootNode, examples, parentExamples):
             childNode.setOutcome("YES")
         else:
             childNode.setOutcome("NO")
+    
     else:
         dataDict = splitData(examples)
         entropyHeap = calculateEntropy(dataDict)
         splitVal = heapq.heappop(entropyHeap) #attribute to split on
         rootNode.setName(splitVal[1])
-
         numericData = dataDict[splitVal[1]]
         #value[0] is the number
-        splitNum = findBestSplitNum(numericData)
-        print "splitNum  :", splitNum
-        print "splitCategory   :", splitVal[1]
-        lowData = numericData[:splitNum + 1]
-        highData = numericData[splitNum + 1:]
-        numericData = [lowData, highData]
-        #ok, here we need to take data in splitVal category and split into two groups to maximize info gain
-
-        for value in numericData: #This just look through both splits and makes then child nodes.
-            print "low or high data:  ", value
-            low = False
-            high = False
-            if value == lowData:
-                low = True
+        totalYes = 0
+        totalNo = 0
+        childNode = Node()
+        for i in numericData:
+            totalYes +=i[1]
+            totalNo +=i[2]
+        if totalYes == 0:
+            print "passed all yes"
+            rootNode.setName("Outcome")
+            rootNode.setOutcome("NO")
+        elif totalNo == 0:
+            print "passed all no"
+            rootNode.setName("Outcome")
+            rootNode.setOutcome("YES")
+        elif len(dataDict) == 1:
+            print "passed all one number"
+            if totalYes > totalNo:
+                rootNode.setOutcome("YES")
             else:
-                high = True 
-            childNode = Node()
-            childNode.setParent(rootNode)
-            rootNode.addChild(childNode)
-            if low:
-                childNode.setValue("<= " + str(splitNum))
-            else:
-                childNode.setValue("> " + str(splitNum))
-            childNode.setName("Outcome") #will be reset by children if not a leaf node
+                rootNode.setOutcome("NO")
+        else:
+            splitNum = findBestSplitNum(numericData)
+            assert(splitNum)
 
-            numYes = 0
-            numNo = 0
-            for i in value:
-                numYes += i[1]
-                numNo += i[2]
+            #print "splitNum  :", splitNum
+            #print "splitCategory   :", splitVal[1]
+            lowData = numericData[:splitNum + 1]
+            highData = numericData[splitNum + 1:]
+            numericData = [lowData, highData]
+            #ok, here we need to take data in splitVal category and split into two groups to maximize info gain
 
-            childNode.setNumItems(numYes+numNo)
-            childNode.setNumYes(numYes)
-            childNode.setNumNo(numNo)
-            if numYes == 0:
-                childNode.setOutcome("NO")
-            elif numNo == 0:
-                childNode.setOutcome("YES")
-
-            elif entropyHeap == []: #we are out of attributes to split on
-                if numYes > numNo: #pick most common outcome
-                    childNode.setOutcome("YES")
+            for value in numericData: #This just look through both splits and makes then child nodes.
+                #print "low or high data:  ", value
+                low = False
+                high = False
+                if value == lowData:
+                    low = True
                 else:
-                    childNode.setOutcome("NO")
+                    high = True 
+                childNode = Node()
+                childNode.setParent(rootNode)
+                rootNode.addChild(childNode)
+                if low:
+                    childNode.setValue("<= " + str(splitNum))
+                else:
+                    childNode.setValue("> " + str(splitNum))
+                childNode.setName("Outcome") #will be reset by children if not a leaf node
 
-            else:
-                #now we remove the attribute we split on from the data
-                categoryIndex = examples[0].index(splitVal[1])
-                newExamples = [examples[0][:categoryIndex]+examples[0][(categoryIndex+1)%len(examples[0]):]]
-                for e in examples:
-                    newE = e[:categoryIndex]+e[categoryIndex+1 % len(e):]
-                    newExamples.append(newE)
-                parentExamples = dataDict[splitVal[1]]
-                makeTreeHelper(childNode, newExamples, parentExamples)
+                numYes = 0
+                numNo = 0
+                for i in value:
+                    numYes += i[1]
+                    numNo += i[2]
+
+                childNode.setNumItems(numYes+numNo)
+                childNode.setNumYes(numYes)
+                childNode.setNumNo(numNo)
+                if numYes == 0:
+                    print "this node all no", splitNum
+                    childNode.setOutcome("NO")
+                elif numNo == 0:
+                    print "this node all yes", splitNum
+                    childNode.setOutcome("YES")
+
+                elif entropyHeap == []: #we are out of attributes to split on
+                    print "no more attributes", splitNum
+                    if numYes > numNo: #pick most common outcome
+                        childNode.setOutcome("YES")
+                    else:
+                        childNode.setOutcome("NO")
+
+                else:
+                    #now we remove the attribute we split on from the data
+                    '''
+                    categoryIndex = examples[0].index(splitVal[1])
+                    newExamples = [examples[0][:categoryIndex]+examples[0][(categoryIndex+1)%len(examples[0]):]]
+                    for e in examples:
+                        newE = e[:categoryIndex]+e[categoryIndex+1 % len(e):]
+                        newExamples.append(newE)
+                    parentExamples = dataDict[splitVal[1]]
+                    makeTreeHelper(childNode, newExamples, parentExamples)
+                    '''
+                    categoryIndex = examples[0].index(splitVal[1])
+                    newExamples = [examples[0][:categoryIndex]+examples[0][(categoryIndex+1)%len(examples[0]):]]
+                    for e in examples[1:]:
+                        if low and int(e[categoryIndex]) <= splitNum:
+                            newE = e[:categoryIndex]+e[categoryIndex+1 % len(e):]
+                            newExamples.append(newE)
+                        if high and int(e[categoryIndex]) > splitNum:
+                            newE = e[:categoryIndex]+e[categoryIndex+1 % len(e):]
+                            newExamples.append(newE)
+                    parentExamples = dataDict[splitVal[1]]
+                    #print "newEs   ", newExamples
+                    makeTreeHelper(childNode, newExamples, parentExamples)
     return
                 
 def looCV(dataSet):
@@ -420,7 +462,7 @@ def main():
     treeTimes = makeTree(parsedFile)
     print "TREE:  "
     treeTimes.printTree()
-    chiSquarePruning(treeTimes)
+    #chiSquarePruning(treeTimes)
     #treeTimes.makeGraphViz(looCV(parsedFile))
     treeTimes.makeGraphViz(.5)
     os.system("dot -Tpdf tree.dot -o tree.pdf")
