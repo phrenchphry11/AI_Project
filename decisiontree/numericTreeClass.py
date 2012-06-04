@@ -144,6 +144,44 @@ class DecisionTree:
 
             return curNode.getOutcome()
 
+    def isItemInNode(self, itemDict, node):
+        '''
+        Searches for an outcome in the decisionTree, given a dictionary of attributes
+        for a specific case in the following form:
+        {attr1: value, attr2:value, etc}
+        an example from the tennis dataset would be:
+        {"outlook":"sunny", "temperature":"hot", etc}
+
+        Returns the outcome ("YES" or "NO") of the case if there is a match,
+        otherwise returns None.
+        '''
+        curNode = self.root
+        if curNode == node:
+            return True
+        else:
+            while not curNode.getOutcome():
+                curAttribute = curNode.getName()
+                curValue = itemDict[curAttribute]
+                children = curNode.getChildren()
+
+                childfound = False
+                for child in children:
+                    if ">" in child.getValue():
+                        val = child.getValue().split()[-1]
+                        if int(curValue) > int(val):
+                            curNode = child
+                            childfound = True
+                            break
+                    elif "<" in child.getValue():
+                        val = child.getValue().split()[-1]
+
+                        if int(curValue) <= int(val):
+                            curNode = child
+                            childFound = True
+                            break
+                    if curNode == node:
+                        return True
+            return False
 
 
 
@@ -250,16 +288,17 @@ class Node:
     def setValue(self, value):
         self.value = value
 
-    def setConfidence(self, haikuDict):
+    def setConfidence(self, haikuDict, tree):
         #very similar to the mean stuff.  maybe I could consolidate this into one function
         #but for the time being i'll keep it separate just for debugging
         totalPosRating = 0
         totalPosRatingSquared = 0
         for entry in haikuDict:
-            if entry["rating"] == "YES":
-                numAttribute = entry[self.value]
-                totalPosRating += numAttribute
-                totalPosRatingSquared += numAttribute**2
+            if tree.isItemInNode(haikuDict, self):
+                if entry["rating"] == "YES":
+                    numAttribute = entry[self.value]
+                    totalPosRating += numAttribute
+                    totalPosRatingSquared += numAttribute**2
         meanFrequencies = totalPosRatingSquared / self.totalOverallAttr
         meanFrequenciesSquared = (totalPosRating / self.totalOverallAttr)**2
 
