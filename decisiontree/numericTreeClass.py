@@ -250,7 +250,7 @@ class Node:
     def setValue(self, value):
         self.value = value
 
-    def setConfidence(self):
+    def setConfidence(self, haikuDict):
         #very similar to the mean stuff.  maybe I could consolidate this into one function
         #but for the time being i'll keep it separate just for debugging
         totalPosRating = 0

@@ -153,6 +153,8 @@ def calculateEntropy(categoryDict):
             e = entropy(probYes)
             remainder += e * (numYes + numNo)/float(totalYes + totalNo)
 
+        if float(totalYes + totalNo) == 0:
+            totalYes = 0.000000001
         gain = entropy(totalYes/float(totalYes+totalNo)) - remainder
         heapq.heappush(entropyHeap, [1 - gain, category]) #we do 1-gain because heapq makes a min heap
     return entropyHeap
@@ -486,7 +488,28 @@ def looCV(dataSet):
     accuracy = numCorrect/float(numItems)
     return accuracy
   
-
+def createConfidenceHeap(tree, haikuDict):
+    nodeQueue = []
+    nodeQueue.append(tree.root)
+    numCurLevel = 1
+    numNextLevel = 0
+    confidenceHeap = []
+    while nodeQueue != []:
+        tempNode = nodeQueue[0]
+        numCurLevel -=1
+        nodeQueue = nodeQueue[1:]
+        tempNode.setConfidence(haikuDict)
+        lower, upper = tempNode.getConfidence()
+        heappush(confidenceHeap, [lower, tempNode])
+        print tempNode.getName(), tempNode.getValue(), tempNode.getOutcome(), '\t',
+        tempNodeChildren = tempNode.getChildren()
+        nodeQueue.extend(tempNodeChildren)
+        numNextLevel +=len(tempNodeChildren)
+        if numCurLevel == 0:
+            print
+            numCurLevel = numNextLevel
+            numNextLevel = 0
+    return confidenceHeap
                 
 def main():
     fileName = sys.argv[1]
@@ -519,6 +542,7 @@ def main():
     print "Is your poem any good?", treeTimes.search(haikuDict)
     >>>>>>> 4b4fd475dcd3e482ab4b55841bfe5f4886e5c68d'''
     #treeTimes.makeGraphViz(looCV(parsedFile))
+    print createConfidenceHeap(treeTimes, haikuDict), 'conf heap'
     treeTimes.makeGraphViz(.5)
     os.system("dot -Tpdf tree.dot -o tree.pdf")
     os.system("open tree.pdf")
