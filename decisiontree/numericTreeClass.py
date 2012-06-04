@@ -125,13 +125,26 @@ class DecisionTree:
 
                 childfound = False
                 for child in children:
-                    if child.getValue() == curValue:
-                        curNode = child
-                        childfound = True
-                        break
+                    print child.getValue(), "WHAT IS THE VALUE MY CHILD"
+                    if ">" in child.getValue():
+                        val = child.getValue().split()[-1]
+                        print val, "THIS IS THE VAL MY CHILD"
+                        if curValue > val:
+                            curNode = child
+                            childfound = True
+                            break
+                    else:
+                        val = child.getValue().split()[-1]
+                        print val, "ANOTHER VAL"
 
-                if not childfound:
-                    return None
+                        if curValue <= val:
+                            curNode = child
+                            childFound = True
+                            print 'break'
+                            break
+
+            if not childfound:
+                return None
 
             return curNode.getOutcome()
 

@@ -92,6 +92,17 @@ def makeTableFile(haikuDict, dictionaryDict):
 		print >>tableFile, newLine
 	tableFile.close()
 
+
+def getIndividualPoemInfo(haiku):
+	numNouns = str(getNumPOS(haiku, "N", dictionaryDict))
+	numVerbs = str(getNumPOS(haiku, "V", dictionaryDict))
+	numAdj = str(getNumPOS(haiku, "A", dictionaryDict))
+	numSyll = str(getAvgSyll(haiku, dictionaryDict))
+	wordLen = str(getAvgWordLength(haiku))
+	repeatedWords = str(getNumRepeatedWords(haiku))
+	haikuInfo = {"nouns":numNouns, "verbs":numVerbs, "adjectives":numAdj, "avgSyllables": numSyll, "avgWordLen": wordLen, "numRepeatedWords":repeatedWords}
+	return haikuInfo
+	
 def main():
 	haikuDict = parseHaiku("haikuDB")
 	wordDict = makeDictionary("wordDict.txt")

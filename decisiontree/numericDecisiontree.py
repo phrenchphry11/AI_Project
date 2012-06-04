@@ -430,7 +430,8 @@ def looCV(dataSet):
         dataSet.insert(i, testItem)
     accuracy = numCorrect/float(numItems)
     return accuracy
-                    
+  
+
                 
 def main():
     fileName = sys.argv[1]
@@ -439,6 +440,9 @@ def main():
     print "TREE:  "
     treeTimes.printTree()
     chiSquarePruning(treeTimes)
+
+    haiku = {"nouns":3, "verbs":3, "adjectives":4, "avgwordlength":0,"avgsyllables":2}
+    print treeTimes.search(haiku), "BOOBERS I SEARCHED FOR A TREE"
     #treeTimes.makeGraphViz(looCV(parsedFile))
     treeTimes.makeGraphViz(.5)
     os.system("dot -Tpdf tree.dot -o tree.pdf")
