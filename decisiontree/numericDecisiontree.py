@@ -229,6 +229,8 @@ def makeTree(fullData):
     rootNode = Node()
     rootNode.setName(splitVal[1])
     tree.setRoot(rootNode)
+    print rootNode, "ROOTNODE"
+    print rootNode.name, "name"
     numYes = 0
     numNo = 0
     for j in dataDict[splitVal[1]]: 
@@ -322,6 +324,7 @@ def makeTreeHelper(rootNode, examples, parentExamples):
         parentNumYes = 0
         parentNumNo = 0
         childNode = Node()
+        print childNode, "CHILD NODE"
         childNode.setParent(rootNode)
         rootNode.addChild(childNode)
         childNode.setValue(rootNode.getValue())
@@ -521,12 +524,31 @@ def main():
     # haiku = {"nouns":3, "verbs":3, "adjectives":4, "avgwordlength":0,"avgsyllables":2}
     print "Is your poem any good?", treeTimes.search(haikuDict)
     >>>>>>> 4b4fd475dcd3e482ab4b55841bfe5f4886e5c68d'''
-    #treeTimes.makeGraphViz(looCV(parsedFile))
-    #heap = createConfidenceHeap(treeTimes, parsedFile)
+    treeTimes.makeGraphViz(looCV(parsedFile))
+    heap = createConfidenceHeap(treeTimes, parsedFile)
+
+    bestGuess= heappop(heap)[1]
+
+    #we need to get an unrated haiku from our haikudb here
+
+    if treeTimes.isItemInNode(individualHaiku, bestGuess):
+        while rating != "YES" or rating != "NO":
+            rating = raw_input("Please rate this haiku.  Is it good?  Enter y/n")
+            #then we need to add this to our rating
+            if rating == "y":
+                individualHaiku[-1] = "YES"
+                break
+            if rating == "n":
+                individualHaiku[-1] = "NO"
+                break
+
+        parsedFile.append(individualHaiku)
 
 
 
-    treeTimes.makeGraphViz(.5, parsedFile)
+
+
+    #treeTimes.makeGraphViz(.5)
     os.system("dot -Tpdf tree.dot -o tree.pdf")
     os.system("open tree.pdf")
     

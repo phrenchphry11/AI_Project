@@ -64,7 +64,7 @@ class DecisionTree:
                 numCurLevel = numNextLevel
                 numNextLevel = 0
 
-    def printTreeAndConfidenceHeap(self, haikuDict):
+    def createConfidenceHeap(self, haikuDict):
         '''
         Prints the the tree out layer by layer, using BFS.
         mostly used for debugging.
@@ -75,8 +75,6 @@ class DecisionTree:
         numCurLevel = 1
         numNextLevel = 0
         while nodeQueue != []:
-            print 'hit'
-
             tempNode = nodeQueue[0]
 
             tempNode.setConfidence(haikuDict, self)
@@ -96,35 +94,7 @@ class DecisionTree:
                 numNextLevel = 0
 
         return confidenceHeap
-    """
-    def createConfidenceHeap(tree, haikuDict):
-    nodeQueue = []
-    nodeQueue.append(tree.root)
-    print tree.root.name, 'root name'
-    numCurLevel = 1
-    numNextLevel = 0
-    confidenceHeap = []
-    while nodeQueue != []:
-        print nodeQueue, 'node queue'
-        tempNode = nodeQueue[0]
-        print tempNode.name
-        numCurLevel -=1
-        nodeQueue = nodeQueue[1:]
-        tempNode.setConfidence(haikuDict, tree)
-        lower, upper = tempNode.getConfidence()
-        print lower, upper, 'confidence'
-        heapq.heappush(confidenceHeap, [lower, tempNode])
-        print tempNode.getName(), tempNode.getValue(), tempNode.getOutcome(), '\t',
-        tempNodeChildren = tempNode.getChildren()
-        print tempNodeChildren, 'children'
-        nodeQueue.extend(tempNodeChildren)
-        numNextLevel +=len(tempNodeChildren)
-        if numCurLevel == 0:
-            print
-            numCurLevel = numNextLevel
-            numNextLevel = 0
-    return confidenceHeap
-    """
+  
 
     def makeGraphViz(self, accuracy, haikuDict):
         '''
