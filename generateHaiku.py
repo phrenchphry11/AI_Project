@@ -3,6 +3,7 @@ import re
 from syllableCount import *
 
 def makeSyllableDict(wordList):
+	"""efficient way to mark syllables"""
 	syllDict = {}
 	for wordTup in wordList:
 		numSyll = wordTup[1]
@@ -13,6 +14,7 @@ def makeSyllableDict(wordList):
 	return syllDict
 
 def makePOSDict(fileName):
+	"""Helps us efficiently parse parts of speech"""
 	wordFile = open(fileName)
 	POSDict = {}
 	for line in wordFile:
@@ -35,6 +37,7 @@ def makePOSDict(fileName):
 
 
 def getNextWord(POS, POSDict, remainingSyll):
+	"""get next word based on part of speech"""
 	if POS == "N" or POS == "r":
 		legalPOS = ["V", "t", "i", "v", "C", "!"]
 	elif POS == "V" or POS == "t" or POS == "i":
@@ -65,6 +68,7 @@ def getNextWord(POS, POSDict, remainingSyll):
 
 
 def makeRandomLine(numberSyllables, POSDict):
+	"""sub method for generating random poems"""
 	line = ""
 	keys = POSDict.keys()
 	random.shuffle(keys)
@@ -86,6 +90,7 @@ def makeRandomLine(numberSyllables, POSDict):
 	return line
 
 def makeRandomHaiku(POSDict):
+	"""makes a random haiku from common poetry words"""
 	line1 = makeRandomLine(5, POSDict)
 	line2 = makeRandomLine(7, POSDict)
 	line3 = makeRandomLine(5, POSDict)
@@ -93,6 +98,7 @@ def makeRandomHaiku(POSDict):
 	return haiku
 
 def makeRandomHaikuFromCorpus(corpus):
+	"""generates haikus from Pride and Prejudice"""
 	corpus = open(corpus)
 	words = []
 	for line in corpus:
@@ -153,7 +159,8 @@ def makeRandomHaikus(POSDict, numHaikus, fileName):
 
 def main():
 	POS = makePOSDict('wordDict.txt')
-	makeRandomHaikus(POS, 100, "haikuDB")
+	makeRandomHaiku(POS)
+	#makeRandomHaikus(POS, 100, "haikuDB")
 	makeRandomHaikuFromCorpus("prideprejudice.txt")
 
 main()

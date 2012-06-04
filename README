@@ -1,0 +1,13 @@
+README
+
+This is a AI program related to all things Haiku!
+1.  We generate Haikus though two ways:  
+	a) Picking words from a corpus and matching together words that have appeared together in the past.  We then run a syllable counter on them (using a website and a python module BeautifulSoup) to verify that they fit the parameters of a real haiku
+	b) Picking words from a list of commonly used words in poetry.  We try to match them by the natural flow of parts-of-speech and English language grammar trees.
+
+	To generate your own haikus, you can do this in generateHaiku.py, and it is dependent on syllables.py (which is dependent on BeautifulSoup which requires an internet connection)
+
+2. We can rate the quality of any haiku through a numeric decision tree:
+	a) The python file, ID3.py contains a method called ratePoem().  It will ask you to input the textFile of a haiku, and it will run your haiku through a decision tree to tell you whether it is good or not (based on our database of haikus)
+
+3. We can use an active learning algorithm to better build decision trees.  We generate a confidence interval for every node of the decision tree.  We select the node with the highest overall confidence interval.  Then, we find an unrated haiku that will pass through that node when we run it in the decision tree.  We ask a user to rate it, and we add that rating to our database.  This gives a greater element of human interaction to determining the quality of art, since we don't think our computer here is quite up to the task yet.  To run this active learning algorithm, it is in ID3.py.  Just call the activeLearning method on the tree and the haikuDB you want to use.

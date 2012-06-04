@@ -1,4 +1,7 @@
-
+"""This is an experimentation with various APIs to keep track of syllables.
+We finally decided on using beautiful soup to access a webpage that counts syllables
+We left the code in for wordnik (though commented out) because it tends to generate a broader range of words,
+though most were not good for poetry"""
 from BeautifulSoup import BeautifulSoup
 
 #from wordnik.api.APIClient import APIClient

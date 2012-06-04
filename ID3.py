@@ -8,8 +8,7 @@ Also this requires having Graphviz installed. Also, not sure this works on Windo
 import sys, math, heapq, os, math
 from scipy.stats import chi2
 from numericTreeClass import *
-
-#import makeHaikuTable
+from makeHaikuTable import *
 
 def parseFile(fileName):
     '''
@@ -79,22 +78,16 @@ def chiSquarePruning(tree):
             df = numItems - 1
             p = node.getNumYes()
             n = node.getNumNo()
-            print "p", p
-            print "n", n
             delta = 0
             for leaf in node.getChildren():
-                print "name and val  ", leaf.getName(), leaf.getValue()
                 pk = leaf.getNumYes()
                 nk = leaf.getNumNo()
-                print "pk", pk
-                print "nk", nk
                 pHat = getPHat(p, n, pk, nk)
                 nHat = getNHat(p, n, pk, nk)
-                print nHat, 'nhat'
-                if nHat == 0.0:
-                    nHat = 0.0000000000001
-                if pHat == 0.0:
-                    pHat = 0.0000000000001
+                #if nHat == 0.0:
+                #    nHat = 0.0000000000001
+                #if pHat == 0.0:
+                #    pHat = 0.0000000000001
                 dev = (((pk - pHat)**2)/float(pHat))+(((nk - nHat)**2)/float(nHat))
                 delta += dev
             prob = chi2.cdf(delta, df)
@@ -153,13 +146,9 @@ def calculateEntropy(categoryDict):
             e = entropy(probYes)
             remainder += e * (numYes + numNo)/float(totalYes + totalNo)
 
-        if float(totalYes + totalNo) == 0:
-            totalYes = 0.000000001
         gain = entropy(totalYes/float(totalYes+totalNo)) - remainder
         heapq.heappush(entropyHeap, [1 - gain, category]) #we do 1-gain because heapq makes a min heap
     return entropyHeap
-
-
 
 
 def calculateConfidence(categoryDict):
@@ -253,14 +242,15 @@ def findBestSplitNum(numericData):
     This finds the best index to split the numeric data in a node on in order to maximize info gain.
     UNTESTED.
     '''
-    numericData.sort() #hopefully this sorts by the first value in a list?
+    numericData.sort() #isn't working?
     possibleSplits = []
     for i in numericData:
         num = int(i[0])
         if num not in possibleSplits:
             possibleSplits.append(num)
+    possibleSplits.sort()
     possibleSplits = possibleSplits[:-1]
-    bestSplit = None
+    bestSplit = 0
     maxInfoGain = 0
     for num in possibleSplits:
         lowData = []
@@ -269,8 +259,7 @@ def findBestSplitNum(numericData):
             if int(numericData[i][0]) <= num:
                 lowData.append(numericData[i])
             else:
-                highData = numericData[i:]
-                break
+                highData.append(numericData[i])
         info = getInfoGain(lowData, highData)
         if info > maxInfoGain:
             maxInfoGain = info
@@ -280,7 +269,6 @@ def findBestSplitNum(numericData):
 def getInfoGain(low, high):
     '''
     Gets the info gain of a particular split on our numeric data.
-    UNTESTED.
     '''
     lowYes = 0
     lowNo = 0
@@ -306,6 +294,8 @@ def getInfoGain(low, high):
     remainder += highE * (highYes + highNo)/float(parentYes + parentNo)
     gain = entropy(parentYes/float(parentYes+parentNo)) - remainder
     return gain
+
+
 
 
 def makeTreeHelper(rootNode, examples, parentExamples):
@@ -415,7 +405,6 @@ def makeTreeHelper(rootNode, examples, parentExamples):
                     parentExamples = dataDict[splitVal[1]]
                     makeTreeHelper(childNode, newExamples, parentExamples)
     return
- 
                 
 def looCV(dataSet):
     '''
@@ -444,29 +433,60 @@ def looCV(dataSet):
         dataSet.insert(i, testItem)
     accuracy = numCorrect/float(numItems)
     return accuracy
-  
+
 
 def activeLearning(treeTimes, parsedFile):
-    heap = createConfidenceHeap(treeTimes, parsedFile)
-    bestGuess = heappop(heap)[1]
+    """
+    the active learning algorithm uses confidence intervals to determine which poem the user should rate
+    that would be most useful in building a better decision tree
+    """
+    heap = treeTimes.createConfidenceHeap(parsedFile)
+    bestGuess = heapq.heappop(heap)[1]
 
     #we need to get an unrated haiku from our haikudb here
     unratedPoems = []
+    lineNum = 0
+    unratedLineNumList = []
     for poem in parsedFile:
+        lineNum += 1
         if poem[-1] == None or poem[-1] == "None":
             unratedPoems.append(poem)
+            unratedLineNumList.append(lineNum)
 
+    unratedIndex = 0
+    haikuDB = open("haikuDB")
+    haikuList = []
+    for line in haikuDB:
+        line = line.split("\t")
+        try:
+            val = int(line[0])
+            haiku = ""
+            if val in unratedLineNumList:
+                next1 = haikuDB.next()
+                next2 = haikuDB.next()
+                haiku += line[1] + next1 + next2
+                haikuList.append(haiku)
+        except ValueError:
+            pass
 
+    index = 0
     for individualHaiku in unratedPoems:
-        if treeTimes.isItemInNode(individualHaiku, bestGuess):
-            while rating != "YES" or rating != "NO":
-                rating = raw_input("Please rate this haiku.  Is it good?  Enter y/n")
+        index += 1
+        entryDict = {}
+        for i in range(len(parsedFile[0])):
+            entryDict[parsedFile[0][i]] = individualHaiku[i]
+        if treeTimes.isItemInNode(entryDict, bestGuess):
+            rating = ""
+            while rating != "yes" or rating != "no":
+                print 
+                print haikuList[index]
+                rating = raw_input("Please rate this haiku.  Is it good?  Enter y/n: ")
                 #then we need to add this to our rating
                 if rating == "y":
-                    individualHaiku[-1] = "YES"
+                    individualHaiku[-1] = "yes"
                     break
                 if rating == "n":
-                    individualHaiku[-1] = "NO"
+                    individualHaiku[-1] = "no"
                     break
             parsedFile.append(individualHaiku)
             break
@@ -490,29 +510,24 @@ def ratePoem():
 
     print "Is your poem any good?", treeTimes.search(haikuDict)
 
+
+                    
 def main():
     fileName = sys.argv[1]
     parsedFile = parseFile(fileName)
-    treeTimes = makeTree(parsedFile)
-    print treeTimes.root.name
-    print "TREE:  "
-    treeTimes.printTree()
-
-    #chiSquarePruning(treeTimes)
-  
-    #treeTimes.makeGraphViz(looCV(parsedFile))
-
-    #ratePoem()
-
-    #activeLearning(treeTimes, parsedFile)
-
-
-
-
-    #treeTimes.makeGraphViz(.5)
+    tree = makeTree(parsedFile)
+    chiSquarePruning(tree)
+    wordDict = makeDictionary("wordDict.txt")
+    #haiku = raw_input("Please type a haiku (all on one line):   \n")
+    #haikuInfo = getHaikuInfo(haiku, wordDict)
+    #print "Is your poem any good?", tree.search(haikuInfo)
+    tree.makeGraphViz(looCV(parsedFile))
     os.system("dot -Tpdf tree.dot -o tree.pdf")
     os.system("open tree.pdf")
+
+    activeLearning(tree, parsedFile)
     
-main()
+if __name__=="__main__":
+    main()
     
     
