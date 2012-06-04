@@ -500,6 +500,7 @@ def createConfidenceHeap(tree, haikuDict):
         nodeQueue = nodeQueue[1:]
         tempNode.setConfidence(haikuDict, tree)
         lower, upper = tempNode.getConfidence()
+        print lower, upper, 'confidence'
         heapq.heappush(confidenceHeap, [lower, tempNode])
         print tempNode.getName(), tempNode.getValue(), tempNode.getOutcome(), '\t',
         tempNodeChildren = tempNode.getChildren()
@@ -542,7 +543,12 @@ def main():
     print "Is your poem any good?", treeTimes.search(haikuDict)
     >>>>>>> 4b4fd475dcd3e482ab4b55841bfe5f4886e5c68d'''
     #treeTimes.makeGraphViz(looCV(parsedFile))
-    print createConfidenceHeap(treeTimes, parsedFile), 'conf heap'
+    heap = createConfidenceHeap(treeTimes, parsedFile)
+
+    node = heap.pop()
+
+    print node[1].value, "value"
+
     treeTimes.makeGraphViz(.5)
     os.system("dot -Tpdf tree.dot -o tree.pdf")
     os.system("open tree.pdf")

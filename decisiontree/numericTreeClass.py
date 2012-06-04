@@ -293,20 +293,21 @@ class Node:
         #but for the time being i'll keep it separate just for debugging
         totalPosRating = 0
         totalPosRatingSquared = 0
+        numAttribute = 0
         for entry in haikuDict:
             if tree.isItemInNode(haikuDict, self):
-                print entry, "ENTRY"
-                if entry[-1] == "YES":
-                    print self.name, "SELF VALUE"
+                if entry[-1] == "YES" or entry[-1] == "NO":
                     i = haikuDict[0].index(self.name)
                     numAttribute = int(entry[i])
+                if entry[-1] == "YES":
                     totalPosRating += numAttribute
                     totalPosRatingSquared += numAttribute**2
+                self.totalOverallAttr += numAttribute
         if self.totalOverallAttr == 0:
             self.totalOverallAttr = 0.0000001
         self.meanFrequencies = totalPosRatingSquared / self.totalOverallAttr
         meanFrequenciesSquared = (totalPosRating / self.totalOverallAttr)**2
-
+        print self.meanFrequencies, 'mean frequencies'
         sigma = math.sqrt(abs(self.meanFrequencies - meanFrequenciesSquared))
 
         #this is just a formula for 95% confidence interval.  1.96 was taking from a random
