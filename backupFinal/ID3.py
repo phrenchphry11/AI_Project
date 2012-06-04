@@ -7,7 +7,7 @@ Also this requires having Graphviz installed. Also, not sure this works on Windo
 '''
 import sys, math, heapq, os, math
 from scipy.stats import chi2
-from dTree import *
+from numericTreeClass import *
 from makeHaikuTable import *
 
 def parseFile(fileName):
@@ -149,8 +149,6 @@ def calculateEntropy(categoryDict):
         gain = entropy(totalYes/float(totalYes+totalNo)) - remainder
         heapq.heappush(entropyHeap, [1 - gain, category]) #we do 1-gain because heapq makes a min heap
     return entropyHeap
-
-
 
 
 def calculateConfidence(categoryDict):
@@ -437,6 +435,69 @@ def looCV(dataSet):
     return accuracy
 
 
+def activeLearning(treeTimes, parsedFile):
+    heap = treeTimes.createConfidenceHeap(parsedFile)
+    bestGuess = heapq.heappop(heap)[1]
+
+    #we need to get an unrated haiku from our haikudb here
+    unratedPoems = []
+    lineNum = 0
+    lineNumList = []
+    for poem in parsedFile:
+        lineNum += 1
+        if poem[-1] == None or poem[-1] == "None":
+            unratedPoems.append(poem)
+            lineNumList.append(lineNum)
+
+    print lineNumList, 'lineNumList'
+    unratedIndex = 0
+    haikuDB = open("haikuDB")
+
+    for individualHaiku in unratedPoems:
+        unratedIndex += 1
+        entryDict = {}
+        for i in range(len(parsedFile[0])):
+            entryDict[parsedFile[0][i]] = individualHaiku[i]
+        if treeTimes.isItemInNode(entryDict, bestGuess):
+            rating = ""
+            while rating != "YES" or rating != "NO":
+                for line in haikuDB:
+                    line = line.split("\t")
+                    if line[0] == lineNumList[unratedIndex]:
+                        haikuToRate = line[1] + line.next + line.next.next
+                        print haikuToRate
+                print entryDict
+                rating = raw_input("Please rate this haiku.  Is it good?  Enter y/n: ")
+                #then we need to add this to our rating
+                if rating == "y":
+                    individualHaiku[-1] = "YES"
+                    break
+                if rating == "n":
+                    individualHaiku[-1] = "NO"
+                    break
+            parsedFile.append(individualHaiku)
+            break
+
+def ratePoem():
+    individualHaikuFile = raw_input("Please enter a txt file of the haiku you want rated.")
+    individualHaiku = open(individualHaikuFile)
+    haikuDict = makeHaikuTable.parseHaiku(individualHaiku)
+    wordDict = makeHaikuTable.makeDictionary("wordDict.txt")
+    haikuFile = makeHaikuTable.makeTableFile(haikuDict, wordDict)
+    parsedHaiku = parseFile("haikuTable.txt")
+    print parsedHaiku
+    haikuDict = {}
+    for i in range(len(parsedHaiku[0])):
+        item =  parsedHaiku[0][i].strip()
+        if item == "av. word length":
+            item = "avgwordlength"
+        if item == "av. syllables":
+            item = "avgsyllables"
+        haikuDict[item] = parsedHaiku[1][i]
+
+    print "Is your poem any good?", treeTimes.search(haikuDict)
+
+
                     
 def main():
     fileName = sys.argv[1]
@@ -444,12 +505,14 @@ def main():
     tree = makeTree(parsedFile)
     chiSquarePruning(tree)
     wordDict = makeDictionary("wordDict.txt")
-    haiku = raw_input("Please type a haiku (all on one line):   \n")
-    haikuInfo = getHaikuInfo(haiku, wordDict)
-    print "Is your poem any good?", tree.search(haikuInfo)
+    #haiku = raw_input("Please type a haiku (all on one line):   \n")
+    #haikuInfo = getHaikuInfo(haiku, wordDict)
+    #print "Is your poem any good?", tree.search(haikuInfo)
     tree.makeGraphViz(looCV(parsedFile))
     os.system("dot -Tpdf tree.dot -o tree.pdf")
     os.system("open tree.pdf")
+
+    activeLearning(tree, parsedFile)
     
 if __name__=="__main__":
     main()

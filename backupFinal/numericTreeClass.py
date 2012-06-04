@@ -5,7 +5,7 @@ This file contains the class for the decisionTree,
 as well as a class for the nodes that comprise it.
 '''
 from scipy import stats
-
+import math, heapq
 class DecisionTree:
     '''
     This class is essentially there in order to keep track
@@ -30,7 +30,7 @@ class DecisionTree:
             tempNode = nodeQueue[0]
             numCurLevel -=1
             nodeQueue = nodeQueue[1:]
-            if tempNode.getOutcome() == "YES" or tempNode.getOutcome() == "NO":
+            if tempNode.getOutcome() == "yes" or tempNode.getOutcome() == "no":
                 leaves.append(tempNode)
             tempNodeChildren = tempNode.getChildren()
             nodeQueue.extend(tempNodeChildren)
@@ -161,6 +161,77 @@ class DecisionTree:
 
             return curNode.getOutcome()
 
+    def createConfidenceHeap(self, haikuDict):
+        '''
+        Prints the the tree out layer by layer, using BFS.
+        mostly used for debugging.
+        '''
+
+        confidenceHeap = []
+        nodeQueue = []
+        nodeQueue.append(self.root)
+        numCurLevel = 1
+        numNextLevel = 0
+        while nodeQueue != []:
+            tempNode = nodeQueue[0]
+
+            tempNode.setConfidence(haikuDict, self)
+            upper, lower = tempNode.getConfidence()
+
+            heapq.heappush(confidenceHeap, [lower, tempNode])
+
+            numCurLevel -=1
+            nodeQueue = nodeQueue[1:]
+            print tempNode.getName(), tempNode.getValue(), tempNode.getOutcome(), '\t',
+            tempNodeChildren = tempNode.getChildren()
+            nodeQueue.extend(tempNodeChildren)
+            numNextLevel +=len(tempNodeChildren)
+            if numCurLevel == 0:
+                print
+                numCurLevel = numNextLevel
+                numNextLevel = 0
+
+        return confidenceHeap
+
+    def isItemInNode(self, itemDict, node):
+        '''
+        Searches for an outcome in the decisionTree, given a dictionary of attributes
+        for a specific case in the following form:
+        {attr1: value, attr2:value, etc}
+        an example from the tennis dataset would be:
+        {"outlook":"sunny", "temperature":"hot", etc}
+
+        Returns the outcome ("YES" or "NO") of the case if there is a match,
+        otherwise returns None.
+        '''
+        curNode = self.root
+        if curNode == node:
+            return True
+        else:
+            while not curNode.getOutcome():
+                curAttribute = curNode.getName()
+                curValue = itemDict[curAttribute]
+                children = curNode.getChildren()
+
+                #childfound = False
+                for child in children:
+                    if ">" in child.getValue():
+                        val = child.getValue().split()[-1]
+                        if int(curValue) > int(val):
+                            curNode = child
+                            return True
+                            break
+                    elif "<" in child.getValue():
+                        val = child.getValue().split()[-1]
+
+                        if int(curValue) <= int(val):
+                            curNode = child
+                            return True
+                            break
+                    if curNode == node:
+                        return True
+            return False
+
 
 
 
@@ -267,20 +338,33 @@ class Node:
     def setValue(self, value):
         self.value = value
 
-    def setConfidence(self):
+    def setConfidence(self, haikuDict, tree):
         #very similar to the mean stuff.  maybe I could consolidate this into one function
         #but for the time being i'll keep it separate just for debugging
         totalPosRating = 0
         totalPosRatingSquared = 0
+        numAttribute = 0
         for entry in haikuDict:
-            if entry["rating"] == "YES":
-                numAttribute = entry[self.value]
-                totalPosRating += numAttribute
-                totalPosRatingSquared += numAttribute**2
-        meanFrequencies = totalPosRatingSquared / self.totalOverallAttr
+            if entry[-1] == "yes" or entry[-1] == "no":
+                entryDict = {}
+                for i in range(len(haikuDict[0]) - 1):
+                    entryDict[haikuDict[0][i]] = entry[i]
+                if tree.isItemInNode(entryDict, self):
+                    if entry[-1] == "yes" or entry[-1] == "no":
+                        i = haikuDict[0].index(self.name)
+                        if entry[i] != "yes" and entry[i] != "no" and entry[i] != "None":
+                            numAttribute = int(entry[i])
+                        else:
+                            numAttribute = 0
+                    if entry[-1] == "yes":
+                        totalPosRating += numAttribute
+                        totalPosRatingSquared += numAttribute**2
+                    self.totalOverallAttr += numAttribute
+        if self.totalOverallAttr == 0:
+            self.totalOverallAttr = 0.0000001
+        self.meanFrequencies = totalPosRatingSquared / self.totalOverallAttr
         meanFrequenciesSquared = (totalPosRating / self.totalOverallAttr)**2
-
-        sigma = math.sqrt(meanFrequencies - meanFrequenciesSquared)
+        sigma = math.sqrt(abs(self.meanFrequencies - meanFrequenciesSquared))
 
         #this is just a formula for 95% confidence interval.  1.96 was taking from a random
         #stats table in my stats book :p
@@ -292,4 +376,7 @@ class Node:
 
     def getConfidence(self):
         return self.confidence_interval
+
+
+
 

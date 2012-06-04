@@ -229,8 +229,6 @@ def makeTree(fullData):
     rootNode = Node()
     rootNode.setName(splitVal[1])
     tree.setRoot(rootNode)
-    print rootNode, "ROOTNODE"
-    print rootNode.name, "name"
     numYes = 0
     numNo = 0
     for j in dataDict[splitVal[1]]: 
@@ -247,6 +245,7 @@ def makeTree(fullData):
     rootNode.setNumYes(numYes)
     rootNode.setNumNo(numNo)
     makeTreeHelper(tree.getRoot(), fullData, dataDict[rootNode.getName()])
+    tree.contract() #this is a super hacky way of getting rid of any nodes which split into two of the same outcomes
     return tree
 
 def findBestSplitNum(numericData):
@@ -309,8 +308,6 @@ def getInfoGain(low, high):
     return gain
 
 
-
-
 def makeTreeHelper(rootNode, examples, parentExamples):
     '''
     Recursive helper function for makeTree.
@@ -320,11 +317,9 @@ def makeTreeHelper(rootNode, examples, parentExamples):
     '''
     
     if len(examples) == 1: #we are out of examples
-        #right now this doesn't happen
         parentNumYes = 0
         parentNumNo = 0
         childNode = Node()
-        print childNode, "CHILD NODE"
         childNode.setParent(rootNode)
         rootNode.addChild(childNode)
         childNode.setValue(rootNode.getValue())
@@ -345,37 +340,29 @@ def makeTreeHelper(rootNode, examples, parentExamples):
         #value[0] is the number
         totalYes = 0
         totalNo = 0
-        childNode = Node()
+
         for i in numericData:
             totalYes +=i[1]
             totalNo +=i[2]
         if totalYes == 0:
-            print "passed all yes"
-            rootNode.setName("Outcome")
-            rootNode.setOutcome("NO")
-        elif totalNo == 0:
-            print "passed all no"
             rootNode.setName("Outcome")
             rootNode.setOutcome("YES")
+        elif totalNo == 0:
+            rootNode.setName("Outcome")
+            rootNode.setOutcome("NO")
         elif len(dataDict) == 1:
-            print "passed all one number"
             if totalYes > totalNo:
                 rootNode.setOutcome("YES")
             else:
                 rootNode.setOutcome("NO")
         else:
             splitNum = findBestSplitNum(numericData)
-            assert(splitNum)
-
-            #print "splitNum  :", splitNum
-            #print "splitCategory   :", splitVal[1]
             lowData = numericData[:splitNum + 1]
             highData = numericData[splitNum + 1:]
             numericData = [lowData, highData]
             #ok, here we need to take data in splitVal category and split into two groups to maximize info gain
 
             for value in numericData: #This just look through both splits and makes then child nodes.
-                #print "low or high data:  ", value
                 low = False
                 high = False
                 if value == lowData:
@@ -401,31 +388,21 @@ def makeTreeHelper(rootNode, examples, parentExamples):
                 childNode.setNumYes(numYes)
                 childNode.setNumNo(numNo)
                 if numYes == 0:
-                    print "this node all no", splitNum
+                    #print "this node all no", splitNum
                     childNode.setOutcome("NO")
                 elif numNo == 0:
-                    print "this node all yes", splitNum
+                    #print "this node all yes", splitNum
                     childNode.setOutcome("YES")
 
-                #<<<<<<< HEAD
                 elif entropyHeap == []: #we are out of attributes to split on
-                    print "no more attributes", splitNum
+                    #print "no more attributes", splitNum
                     if numYes > numNo: #pick most common outcome
                         childNode.setOutcome("YES")
                     else:
                         childNode.setOutcome("NO")
 
                 else:
-                    #now we remove the attribute we split on from the data
-                    '''
-                    categoryIndex = examples[0].index(splitVal[1])
-                    newExamples = [examples[0][:categoryIndex]+examples[0][(categoryIndex+1)%len(examples[0]):]]
-                    for e in examples:
-                        newE = e[:categoryIndex]+e[categoryIndex+1 % len(e):]
-                        newExamples.append(newE)
-                    parentExamples = dataDict[splitVal[1]]
-                    makeTreeHelper(childNode, newExamples, parentExamples)
-                    '''
+                    #now we remove the attribute we split on from the data, and only pass on the data corresponding to the split
                     categoryIndex = examples[0].index(splitVal[1])
                     newExamples = [examples[0][:categoryIndex]+examples[0][(categoryIndex+1)%len(examples[0]):]]
                     for e in examples[1:]:
@@ -436,32 +413,9 @@ def makeTreeHelper(rootNode, examples, parentExamples):
                             newE = e[:categoryIndex]+e[categoryIndex+1 % len(e):]
                             newExamples.append(newE)
                     parentExamples = dataDict[splitVal[1]]
-                    #print "newEs   ", newExamples
                     makeTreeHelper(childNode, newExamples, parentExamples)
-    '''=======
-            else:
-                #now we remove the attribute we split on from the data
-                categoryIndex = examples[0].index(splitVal[1])
-                newExamples = [examples[0][:categoryIndex]+examples[0][(categoryIndex+1)%len(examples[0]):]]
-                
-                for e in examples:
-                    newE = e[:categoryIndex]+e[categoryIndex+1 % len(e):]
-                    newExamples.append(newE)
-                parentExamples = dataDict[splitVal[1]]
-
-                updatedParentExamples = []
-                if low:
-                    for example in parentExamples:
-                        print example[0], splitNum, 'compare'
-                        if int(example[0]) < int(splitNum):
-                            updatedParentExamples.append(example)
-                else:
-                    for example in parentExamples:
-                        if int(example[0]) >= int(splitNum):
-                            updatedParentExamples.append(example)
-                makeTreeHelper(childNode, newExamples, updatedParentExamples)
-    >>>>>>> 4b4fd475dcd3e482ab4b55841bfe5f4886e5c68d'''
     return
+ 
                 
 def looCV(dataSet):
     '''
@@ -546,11 +500,11 @@ def main():
 
     #chiSquarePruning(treeTimes)
   
-    treeTimes.makeGraphViz(looCV(parsedFile))
+    #treeTimes.makeGraphViz(looCV(parsedFile))
 
-    ratePoem()
+    #ratePoem()
 
-    activeLearning(treeTimes, parsedFile)
+    #activeLearning(treeTimes, parsedFile)
 
 
 
