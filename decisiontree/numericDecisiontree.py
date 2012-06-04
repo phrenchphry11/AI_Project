@@ -9,6 +9,7 @@ import sys, math, heapq, os, math
 from scipy.stats import chi2
 from numericTreeClass import *
 
+import makeHaikuTable
 
 def parseFile(fileName):
     '''
@@ -441,8 +442,24 @@ def main():
     treeTimes.printTree()
     chiSquarePruning(treeTimes)
 
-    haiku = {"nouns":3, "verbs":3, "adjectives":4, "avgwordlength":0,"avgsyllables":2}
-    print "Is your poem any good?", treeTimes.search(haiku)
+    #enter a very hacky section of code.... i did it to test the poem rater
+    haikuDict = makeHaikuTable.parseHaiku("individualHaiku")
+    wordDict = makeHaikuTable.makeDictionary("wordDict.txt")
+    haikuFile = makeHaikuTable.makeTableFile(haikuDict, wordDict)
+    parsedHaiku = parseFile("haikuTable.txt")
+    print parsedHaiku
+    haikuDict = {}
+    for i in range(len(parsedHaiku[0])):
+        item =  parsedHaiku[0][i].strip()
+        if item == "av. word length":
+            item = "avgwordlength"
+        if item == "av. syllables":
+            item = "avgsyllables"
+        haikuDict[item] = parsedHaiku[1][i]
+
+    #wordDict = makeDictionary("wordDict.txt")
+    # haiku = {"nouns":3, "verbs":3, "adjectives":4, "avgwordlength":0,"avgsyllables":2}
+    print "Is your poem any good?", treeTimes.search(haikuDict)
     #treeTimes.makeGraphViz(looCV(parsedFile))
     treeTimes.makeGraphViz(.5)
     os.system("dot -Tpdf tree.dot -o tree.pdf")
