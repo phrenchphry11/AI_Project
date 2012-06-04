@@ -442,7 +442,7 @@ def main():
     chiSquarePruning(treeTimes)
 
     haiku = {"nouns":3, "verbs":3, "adjectives":4, "avgwordlength":0,"avgsyllables":2}
-    print treeTimes.search(haiku), "BOOBERS I SEARCHED FOR A TREE"
+    print "Is your poem any good?", treeTimes.search(haiku)
     #treeTimes.makeGraphViz(looCV(parsedFile))
     treeTimes.makeGraphViz(.5)
     os.system("dot -Tpdf tree.dot -o tree.pdf")
