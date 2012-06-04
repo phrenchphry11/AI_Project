@@ -5,7 +5,7 @@ This file contains the class for the decisionTree,
 as well as a class for the nodes that comprise it.
 '''
 from scipy import stats
-
+import math
 class DecisionTree:
     '''
     This class is essentially there in order to keep track
@@ -295,14 +295,19 @@ class Node:
         totalPosRatingSquared = 0
         for entry in haikuDict:
             if tree.isItemInNode(haikuDict, self):
-                if entry["rating"] == "YES":
-                    numAttribute = entry[self.value]
+                print entry, "ENTRY"
+                if entry[-1] == "YES":
+                    print self.name, "SELF VALUE"
+                    i = haikuDict[0].index(self.name)
+                    numAttribute = int(entry[i])
                     totalPosRating += numAttribute
                     totalPosRatingSquared += numAttribute**2
-        meanFrequencies = totalPosRatingSquared / self.totalOverallAttr
+        if self.totalOverallAttr == 0:
+            self.totalOverallAttr = 0.0000001
+        self.meanFrequencies = totalPosRatingSquared / self.totalOverallAttr
         meanFrequenciesSquared = (totalPosRating / self.totalOverallAttr)**2
 
-        sigma = math.sqrt(meanFrequencies - meanFrequenciesSquared)
+        sigma = math.sqrt(abs(self.meanFrequencies - meanFrequenciesSquared))
 
         #this is just a formula for 95% confidence interval.  1.96 was taking from a random
         #stats table in my stats book :p
