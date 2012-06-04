@@ -494,6 +494,7 @@ def looCV(dataSet):
 
 def activeLearning(treeTimes, parsedFile):
     heap = createConfidenceHeap(treeTimes, parsedFile)
+    bestGuess = heappop(heap)[1]
 
     #we need to get an unrated haiku from our haikudb here
     unratedPoems = []
@@ -516,21 +517,10 @@ def activeLearning(treeTimes, parsedFile):
             parsedFile.append(individualHaiku)
             break
 
-def main():
-    fileName = sys.argv[1]
-    parsedFile = parseFile(fileName)
-    treeTimes = makeTree(parsedFile)
-    print treeTimes.root.name
-    print "TREE:  "
-    treeTimes.printTree()
-
-    '''<<<<<<< HEAD'''
-    #chiSquarePruning(treeTimes)
-    '''=======
-    chiSquarePruning(treeTimes)
-
-    #enter a very hacky section of code.... i did it to test the poem rater
-    haikuDict = makeHaikuTable.parseHaiku("individualHaiku")
+def ratePoem():
+    individualHaikuFile = raw_input("Please enter a txt file of the haiku you want rated.")
+    individualHaiku = open(individualHaikuFile)
+    haikuDict = makeHaikuTable.parseHaiku(individualHaiku)
     wordDict = makeHaikuTable.makeDictionary("wordDict.txt")
     haikuFile = makeHaikuTable.makeTableFile(haikuDict, wordDict)
     parsedHaiku = parseFile("haikuTable.txt")
@@ -544,20 +534,23 @@ def main():
             item = "avgsyllables"
         haikuDict[item] = parsedHaiku[1][i]
 
-    #wordDict = makeDictionary("wordDict.txt")
-    # haiku = {"nouns":3, "verbs":3, "adjectives":4, "avgwordlength":0,"avgsyllables":2}
     print "Is your poem any good?", treeTimes.search(haikuDict)
-    >>>>>>> 4b4fd475dcd3e482ab4b55841bfe5f4886e5c68d'''
+
+def main():
+    fileName = sys.argv[1]
+    parsedFile = parseFile(fileName)
+    treeTimes = makeTree(parsedFile)
+    print treeTimes.root.name
+    print "TREE:  "
+    treeTimes.printTree()
+
+    #chiSquarePruning(treeTimes)
+  
     treeTimes.makeGraphViz(looCV(parsedFile))
 
-
+    ratePoem()
 
     activeLearning(treeTimes, parsedFile)
-
-    bestGuess= heappop(heap)[1]
-
- 
-
 
 
 
