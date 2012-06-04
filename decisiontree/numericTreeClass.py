@@ -5,7 +5,7 @@ This file contains the class for the decisionTree,
 as well as a class for the nodes that comprise it.
 '''
 from scipy import stats
-import math
+import math, heapq
 class DecisionTree:
     '''
     This class is essentially there in order to keep track
@@ -64,7 +64,69 @@ class DecisionTree:
                 numCurLevel = numNextLevel
                 numNextLevel = 0
 
-    def makeGraphViz(self, accuracy):
+    def printTreeAndConfidenceHeap(self, haikuDict):
+        '''
+        Prints the the tree out layer by layer, using BFS.
+        mostly used for debugging.
+        '''
+        confidenceHeap = []
+        nodeQueue = []
+        nodeQueue.append(self.root)
+        numCurLevel = 1
+        numNextLevel = 0
+        while nodeQueue != []:
+            print 'hit'
+
+            tempNode = nodeQueue[0]
+
+            tempNode.setConfidence(haikuDict, self)
+            upper, lower = tempNode.getConfidence()
+
+            heapq.heappush(confidenceHeap, [lower, tempNode])
+
+            numCurLevel -=1
+            nodeQueue = nodeQueue[1:]
+            print tempNode.getName(), tempNode.getValue(), tempNode.getOutcome(), '\t',
+            tempNodeChildren = tempNode.getChildren()
+            nodeQueue.extend(tempNodeChildren)
+            numNextLevel +=len(tempNodeChildren)
+            if numCurLevel == 0:
+                print
+                numCurLevel = numNextLevel
+                numNextLevel = 0
+
+        return confidenceHeap
+    """
+    def createConfidenceHeap(tree, haikuDict):
+    nodeQueue = []
+    nodeQueue.append(tree.root)
+    print tree.root.name, 'root name'
+    numCurLevel = 1
+    numNextLevel = 0
+    confidenceHeap = []
+    while nodeQueue != []:
+        print nodeQueue, 'node queue'
+        tempNode = nodeQueue[0]
+        print tempNode.name
+        numCurLevel -=1
+        nodeQueue = nodeQueue[1:]
+        tempNode.setConfidence(haikuDict, tree)
+        lower, upper = tempNode.getConfidence()
+        print lower, upper, 'confidence'
+        heapq.heappush(confidenceHeap, [lower, tempNode])
+        print tempNode.getName(), tempNode.getValue(), tempNode.getOutcome(), '\t',
+        tempNodeChildren = tempNode.getChildren()
+        print tempNodeChildren, 'children'
+        nodeQueue.extend(tempNodeChildren)
+        numNextLevel +=len(tempNodeChildren)
+        if numCurLevel == 0:
+            print
+            numCurLevel = numNextLevel
+            numNextLevel = 0
+    return confidenceHeap
+    """
+
+    def makeGraphViz(self, accuracy, haikuDict):
         '''
         Writes to a graphViz file, tree.dot
         In order to view the tree,
@@ -75,9 +137,17 @@ class DecisionTree:
         '''
         s = "digraph G {"
         nodeQueue = []
+        confidenceHeap = []
         nodeQueue.append(self.root)
         while nodeQueue != []: #this is basically BFS
             tempNode = nodeQueue[0]
+
+            tempNode.setConfidence(haikuDict, self)
+            upper, lower = tempNode.getConfidence()
+
+            heapq.heappush(confidenceHeap, [lower, tempNode])
+
+            print confidenceHeap, "MY CoNfIdEnCeHEAP"
             if tempNode.getOutcome():
                 tempLabel = str(tempNode)+' [label="'+ tempNode.getOutcome() + '"]; '
             else:
@@ -85,6 +155,7 @@ class DecisionTree:
             s+=tempLabel
             nodeQueue = nodeQueue[1:]
             for child in tempNode.getChildren():
+                print 'hit'
                 edgeName = '[label="'+str(child.getValue())+'"]'
                 if child.getName() == "Outcome":
                     label  = str(child)+' [label="'+ child.getOutcome() + '"]; '
@@ -100,6 +171,7 @@ class DecisionTree:
         s+='accuracy [penwidth="0",label="Accuracy is '+str(round(accuracy, 3))+'"];'
         s+="}"
         dotFile = open("tree.dot", "w")
+        print s
         dotFile.write(s)
         dotFile.close()
 

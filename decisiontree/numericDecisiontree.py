@@ -488,36 +488,15 @@ def looCV(dataSet):
     accuracy = numCorrect/float(numItems)
     return accuracy
   
-def createConfidenceHeap(tree, haikuDict):
-    nodeQueue = []
-    nodeQueue.append(tree.root)
-    numCurLevel = 1
-    numNextLevel = 0
-    confidenceHeap = []
-    while nodeQueue != []:
-        tempNode = nodeQueue[0]
-        numCurLevel -=1
-        nodeQueue = nodeQueue[1:]
-        tempNode.setConfidence(haikuDict, tree)
-        lower, upper = tempNode.getConfidence()
-        print lower, upper, 'confidence'
-        heapq.heappush(confidenceHeap, [lower, tempNode])
-        print tempNode.getName(), tempNode.getValue(), tempNode.getOutcome(), '\t',
-        tempNodeChildren = tempNode.getChildren()
-        nodeQueue.extend(tempNodeChildren)
-        numNextLevel +=len(tempNodeChildren)
-        if numCurLevel == 0:
-            print
-            numCurLevel = numNextLevel
-            numNextLevel = 0
-    return confidenceHeap
-                
+
 def main():
     fileName = sys.argv[1]
     parsedFile = parseFile(fileName)
     treeTimes = makeTree(parsedFile)
+    print treeTimes.root.name
     print "TREE:  "
     treeTimes.printTree()
+
     '''<<<<<<< HEAD'''
     #chiSquarePruning(treeTimes)
     '''=======
@@ -543,13 +522,11 @@ def main():
     print "Is your poem any good?", treeTimes.search(haikuDict)
     >>>>>>> 4b4fd475dcd3e482ab4b55841bfe5f4886e5c68d'''
     #treeTimes.makeGraphViz(looCV(parsedFile))
-    heap = createConfidenceHeap(treeTimes, parsedFile)
+    #heap = createConfidenceHeap(treeTimes, parsedFile)
 
-    node = heap.pop()
 
-    print node[1].value, "value"
 
-    treeTimes.makeGraphViz(.5)
+    treeTimes.makeGraphViz(.5, parsedFile)
     os.system("dot -Tpdf tree.dot -o tree.pdf")
     os.system("open tree.pdf")
     
