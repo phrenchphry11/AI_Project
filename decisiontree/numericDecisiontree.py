@@ -500,7 +500,7 @@ def createConfidenceHeap(tree, haikuDict):
         nodeQueue = nodeQueue[1:]
         tempNode.setConfidence(haikuDict, tree)
         lower, upper = tempNode.getConfidence()
-        heappush(confidenceHeap, [lower, tempNode])
+        heapq.heappush(confidenceHeap, [lower, tempNode])
         print tempNode.getName(), tempNode.getValue(), tempNode.getOutcome(), '\t',
         tempNodeChildren = tempNode.getChildren()
         nodeQueue.extend(tempNodeChildren)
