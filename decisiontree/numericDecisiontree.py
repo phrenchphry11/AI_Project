@@ -9,7 +9,7 @@ import sys, math, heapq, os, math
 from scipy.stats import chi2
 from numericTreeClass import *
 
-import makeHaikuTable
+#import makeHaikuTable
 
 def parseFile(fileName):
     '''
@@ -402,7 +402,7 @@ def makeTreeHelper(rootNode, examples, parentExamples):
                     print "this node all yes", splitNum
                     childNode.setOutcome("YES")
 
-<<<<<<< HEAD
+                #<<<<<<< HEAD
                 elif entropyHeap == []: #we are out of attributes to split on
                     print "no more attributes", splitNum
                     if numYes > numNo: #pick most common outcome
@@ -433,7 +433,7 @@ def makeTreeHelper(rootNode, examples, parentExamples):
                     parentExamples = dataDict[splitVal[1]]
                     #print "newEs   ", newExamples
                     makeTreeHelper(childNode, newExamples, parentExamples)
-=======
+    '''=======
             else:
                 #now we remove the attribute we split on from the data
                 categoryIndex = examples[0].index(splitVal[1])
@@ -455,7 +455,7 @@ def makeTreeHelper(rootNode, examples, parentExamples):
                         if int(example[0]) >= int(splitNum):
                             updatedParentExamples.append(example)
                 makeTreeHelper(childNode, newExamples, updatedParentExamples)
->>>>>>> 4b4fd475dcd3e482ab4b55841bfe5f4886e5c68d
+    >>>>>>> 4b4fd475dcd3e482ab4b55841bfe5f4886e5c68d'''
     return
                 
 def looCV(dataSet):
@@ -494,9 +494,9 @@ def main():
     treeTimes = makeTree(parsedFile)
     print "TREE:  "
     treeTimes.printTree()
-<<<<<<< HEAD
+    '''<<<<<<< HEAD'''
     #chiSquarePruning(treeTimes)
-=======
+    '''=======
     chiSquarePruning(treeTimes)
 
     #enter a very hacky section of code.... i did it to test the poem rater
@@ -517,7 +517,7 @@ def main():
     #wordDict = makeDictionary("wordDict.txt")
     # haiku = {"nouns":3, "verbs":3, "adjectives":4, "avgwordlength":0,"avgsyllables":2}
     print "Is your poem any good?", treeTimes.search(haikuDict)
->>>>>>> 4b4fd475dcd3e482ab4b55841bfe5f4886e5c68d
+    >>>>>>> 4b4fd475dcd3e482ab4b55841bfe5f4886e5c68d'''
     #treeTimes.makeGraphViz(looCV(parsedFile))
     treeTimes.makeGraphViz(.5)
     os.system("dot -Tpdf tree.dot -o tree.pdf")
