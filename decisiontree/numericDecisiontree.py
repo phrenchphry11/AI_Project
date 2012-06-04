@@ -530,19 +530,25 @@ def main():
     bestGuess= heappop(heap)[1]
 
     #we need to get an unrated haiku from our haikudb here
+    unratedPoems = []
+    for poem in parsedFile:
+        if poem[-1] == None or poem[-1] == "None":
+            unratedPoems.append(poem)
 
-    if treeTimes.isItemInNode(individualHaiku, bestGuess):
-        while rating != "YES" or rating != "NO":
-            rating = raw_input("Please rate this haiku.  Is it good?  Enter y/n")
-            #then we need to add this to our rating
-            if rating == "y":
-                individualHaiku[-1] = "YES"
-                break
-            if rating == "n":
-                individualHaiku[-1] = "NO"
-                break
 
-        parsedFile.append(individualHaiku)
+    for individualHaiku in unratedPoems:
+        if treeTimes.isItemInNode(individualHaiku, bestGuess):
+            while rating != "YES" or rating != "NO":
+                rating = raw_input("Please rate this haiku.  Is it good?  Enter y/n")
+                #then we need to add this to our rating
+                if rating == "y":
+                    individualHaiku[-1] = "YES"
+                    break
+                if rating == "n":
+                    individualHaiku[-1] = "NO"
+                    break
+            parsedFile.append(individualHaiku)
+            break
 
 
 
