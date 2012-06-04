@@ -9,6 +9,7 @@ import sys, math, heapq, os, math
 from scipy.stats import chi2
 from numericTreeClass import *
 
+import makeHaikuTable
 
 def parseFile(fileName):
     '''
@@ -89,6 +90,11 @@ def chiSquarePruning(tree):
                 print "nk", nk
                 pHat = getPHat(p, n, pk, nk)
                 nHat = getNHat(p, n, pk, nk)
+                print nHat, 'nhat'
+                if nHat == 0.0:
+                    nHat = 0.0000000000001
+                if pHat == 0.0:
+                    pHat = 0.0000000000001
                 dev = (((pk - pHat)**2)/float(pHat))+(((nk - nHat)**2)/float(nHat))
                 delta += dev
             prob = chi2.cdf(delta, df)
@@ -308,6 +314,7 @@ def makeTreeHelper(rootNode, examples, parentExamples):
 
     changed for numeric data. UNTESTED.
     '''
+    
     if len(examples) == 1: #we are out of examples
         #right now this doesn't happen
         parentNumYes = 0
@@ -395,6 +402,7 @@ def makeTreeHelper(rootNode, examples, parentExamples):
                     print "this node all yes", splitNum
                     childNode.setOutcome("YES")
 
+<<<<<<< HEAD
                 elif entropyHeap == []: #we are out of attributes to split on
                     print "no more attributes", splitNum
                     if numYes > numNo: #pick most common outcome
@@ -425,6 +433,29 @@ def makeTreeHelper(rootNode, examples, parentExamples):
                     parentExamples = dataDict[splitVal[1]]
                     #print "newEs   ", newExamples
                     makeTreeHelper(childNode, newExamples, parentExamples)
+=======
+            else:
+                #now we remove the attribute we split on from the data
+                categoryIndex = examples[0].index(splitVal[1])
+                newExamples = [examples[0][:categoryIndex]+examples[0][(categoryIndex+1)%len(examples[0]):]]
+                
+                for e in examples:
+                    newE = e[:categoryIndex]+e[categoryIndex+1 % len(e):]
+                    newExamples.append(newE)
+                parentExamples = dataDict[splitVal[1]]
+
+                updatedParentExamples = []
+                if low:
+                    for example in parentExamples:
+                        print example[0], splitNum, 'compare'
+                        if int(example[0]) < int(splitNum):
+                            updatedParentExamples.append(example)
+                else:
+                    for example in parentExamples:
+                        if int(example[0]) >= int(splitNum):
+                            updatedParentExamples.append(example)
+                makeTreeHelper(childNode, newExamples, updatedParentExamples)
+>>>>>>> 4b4fd475dcd3e482ab4b55841bfe5f4886e5c68d
     return
                 
 def looCV(dataSet):
@@ -454,7 +485,8 @@ def looCV(dataSet):
         dataSet.insert(i, testItem)
     accuracy = numCorrect/float(numItems)
     return accuracy
-                    
+  
+
                 
 def main():
     fileName = sys.argv[1]
@@ -462,7 +494,30 @@ def main():
     treeTimes = makeTree(parsedFile)
     print "TREE:  "
     treeTimes.printTree()
+<<<<<<< HEAD
     #chiSquarePruning(treeTimes)
+=======
+    chiSquarePruning(treeTimes)
+
+    #enter a very hacky section of code.... i did it to test the poem rater
+    haikuDict = makeHaikuTable.parseHaiku("individualHaiku")
+    wordDict = makeHaikuTable.makeDictionary("wordDict.txt")
+    haikuFile = makeHaikuTable.makeTableFile(haikuDict, wordDict)
+    parsedHaiku = parseFile("haikuTable.txt")
+    print parsedHaiku
+    haikuDict = {}
+    for i in range(len(parsedHaiku[0])):
+        item =  parsedHaiku[0][i].strip()
+        if item == "av. word length":
+            item = "avgwordlength"
+        if item == "av. syllables":
+            item = "avgsyllables"
+        haikuDict[item] = parsedHaiku[1][i]
+
+    #wordDict = makeDictionary("wordDict.txt")
+    # haiku = {"nouns":3, "verbs":3, "adjectives":4, "avgwordlength":0,"avgsyllables":2}
+    print "Is your poem any good?", treeTimes.search(haikuDict)
+>>>>>>> 4b4fd475dcd3e482ab4b55841bfe5f4886e5c68d
     #treeTimes.makeGraphViz(looCV(parsedFile))
     treeTimes.makeGraphViz(.5)
     os.system("dot -Tpdf tree.dot -o tree.pdf")
